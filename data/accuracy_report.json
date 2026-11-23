@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "report_name": "Human Audit Ground-Truth Accuracy Report",
+    "sample_size": 20,
+    "sampling_method": "stratified_random_by_category",
+    "sampling_seed": 20261123,
+    "categories_covered": 10,
+    "apps_per_category": 2,
+    "note": "Strict honesty guarantee: accuracy is NOT MEASURED until genuine human reviews are logged."
+  },
+  "accuracy_evaluation": {
+    "status": "HUMAN_AUDIT_PENDING",
+    "status_message": "HUMAN AUDIT PENDING \u2014 ACCURACY NOT YET MEASURED.",
+    "completed_human_reviews": 0,
+    "scorable_app_field_pairs": 0,
+    "excluded_unverifiable_pairs": 0,
+    "first_pass_correct": 0,
+    "corrected_correct": 0,
+    "first_pass_accuracy": null,
+    "corrected_accuracy": null,
+    "accuracy_improvement_points": null,
+    "dimension_breakdown": {
+      "auth_methods": {
+        "scorable": 0,
+        "first_pass_correct": 0,
+        "corrected_correct": 0,
+        "improved": 0,
+        "regressed": 0,
+        "unchanged": 0
+      },
+      "credential_accessibility": {
+        "scorable": 0,
+        "first_pass_correct": 0,
+        "corrected_correct": 0,
+        "improved": 0,
+        "regressed": 0,
+        "unchanged": 0
+      },
+      "api_type": {
+        "scorable": 0,
+        "first_pass_correct": 0,
+        "corrected_correct": 0,
+        "improved": 0,
+        "regressed": 0,
+        "unchanged": 0
+      },
+      "mcp_status": {
+        "scorable": 0,
+        "first_pass_correct": 0,
+        "corrected_correct": 0,
+        "improved": 0,
+        "regressed": 0,
+        "unchanged": 0
+      },
+      "buildability_verdict": {
+        "scorable": 0,
+        "first_pass_correct": 0,
+        "corrected_correct": 0,
+        "improved": 0,
+        "regressed": 0,
+        "unchanged": 0
+      }
+    },
+    "improved_count": 0,
+    "regressed_count": 0,
+    "unchanged_count": 0
+  }
+}

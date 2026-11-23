@@ -1,0 +1,113 @@
+[
+  {
+    "app_id": 43,
+    "app_name": "BigCommerce",
+    "field_name": "quality_gate_status",
+    "original_value": "passed",
+    "corrected_value": "partial",
+    "reason_for_correction": "Demoted quality gate from passed to partial due to 1 unsupported/contradicted claim(s).",
+    "original_evidence": "passed",
+    "new_evidence": [
+      {
+        "app_id": 43,
+        "app_name": "BigCommerce",
+        "field_verified": "auth_methods",
+        "original_value": [],
+        "verified_value": [],
+        "is_accurate": false,
+        "confidence": "medium",
+        "verification_method": "keyword_grounding_audit",
+        "verification_status": "contradicted",
+        "source_urls": [
+          "https://developer.bigcommerce.com/docs/rest"
+        ],
+        "additional_evidence": null,
+        "contradictions": [
+          "Documentation contains authentication terms, but none were extracted."
+        ],
+        "recommended_correction": null,
+        "reviewer_type": "automated_verifier",
+        "verification_timestamp": "2026-11-23T13:10:42.036412+00:00",
+        "verification_notes": "Potential extraction omission: auth signals present in source text."
+      }
+    ],
+    "correction_method": "quality_gate_alignment",
+    "correction_timestamp": "2026-11-23T13:10:42.036447+00:00",
+    "whether_human_approval_is_required": false
+  },
+  {
+    "app_id": 55,
+    "app_name": "Apify",
+    "field_name": "quality_gate_status",
+    "original_value": "passed",
+    "corrected_value": "partial",
+    "reason_for_correction": "Demoted quality gate from passed to partial due to 1 unsupported/contradicted claim(s).",
+    "original_evidence": "passed",
+    "new_evidence": [
+      {
+        "app_id": 55,
+        "app_name": "Apify",
+        "field_verified": "auth_methods",
+        "original_value": [],
+        "verified_value": [],
+        "is_accurate": false,
+        "confidence": "medium",
+        "verification_method": "keyword_grounding_audit",
+        "verification_status": "contradicted",
+        "source_urls": [
+          "https://developers.apify.com/",
+          "https://docs.apify.com/api/v2",
+          "https://github.com/apify"
+        ],
+        "additional_evidence": null,
+        "contradictions": [
+          "Documentation contains authentication terms, but none were extracted."
+        ],
+        "recommended_correction": null,
+        "reviewer_type": "automated_verifier",
+        "verification_timestamp": "2026-11-23T13:10:42.037042+00:00",
+        "verification_notes": "Potential extraction omission: auth signals present in source text."
+      }
+    ],
+    "correction_method": "quality_gate_alignment",
+    "correction_timestamp": "2026-11-23T13:10:42.037214+00:00",
+    "whether_human_approval_is_required": false
+  },
+  {
+    "app_id": 65,
+    "app_name": "Supabase",
+    "field_name": "quality_gate_status",
+    "original_value": "passed",
+    "corrected_value": "partial",
+    "reason_for_correction": "Demoted quality gate from passed to partial due to 1 unsupported/contradicted claim(s).",
+    "original_evidence": "passed",
+    "new_evidence": [
+      {
+        "app_id": 65,
+        "app_name": "Supabase",
+        "field_verified": "auth_methods",
+        "original_value": [],
+        "verified_value": [],
+        "is_accurate": false,
+        "confidence": "medium",
+        "verification_method": "keyword_grounding_audit",
+        "verification_status": "contradicted",
+        "source_urls": [
+          "https://supabase.com/docs/guides/api",
+          "https://github.com/supabase/supabase"
+        ],
+        "additional_evidence": null,
+        "contradictions": [
+          "Documentation contains authentication terms, but none were extracted."
+        ],
+        "recommended_correction": null,
+        "reviewer_type": "automated_verifier",
+        "verification_timestamp": "2026-11-23T13:10:42.038030+00:00",
+        "verification_notes": "Potential extraction omission: auth signals present in source text."
+      }
+    ],
+    "correction_method": "quality_gate_alignment",
+    "correction_timestamp": "2026-11-23T13:10:42.038142+00:00",
+    "whether_human_approval_is_required": false
+  }
+]

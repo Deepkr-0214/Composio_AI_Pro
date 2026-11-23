@@ -1,0 +1,48 @@
+{
+  "metadata": {
+    "generated_at": "2026-11-23T18:23:37.157700",
+    "dataset_scope": "100 Applications across 10 Categories",
+    "note": "These are operational pipeline metrics, not verified ground-truth accuracy percentages."
+  },
+  "totals": {
+    "total_applications": 100,
+    "applications_attempted": 100,
+    "quality_gate_passed": 42,
+    "quality_gate_partial": 19,
+    "quality_gate_needs_review": 39,
+    "quality_gate_blocked": 0
+  },
+  "documentation_and_evidence": {
+    "applications_with_documentation_evidence": 61,
+    "evidence_coverage_percentage": 61.0,
+    "total_source_records_stored": 175,
+    "applications_with_official_api_docs_url": 0
+  },
+  "authentication_findings": {
+    "with_oauth2_evidence": 17,
+    "with_api_key_evidence": 7,
+    "with_multiple_auth_methods": 7,
+    "auth_identified_total": 23,
+    "auth_unknown_total": 77
+  },
+  "mcp_findings": {
+    "confirmed_official_mcp": 1,
+    "confirmed_community_mcp": 0,
+    "unverified_mcp_claims": 7,
+    "unknown_mcp_status": 92
+  },
+  "buildability_and_barriers": {
+    "ready_to_build_score_8_10": 11,
+    "feasible_score_6_7": 25,
+    "needs_investigation_score_4_5": 60,
+    "significant_barriers_score_2_3": 4,
+    "not_feasible_score_1": 0,
+    "unknown_buildability": 0,
+    "requires_approval_or_outreach": 1,
+    "blocked_by_missing_surfaces": 4
+  },
+  "execution_performance": {
+    "total_measured_execution_seconds": 226.91,
+    "average_duration_seconds_per_app": 2.27
+  }
+}

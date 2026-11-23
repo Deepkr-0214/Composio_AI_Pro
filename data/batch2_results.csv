@@ -1,0 +1,51 @@
+app_id,app_name,category_name,auth_methods,api_type,api_breadth,mcp_status,toolkit_buildability_score,overall_confidence,quality_gate_status,evidence_count,research_duration_seconds
+51,DataForSEO,"Data, SEO and Scraping",,REST,narrow,unknown,6,medium,passed,1,2.2
+52,SE Ranking,"Data, SEO and Scraping",,,unknown,unknown,4,low,needs_review,0,20.4
+53,Ahrefs,"Data, SEO and Scraping",,REST,unknown,unknown,7,medium,passed,1,0.93
+54,MrScraper,"Data, SEO and Scraping",,,unknown,unknown,4,low,needs_review,0,1.43
+55,Apify,"Data, SEO and Scraping",,REST,moderate,mcp_unverified,7,medium,passed,3,1.88
+56,Firecrawl,"Data, SEO and Scraping",OAuth2|API Key|Bearer Token,,broad,mcp_unverified,6,medium,passed,2,1.45
+57,Bright Data,"Data, SEO and Scraping",API Key,,moderate,unknown,7,medium,passed,1,2.0
+58,Sherlock,"Data, SEO and Scraping",,,unknown,unknown,4,low,needs_review,0,1.91
+59,Waterfall.io,"Data, SEO and Scraping",,,unknown,unknown,4,low,needs_review,0,1.5
+60,Clay,"Data, SEO and Scraping",,,broad,unknown,4,low,partial,1,1.56
+61,GitHub,"Developer, Infra and Data Platforms",OAuth2,REST|GraphQL,extensive,official_mcp,10,medium,passed,9,2.05
+62,Vercel,"Developer, Infra and Data Platforms",Bearer Token,REST,moderate,unknown,8,medium,passed,1,0.68
+63,Netlify,"Developer, Infra and Data Platforms",OAuth2|Bearer Token,REST,moderate,unknown,8,medium,passed,1,1.06
+64,Cloudflare,"Developer, Infra and Data Platforms",,,unknown,unknown,4,low,needs_review,0,1.26
+65,Supabase,"Developer, Infra and Data Platforms",,REST|GraphQL,broad,unknown,8,medium,passed,2,1.46
+66,Neo4j,"Developer, Infra and Data Platforms",,,narrow,unknown,3,low,partial,1,1.44
+67,Snowflake,"Developer, Infra and Data Platforms",OAuth2,REST,moderate,unknown,8,medium,passed,1,1.38
+68,MongoDB Atlas,"Developer, Infra and Data Platforms",,REST,moderate,unknown,7,medium,passed,1,2.93
+69,Datadog,"Developer, Infra and Data Platforms",API Key,REST,narrow,unknown,7,medium,passed,1,0.54
+70,Sentry,"Developer, Infra and Data Platforms",,,broad,unknown,5,low,partial,2,2.18
+71,Notion,Productivity and Project Management,OAuth2|Bearer Token|Personal Access Token,,broad,unknown,6,medium,passed,4,2.62
+72,Airtable,Productivity and Project Management,,,unknown,unknown,4,low,needs_review,0,1.23
+73,Linear,Productivity and Project Management,OAuth2,GraphQL,narrow,unknown,7,medium,passed,1,1.89
+74,Jira,Productivity and Project Management,,,unknown,unknown,4,low,needs_review,0,2.44
+75,Asana,Productivity and Project Management,,REST,narrow,unknown,6,medium,passed,1,0.97
+76,Monday.com,Productivity and Project Management,,,unknown,unknown,4,low,needs_review,0,1.41
+77,ClickUp,Productivity and Project Management,OAuth2,,moderate,mcp_unverified,5,medium,passed,1,0.97
+78,Coda,Productivity and Project Management,,,unknown,unknown,4,low,needs_review,0,1.7
+79,Smartsheet,Productivity and Project Management,,,unknown,unknown,4,low,partial,1,2.7
+80,Harvest,Productivity and Project Management,,,moderate,unknown,4,low,partial,1,1.07
+81,Stripe,Finance and Fintech,API Key,REST,narrow,unknown,7,medium,passed,3,2.33
+82,Plaid,Finance and Fintech,,,moderate,unknown,4,low,partial,1,1.37
+83,Binance,Finance and Fintech,,,unknown,unknown,4,low,needs_review,0,1.4
+84,Paygent Connect,Finance and Fintech,,,unknown,unknown,4,low,needs_review,0,2.6
+85,iPayX,Finance and Fintech,,,unknown,unknown,4,low,needs_review,0,1.54
+86,QuickBooks,Finance and Fintech,,,unknown,unknown,4,low,needs_review,0,3.21
+87,Xero,Finance and Fintech,,,unknown,unknown,4,low,needs_review,0,0.87
+88,Brex,Finance and Fintech,,REST,broad,unknown,8,medium,passed,1,0.97
+89,Ramp,Finance and Fintech,,,unknown,unknown,4,low,needs_review,0,0.66
+90,PitchBook,Finance and Fintech,,,unknown,unknown,4,low,needs_review,0,1.4
+91,NotebookLM,"AI, Research and Media-Native",,,unknown,unknown,4,low,needs_review,0,6.55
+92,Otter AI,"AI, Research and Media-Native",,,unknown,unknown,4,low,needs_review,0,20.38
+93,Fathom,"AI, Research and Media-Native",,,unknown,unknown,4,low,needs_review,0,1.54
+94,Consensus,"AI, Research and Media-Native",,,unknown,unknown,4,low,needs_review,0,1.55
+95,Reducto,"AI, Research and Media-Native",,REST,narrow,mcp_unverified,6,medium,passed,1,0.79
+96,Devin,"AI, Research and Media-Native",Bearer Token,,broad,unknown,6,medium,passed,2,2.11
+97,higgsfield,"AI, Research and Media-Native",,,unknown,unknown,4,low,needs_review,0,1.47
+98,Mermaid CLI,"AI, Research and Media-Native",,,unknown,unknown,4,low,needs_review,0,1.66
+99,YouTube Transcript,"AI, Research and Media-Native",,,unknown,unknown,4,low,needs_review,0,6.2
+100,Grain,"AI, Research and Media-Native",,,unknown,unknown,6,low,partial,1,1.27

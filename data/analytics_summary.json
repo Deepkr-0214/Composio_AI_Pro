@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "generated_at": "2026-11-23T13:32:26.829210+00:00",
+    "scope": "100 Applications across 10 Categories",
+    "framework": "Composio Research Analytics Engine"
+  },
+  "coverage": {
+    "total_assigned": 100,
+    "research_attempted": 100,
+    "quality_gate_passed": 39,
+    "quality_gate_partial": 22,
+    "quality_gate_needs_review": 39
+  },
+  "authentication_distribution": {
+    "API Key": 7,
+    "OAuth2": 17,
+    "Basic Auth": 1,
+    "Service Account": 1,
+    "Bearer Token": 6,
+    "Personal Access Token": 1
+  },
+  "mcp_distribution": {
+    "unknown": 92,
+    "mcp_unverified": 7,
+    "official_mcp": 1
+  },
+  "buildability_distribution": {
+    "needs_investigation": 60,
+    "feasible": 25,
+    "ready_to_build": 11,
+    "significant_barriers": 4
+  },
+  "opportunity_group_counts": {
+    "group_a_quick_wins": 6,
+    "group_b_conditional": 30,
+    "group_c_outreach_required": 7,
+    "group_d_further_investigation": 54,
+    "group_e_no_confirmed_path": 3
+  }
+}

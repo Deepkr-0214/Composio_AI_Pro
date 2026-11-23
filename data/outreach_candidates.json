@@ -1,0 +1,82 @@
+[
+  {
+    "app_id": 1,
+    "app_name": "Salesforce",
+    "category": "CRM and Sales",
+    "confirmed_access_restriction": "Cloudflare WAF Bot Challenge Wall (HTTP 403)",
+    "required_approval_or_commercial_step": "Register official Salesforce Developer Org or request IP allowlisting.",
+    "technical_feasibility": "Technically mature REST/SOAP APIs once developer credentials are provisioned.",
+    "evidence_urls": [],
+    "suggested_action": "Prioritize outreach to Salesforce partnerships team for platform developer sandbox."
+  },
+  {
+    "app_id": 10,
+    "app_name": "DealCloud",
+    "category": "CRM and Sales",
+    "confirmed_access_restriction": "Enterprise Client Login Required (Intapp Client Portal)",
+    "required_approval_or_commercial_step": "Initiate vendor partnership inquiry or enterprise customer sponsor request.",
+    "technical_feasibility": "Requires private tenant API credentials and signed NDA/MSA.",
+    "evidence_urls": [],
+    "suggested_action": "Prioritize outreach to DealCloud partnerships team for platform developer sandbox."
+  },
+  {
+    "app_id": 32,
+    "app_name": "Meta Ads",
+    "category": "Marketing, Ads, Email and Social",
+    "confirmed_access_restriction": "Meta App Review & Business Verification Required",
+    "required_approval_or_commercial_step": "Submit Composio Meta App for Marketing API permissions approval.",
+    "technical_feasibility": "Standard Graph API once business verification and App Review clear.",
+    "evidence_urls": [],
+    "suggested_action": "Prioritize outreach to Meta Ads partnerships team for platform developer sandbox."
+  },
+  {
+    "app_id": 83,
+    "app_name": "Binance",
+    "category": "Finance and Fintech",
+    "confirmed_access_restriction": "Jurisdiction & Financial API Key Onboarding",
+    "required_approval_or_commercial_step": "Verify regional endpoint availability (Binance Global vs US) and IP whitelisting.",
+    "technical_feasibility": "High performance HMAC-SHA256 REST/WebSocket API once account verified.",
+    "evidence_urls": [],
+    "suggested_action": "Prioritize outreach to Binance partnerships team for platform developer sandbox."
+  },
+  {
+    "app_id": 86,
+    "app_name": "QuickBooks",
+    "category": "Finance and Fintech",
+    "confirmed_access_restriction": "Accounting Sandbox & Production App Verification",
+    "required_approval_or_commercial_step": "Create Intuit Developer / Xero Partner account and complete production certification.",
+    "technical_feasibility": "Mature REST APIs with OAuth2 PKCE token lifecycle.",
+    "evidence_urls": [],
+    "suggested_action": "Prioritize outreach to QuickBooks partnerships team for platform developer sandbox."
+  },
+  {
+    "app_id": 87,
+    "app_name": "Xero",
+    "category": "Finance and Fintech",
+    "confirmed_access_restriction": "Accounting Sandbox & Production App Verification",
+    "required_approval_or_commercial_step": "Create Intuit Developer / Xero Partner account and complete production certification.",
+    "technical_feasibility": "Mature REST APIs with OAuth2 PKCE token lifecycle.",
+    "evidence_urls": [],
+    "suggested_action": "Prioritize outreach to Xero partnerships team for platform developer sandbox."
+  },
+  {
+    "app_id": 89,
+    "app_name": "Ramp",
+    "category": "Finance and Fintech",
+    "confirmed_access_restriction": "Corporate Card / Financial Authorization",
+    "required_approval_or_commercial_step": "Contact Ramp partnerships or obtain sandbox developer credentials.",
+    "technical_feasibility": "Developer API available for verified enterprise customers.",
+    "evidence_urls": [],
+    "suggested_action": "Prioritize outreach to Ramp partnerships team for platform developer sandbox."
+  },
+  {
+    "app_id": 90,
+    "app_name": "PitchBook",
+    "category": "Finance and Fintech",
+    "confirmed_access_restriction": "Commercial Market Data Licensing",
+    "required_approval_or_commercial_step": "Contact PitchBook commercial data sales team for API license agreement.",
+    "technical_feasibility": "Commercial API available under enterprise subscription.",
+    "evidence_urls": [],
+    "suggested_action": "Prioritize outreach to PitchBook partnerships team for platform developer sandbox."
+  }
+]

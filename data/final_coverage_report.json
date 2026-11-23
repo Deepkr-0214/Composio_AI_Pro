@@ -1,0 +1,121 @@
+{
+  "audit_metadata": {
+    "generated_at": "2026-11-23T13:53:31.874410+00:00",
+    "auditor": "Composio Research Data Quality Engine",
+    "version": "1.0.0"
+  },
+  "coverage_summary": {
+    "total_assigned": 100,
+    "total_represented": 100,
+    "unique_ids_count": 100,
+    "id_range_valid_1_to_100": true,
+    "duplicate_ids": [],
+    "missing_ids": [],
+    "category_count": 10,
+    "each_category_has_exactly_10_apps": true,
+    "name_mismatches_with_original": []
+  },
+  "research_completion_status": {
+    "research_attempted": 100,
+    "research_completed_passed": 39,
+    "research_partially_completed": 22,
+    "research_needs_review_blocked": 39,
+    "apps_with_verified_evidence": 61,
+    "apps_with_zero_evidence_blocked": 39
+  },
+  "evidence_quality_audit": {
+    "total_source_records": 175,
+    "sources_successfully_retrieved_200": 87,
+    "sources_blocked_waf_or_auth": 9,
+    "sources_failed_network_or_dns": 79,
+    "total_claim_evidence_links": 92,
+    "evidence_hierarchy_levels": {
+      "level_a_source_urls_available": 175,
+      "level_b_source_content_retrieved_200": 87,
+      "level_c_claims_supported_by_excerpts": 92,
+      "level_d_independently_corroborated": 20
+    }
+  },
+  "field_completeness_audit": {
+    "app_name": {
+      "populated_count": 100,
+      "unknown_or_empty_count": 0,
+      "preservation_status": "VALID_UNKNOWN_PRESERVED"
+    },
+    "category_name": {
+      "populated_count": 100,
+      "unknown_or_empty_count": 0,
+      "preservation_status": "VALID_UNKNOWN_PRESERVED"
+    },
+    "description": {
+      "populated_count": 0,
+      "unknown_or_empty_count": 100,
+      "preservation_status": "VALID_UNKNOWN_PRESERVED"
+    },
+    "auth_methods": {
+      "populated_count": 23,
+      "unknown_or_empty_count": 77,
+      "preservation_status": "VALID_UNKNOWN_PRESERVED"
+    },
+    "credential_accessibility": {
+      "populated_count": 4,
+      "unknown_or_empty_count": 96,
+      "preservation_status": "VALID_UNKNOWN_PRESERVED"
+    },
+    "credential_requirements": {
+      "populated_count": 0,
+      "unknown_or_empty_count": 100,
+      "preservation_status": "VALID_UNKNOWN_PRESERVED"
+    },
+    "api_type": {
+      "populated_count": 31,
+      "unknown_or_empty_count": 69,
+      "preservation_status": "VALID_UNKNOWN_PRESERVED"
+    },
+    "api_breadth": {
+      "populated_count": 54,
+      "unknown_or_empty_count": 46,
+      "preservation_status": "VALID_UNKNOWN_PRESERVED"
+    },
+    "mcp_status": {
+      "populated_count": 8,
+      "unknown_or_empty_count": 92,
+      "preservation_status": "VALID_UNKNOWN_PRESERVED"
+    },
+    "mcp_repository_url": {
+      "populated_count": 0,
+      "unknown_or_empty_count": 100,
+      "preservation_status": "VALID_UNKNOWN_PRESERVED"
+    },
+    "buildability_verdict": {
+      "populated_count": 100,
+      "unknown_or_empty_count": 0,
+      "preservation_status": "VALID_UNKNOWN_PRESERVED"
+    },
+    "primary_blocker": {
+      "populated_count": 0,
+      "unknown_or_empty_count": 100,
+      "preservation_status": "VALID_UNKNOWN_PRESERVED"
+    },
+    "evidence_links": {
+      "populated_count": 61,
+      "unknown_or_empty_count": 39,
+      "preservation_status": "VALID_UNKNOWN_PRESERVED"
+    },
+    "confidence": {
+      "populated_count": 0,
+      "unknown_or_empty_count": 100,
+      "preservation_status": "VALID_UNKNOWN_PRESERVED"
+    },
+    "quality_gate_status": {
+      "populated_count": 100,
+      "unknown_or_empty_count": 0,
+      "preservation_status": "VALID_UNKNOWN_PRESERVED"
+    },
+    "last_researched_at": {
+      "populated_count": 0,
+      "unknown_or_empty_count": 100,
+      "preservation_status": "VALID_UNKNOWN_PRESERVED"
+    }
+  }
+}

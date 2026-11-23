@@ -1,0 +1,11 @@
+app_id,app_name,category_name,auth_methods,credential_accessibility,api_type,api_breadth,api_breadth_notes,mcp_status,mcp_repo_url,buildability_verdict,toolkit_buildability_score,overall_confidence,quality_gate_status,researched_at
+1,Salesforce,CRM and Sales,,unknown,,unknown,No content to analyze.,unknown,,needs_investigation,4,low,needs_review,2026-11-23T12:15:50.699513+00:00
+11,Zendesk,Support and Helpdesk,,trial_self_serve,REST,extensive,"Extensive API surface: 8 entity types, 4 CRUD ops, 1 advanced features.",unknown,,ready_to_build,10,medium,passed,2026-11-23T12:20:24.186755+00:00
+21,Slack,Communications and Messaging,OAuth2,unknown,,moderate,"Moderate API: 3 entity types, 2 CRUD ops.",mcp_unverified,,needs_investigation,5,medium,passed,2026-11-23T12:16:02.305711+00:00
+31,Google Ads,"Marketing, Ads, Email and Social","OAuth2, Service Account",unknown,REST,broad,"Broad API: 4 entity types, 2 CRUD ops detected.",unknown,,ready_to_build,9,medium,passed,2026-11-23T12:18:50.936770+00:00
+41,Shopify,Ecommerce,OAuth2,unknown,GraphQL,broad,"Broad API: 4 entity types, 1 CRUD ops detected.",unknown,,ready_to_build,9,medium,passed,2026-11-23T12:18:51.738335+00:00
+55,Apify,"Data, SEO and Scraping",,unknown,REST,moderate,"Moderate API: 2 entity types, 2 CRUD ops.",mcp_unverified,,feasible,7,medium,passed,2026-11-23T12:16:09.277252+00:00
+61,GitHub,"Developer, Infra and Data Platforms",,unknown,"REST, GraphQL",broad,"Broad API: 7 entity types, 1 CRUD ops detected.",unknown,,ready_to_build,8,medium,passed,2026-11-23T12:16:11.452431+00:00
+71,Notion,Productivity and Project Management,"OAuth2, Bearer Token, Personal Access Token",unknown,,moderate,"Moderate API: 3 entity types, 2 CRUD ops.",unknown,,needs_investigation,5,medium,passed,2026-11-23T12:16:14.122354+00:00
+81,Stripe,Finance and Fintech,API Key,unknown,REST,narrow,Narrow API: limited signals (3 total).,unknown,,feasible,7,medium,passed,2026-11-23T12:16:16.823408+00:00
+96,Devin,"AI, Research and Media-Native",Bearer Token,unknown,,broad,"Broad API: 5 entity types, 2 CRUD ops detected.",unknown,,feasible,6,medium,passed,2026-11-23T12:16:20.921457+00:00

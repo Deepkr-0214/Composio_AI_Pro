@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "title": "Composio AI Product Ops — 100 Application Research Dataset",
+    "version": "1.0.0",
+    "generated_at": "2026-11-23T13:53:31.878222+00:00",
+    "scope": "100 Applications across 10 Categories",
+    "accuracy_checkpoint": "HUMAN AUDIT PENDING — ACCURACY NOT YET MEASURED"
+  },
+  "kpis": {
+    "total_assigned_apps": 100,
+    "total_researched_apps": 100,
+    "evidence_backed_apps": 61,
+    "evidence_backed_rate": "61.0%",
+    "quality_gate_passed": 39,
+    "quality_gate_partial": 22,
+    "quality_gate_needs_review": 39,
+    "ready_to_build_count": 11,
+    "feasible_count": 25,
+    "needs_investigation_count": 60,
+    "significant_barriers_count": 4,
+    "dominant_auth_method": "OAuth 2.0 (73.9% of documented flows)",
+    "mcp_greenfield_rate": "92.0%",
+    "human_audit_status": "HUMAN AUDIT PENDING — ACCURACY NOT YET MEASURED",
+    "measured_accuracy": null
+  },
+  "distributions": {
+    "authentication_methods": {
+      "OAuth2": 17,
+      "API Key": 7,
+      "Bearer Token": 6,
+      "Basic Auth": 1,
+      "Service Account": 1,
+      "Personal Access Token": 1
+    },
+    "credential_accessibility": {
+      "unknown": 96,
+      "free_self_serve": 2,
+      "trial_self_serve": 1,
+      "enterprise_only": 1
+    },
+    "api_breadth": {
+      "unknown": 46,
+      "moderate": 21,
+      "narrow": 17,
+      "broad": 14,
+      "extensive": 2
+    },
+    "mcp_status": {
+      "unknown": 92,
+      "mcp_unverified": 7,
+      "official_mcp": 1
+    },
+    "buildability_verdicts": {
+      "ready_to_build": 11,
+      "feasible": 25,
+      "needs_investigation": 60,
+      "significant_barriers": 4
+    },
+    "opportunity_groups": {
+      "Group D (Further Investigation)": 52,
+      "Group B (Conditional)": 30,
+      "Group C (Outreach Required)": 9,
+      "Group A (Quick Wins)": 6,
+      "Group E (No Confirmed Cloud Path)": 3
+    }
+  },
+  "funnel": {
+    "assigned": 100,
+    "attempted": 100,
+    "passing_validation": 100,
+    "passing_quality_gates": 39,
+    "partial_evidence": 22,
+    "blocked_or_needs_review": 39,
+    "independently_cross_checked": 20,
+    "human_audited": 0
+  }
+}

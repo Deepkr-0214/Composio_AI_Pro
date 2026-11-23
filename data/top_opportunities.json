@@ -1,0 +1,228 @@
+[
+  {
+    "app_id": 61,
+    "app_name": "GitHub",
+    "category": "Developer, Infra and Data Platforms",
+    "priority_score": 72,
+    "toolkit_buildability_score": 10,
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "credential_accessibility": "unknown",
+    "api_surface": [
+      "REST",
+      "GraphQL"
+    ],
+    "api_breadth": "extensive",
+    "mcp_status": "official_mcp",
+    "main_reason": "High API maturity (extensive), verified REST, GraphQL surface, and verified auth.",
+    "remaining_risk": "Requires standard OAuth2 client setup and webhook handling.",
+    "supporting_documentation_urls": [
+      "https://github.com/github",
+      "https://github.com/search?q=github+mcp+server&type=repositories"
+    ],
+    "verification_status": "passed"
+  },
+  {
+    "app_id": 11,
+    "app_name": "Zendesk",
+    "category": "Support and Helpdesk",
+    "priority_score": 70,
+    "toolkit_buildability_score": 10,
+    "auth_methods": [],
+    "credential_accessibility": "trial_self_serve",
+    "api_surface": [
+      "REST"
+    ],
+    "api_breadth": "extensive",
+    "mcp_status": "unknown",
+    "main_reason": "High API maturity (extensive), verified REST surface, and verified auth.",
+    "remaining_risk": "Subject to per-user rate limiting.",
+    "supporting_documentation_urls": [
+      "https://developer.zendesk.com/",
+      "https://developer.zendesk.com/api-reference"
+    ],
+    "verification_status": "passed"
+  },
+  {
+    "app_id": 8,
+    "app_name": "Close",
+    "category": "CRM and Sales",
+    "priority_score": 61,
+    "toolkit_buildability_score": 9,
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "credential_accessibility": "unknown",
+    "api_surface": [
+      "REST"
+    ],
+    "api_breadth": "broad",
+    "mcp_status": "mcp_unverified",
+    "main_reason": "High API maturity (broad), verified REST surface, and verified auth.",
+    "remaining_risk": "Requires standard OAuth2 client setup and webhook handling.",
+    "supporting_documentation_urls": [
+      "https://developer.close.com/"
+    ],
+    "verification_status": "passed"
+  },
+  {
+    "app_id": 41,
+    "app_name": "Shopify",
+    "category": "Ecommerce",
+    "priority_score": 61,
+    "toolkit_buildability_score": 9,
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "credential_accessibility": "unknown",
+    "api_surface": [
+      "GraphQL"
+    ],
+    "api_breadth": "broad",
+    "mcp_status": "mcp_unverified",
+    "main_reason": "High API maturity (broad), verified GraphQL surface, and verified auth.",
+    "remaining_risk": "Requires standard OAuth2 client setup and webhook handling.",
+    "supporting_documentation_urls": [
+      "https://developers.shopify.com/",
+      "https://developer.shopify.com/"
+    ],
+    "verification_status": "passed"
+  },
+  {
+    "app_id": 31,
+    "app_name": "Google Ads",
+    "category": "Marketing, Ads, Email and Social",
+    "priority_score": 57,
+    "toolkit_buildability_score": 9,
+    "auth_methods": [
+      "OAuth2",
+      "Service Account"
+    ],
+    "credential_accessibility": "unknown",
+    "api_surface": [
+      "REST"
+    ],
+    "api_breadth": "broad",
+    "mcp_status": "unknown",
+    "main_reason": "High API maturity (broad), verified REST surface, and verified auth.",
+    "remaining_risk": "Requires standard OAuth2 client setup and webhook handling.",
+    "supporting_documentation_urls": [
+      "https://developers.google.com/google-ads/api/docs/start",
+      "https://developers.google.com/google-ads/api/docs/oauth/overview"
+    ],
+    "verification_status": "passed"
+  },
+  {
+    "app_id": 62,
+    "app_name": "Vercel",
+    "category": "Developer, Infra and Data Platforms",
+    "priority_score": 56,
+    "toolkit_buildability_score": 8,
+    "auth_methods": [
+      "Bearer Token"
+    ],
+    "credential_accessibility": "unknown",
+    "api_surface": [
+      "REST"
+    ],
+    "api_breadth": "moderate",
+    "mcp_status": "unknown",
+    "main_reason": "High API maturity (moderate), verified REST surface, and verified auth.",
+    "remaining_risk": "Subject to per-user rate limiting.",
+    "supporting_documentation_urls": [
+      "https://vercel.com/docs/rest-api"
+    ],
+    "verification_status": "passed"
+  },
+  {
+    "app_id": 63,
+    "app_name": "Netlify",
+    "category": "Developer, Infra and Data Platforms",
+    "priority_score": 54,
+    "toolkit_buildability_score": 8,
+    "auth_methods": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "credential_accessibility": "unknown",
+    "api_surface": [
+      "REST"
+    ],
+    "api_breadth": "moderate",
+    "mcp_status": "unknown",
+    "main_reason": "High API maturity (moderate), verified REST surface, and verified auth.",
+    "remaining_risk": "Requires standard OAuth2 client setup and webhook handling.",
+    "supporting_documentation_urls": [
+      "https://docs.netlify.com/api/get-started/"
+    ],
+    "verification_status": "passed"
+  },
+  {
+    "app_id": 67,
+    "app_name": "Snowflake",
+    "category": "Developer, Infra and Data Platforms",
+    "priority_score": 53,
+    "toolkit_buildability_score": 8,
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "credential_accessibility": "unknown",
+    "api_surface": [
+      "REST"
+    ],
+    "api_breadth": "moderate",
+    "mcp_status": "unknown",
+    "main_reason": "High API maturity (moderate), verified REST surface, and verified auth.",
+    "remaining_risk": "Requires standard OAuth2 client setup and webhook handling.",
+    "supporting_documentation_urls": [
+      "https://docs.snowflake.com/en/developer-guide/sql-api/index"
+    ],
+    "verification_status": "passed"
+  },
+  {
+    "app_id": 69,
+    "app_name": "Datadog",
+    "category": "Developer, Infra and Data Platforms",
+    "priority_score": 52,
+    "toolkit_buildability_score": 7,
+    "auth_methods": [
+      "API Key"
+    ],
+    "credential_accessibility": "unknown",
+    "api_surface": [
+      "REST"
+    ],
+    "api_breadth": "narrow",
+    "mcp_status": "unknown",
+    "main_reason": "High API maturity (narrow), verified REST surface, and verified auth.",
+    "remaining_risk": "Subject to per-user rate limiting.",
+    "supporting_documentation_urls": [
+      "https://docs.datadoghq.com/api/latest/"
+    ],
+    "verification_status": "passed"
+  },
+  {
+    "app_id": 81,
+    "app_name": "Stripe",
+    "category": "Finance and Fintech",
+    "priority_score": 52,
+    "toolkit_buildability_score": 7,
+    "auth_methods": [
+      "API Key"
+    ],
+    "credential_accessibility": "unknown",
+    "api_surface": [
+      "REST"
+    ],
+    "api_breadth": "narrow",
+    "mcp_status": "unknown",
+    "main_reason": "High API maturity (narrow), verified REST surface, and verified auth.",
+    "remaining_risk": "Subject to per-user rate limiting.",
+    "supporting_documentation_urls": [
+      "https://stripe.com/docs",
+      "https://docs.stripe.com/api"
+    ],
+    "verification_status": "passed"
+  }
+]

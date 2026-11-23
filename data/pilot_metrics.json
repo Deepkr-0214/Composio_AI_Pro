@@ -1,0 +1,17 @@
+{
+  "pilot_timestamp": "2026-11-23T15:43:30.752309+00:00",
+  "applications_attempted": 2,
+  "successfully_passed_quality_gates": 1,
+  "partially_processed": 1,
+  "needs_review": 0,
+  "blocked": 0,
+  "with_official_documentation_evidence": 2,
+  "missing_authentication_evidence": 1,
+  "missing_credential_access_evidence": 1,
+  "unresolved_mcp_status": 1,
+  "average_duration_seconds_per_app": 3.0,
+  "total_pilot_execution_seconds": 6.0,
+  "estimated_full_100_apps_seconds": 75.0,
+  "estimated_full_100_apps_minutes": 1.2,
+  "estimation_rationale": "Based on 2 pilot apps averaging 3.0s per app across 5 workers, scaled to 100 apps with IO scheduling overhead."
+}

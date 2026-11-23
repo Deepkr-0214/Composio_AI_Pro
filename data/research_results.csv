@@ -1,0 +1,101 @@
+app_id,app_name,category_name,auth_methods,credential_accessibility,api_type,api_breadth,api_breadth_notes,mcp_status,mcp_repo_url,buildability_verdict,toolkit_buildability_score,overall_confidence,quality_gate_status,researched_at
+1,Salesforce,CRM and Sales,,unknown,,unknown,No content to analyze.,unknown,,needs_investigation,4,low,needs_review,2026-11-23T12:31:13.938378+00:00
+2,HubSpot,CRM and Sales,,unknown,,moderate,"Moderate API: 5 entity types, 1 CRUD ops.",unknown,,needs_investigation,4,low,partial,2026-11-23T12:31:17.906224+00:00
+3,Pipedrive,CRM and Sales,,unknown,,unknown,Insufficient evidence to estimate API breadth.,unknown,,needs_investigation,4,low,partial,2026-11-23T12:31:19.410780+00:00
+4,Attio,CRM and Sales,,unknown,,unknown,No content to analyze.,unknown,,needs_investigation,4,low,needs_review,2026-11-23T12:31:20.839382+00:00
+5,Twenty,CRM and Sales,,unknown,REST,narrow,Narrow API: limited signals (3 total).,unknown,,feasible,6,medium,passed,2026-11-23T12:31:23.250851+00:00
+6,Podio,CRM and Sales,API Key,unknown,,narrow,Narrow API: limited signals (3 total).,unknown,,needs_investigation,4,medium,passed,2026-11-23T12:31:24.744472+00:00
+7,Zoho CRM,CRM and Sales,,unknown,REST,narrow,Narrow API: limited signals (1 total).,unknown,,feasible,6,medium,passed,2026-11-23T12:31:25.512631+00:00
+8,Close,CRM and Sales,OAuth2,unknown,REST,broad,"Broad API: 7 entity types, 1 CRUD ops detected.",mcp_unverified,,ready_to_build,9,medium,passed,2026-11-23T12:31:27.794379+00:00
+9,Copper,CRM and Sales,,unknown,REST,narrow,Narrow API: limited signals (1 total).,unknown,,feasible,6,medium,passed,2026-11-23T12:31:30.804069+00:00
+10,DealCloud,CRM and Sales,,unknown,,unknown,No content to analyze.,unknown,,needs_investigation,4,low,needs_review,2026-11-23T12:31:32.416144+00:00
+11,Zendesk,Support and Helpdesk,,trial_self_serve,REST,extensive,"Extensive API surface: 9 entity types, 4 CRUD ops, 1 advanced features.",unknown,,ready_to_build,10,medium,passed,2026-11-23T12:33:11.501716+00:00
+12,Intercom,Support and Helpdesk,,unknown,,moderate,"Moderate API: 5 entity types, 0 CRUD ops.",unknown,,needs_investigation,4,low,partial,2026-11-23T12:33:16.364033+00:00
+13,Freshdesk,Support and Helpdesk,,unknown,,broad,"Broad API: 3 entity types, 4 CRUD ops detected.",unknown,,needs_investigation,5,low,partial,2026-11-23T12:33:17.967701+00:00
+14,Front,Support and Helpdesk,OAuth2,unknown,,moderate,"Moderate API: 3 entity types, 0 CRUD ops.",unknown,,needs_investigation,5,medium,passed,2026-11-23T12:33:19.038020+00:00
+15,Pylon,Support and Helpdesk,,unknown,,unknown,No content to analyze.,unknown,,needs_investigation,4,low,needs_review,2026-11-23T12:33:20.658673+00:00
+16,LiveAgent,Support and Helpdesk,,unknown,,unknown,No content to analyze.,unknown,,needs_investigation,4,low,needs_review,2026-11-23T12:33:22.096950+00:00
+17,Plain,Support and Helpdesk,,unknown,,unknown,No content to analyze.,unknown,,needs_investigation,4,low,needs_review,2026-11-23T12:33:23.535058+00:00
+18,Help Scout,Support and Helpdesk,,unknown,,narrow,Narrow API: limited signals (3 total).,unknown,,significant_barriers,3,low,partial,2026-11-23T12:33:24.242253+00:00
+19,Gorgias,Support and Helpdesk,,unknown,REST,unknown,Insufficient evidence to estimate API breadth.,unknown,,feasible,7,medium,passed,2026-11-23T12:33:25.244777+00:00
+20,Gladly,Support and Helpdesk,,unknown,"REST, Webhook",moderate,"Moderate API: 3 entity types, 0 CRUD ops.",unknown,,feasible,7,medium,passed,2026-11-23T12:33:26.713379+00:00
+21,Slack,Communications and Messaging,OAuth2,unknown,,moderate,"Moderate API: 3 entity types, 2 CRUD ops.",mcp_unverified,,needs_investigation,5,medium,passed,2026-11-23T12:35:50.252254+00:00
+22,Twilio,Communications and Messaging,,unknown,REST,moderate,"Moderate API: 4 entity types, 0 CRUD ops.",unknown,,feasible,7,medium,passed,2026-11-23T12:35:51.352762+00:00
+23,Zoho Cliq,Communications and Messaging,,unknown,,unknown,No content to analyze.,unknown,,needs_investigation,4,low,needs_review,2026-11-23T12:35:52.907607+00:00
+24,Lark (Larksuite),Communications and Messaging,,unknown,,unknown,No content to analyze.,unknown,,needs_investigation,4,low,needs_review,2026-11-23T12:35:54.461574+00:00
+25,Pumble,Communications and Messaging,,unknown,,unknown,No content to analyze.,unknown,,needs_investigation,4,low,needs_review,2026-11-23T12:35:56.961395+00:00
+26,Discord,Communications and Messaging,,unknown,,narrow,Narrow API: limited signals (2 total).,unknown,,significant_barriers,3,low,partial,2026-11-23T12:35:57.632687+00:00
+27,Telegram,Communications and Messaging,,unknown,,moderate,"Moderate API: 2 entity types, 2 CRUD ops.",unknown,,needs_investigation,4,low,partial,2026-11-23T12:36:00.018387+00:00
+28,WhatsApp Business,Communications and Messaging,,unknown,,unknown,No content to analyze.,unknown,,needs_investigation,4,low,needs_review,2026-11-23T12:36:00.937088+00:00
+29,Aircall,Communications and Messaging,"OAuth2, Basic Auth",unknown,REST,unknown,Insufficient evidence to estimate API breadth.,unknown,,ready_to_build,8,medium,passed,2026-11-23T12:36:05.899509+00:00
+30,Vonage,Communications and Messaging,,unknown,,broad,"Broad API: 6 entity types, 1 CRUD ops detected.",unknown,,needs_investigation,5,low,partial,2026-11-23T12:36:06.913672+00:00
+31,Google Ads,"Marketing, Ads, Email and Social","OAuth2, Service Account",unknown,REST,broad,"Broad API: 4 entity types, 2 CRUD ops detected.",unknown,,ready_to_build,9,medium,passed,2026-11-23T12:36:43.791083+00:00
+32,Meta Ads,"Marketing, Ads, Email and Social",,unknown,,unknown,No content to analyze.,unknown,,needs_investigation,4,low,needs_review,2026-11-23T12:36:44.996381+00:00
+33,LinkedIn Ads,"Marketing, Ads, Email and Social",,unknown,,moderate,"Moderate API: 4 entity types, 2 CRUD ops.",unknown,,needs_investigation,4,low,partial,2026-11-23T12:36:46.049155+00:00
+34,GoHighLevel,"Marketing, Ads, Email and Social",OAuth2,unknown,,moderate,"Moderate API: 3 entity types, 1 CRUD ops.",unknown,,needs_investigation,5,medium,passed,2026-11-23T12:36:49.970180+00:00
+35,Mailchimp,"Marketing, Ads, Email and Social","OAuth2, API Key, Bearer Token",unknown,,moderate,"Moderate API: 3 entity types, 2 CRUD ops.",unknown,,needs_investigation,5,medium,passed,2026-11-23T12:36:52.258204+00:00
+36,Klaviyo,"Marketing, Ads, Email and Social","OAuth2, API Key",unknown,,narrow,Narrow API: limited signals (2 total).,unknown,,needs_investigation,4,medium,passed,2026-11-23T12:36:53.212018+00:00
+37,systeme.io,"Marketing, Ads, Email and Social",,unknown,,unknown,No content to analyze.,unknown,,needs_investigation,4,low,needs_review,2026-11-23T12:36:54.881276+00:00
+38,Pinterest,"Marketing, Ads, Email and Social",,unknown,,unknown,No content to analyze.,unknown,,needs_investigation,4,low,needs_review,2026-11-23T12:40:23.108698+00:00
+39,Threads (Meta),"Marketing, Ads, Email and Social",,unknown,,unknown,No content to analyze.,unknown,,needs_investigation,4,low,needs_review,2026-11-23T12:40:24.493627+00:00
+40,SendGrid,"Marketing, Ads, Email and Social",,unknown,REST,narrow,Narrow API: limited signals (2 total).,unknown,,feasible,6,medium,passed,2026-11-23T12:40:26.376412+00:00
+41,Shopify,Ecommerce,OAuth2,unknown,GraphQL,broad,"Broad API: 5 entity types, 1 CRUD ops detected.",mcp_unverified,,ready_to_build,9,medium,passed,2026-11-23T12:36:57.299944+00:00
+42,WooCommerce,Ecommerce,,unknown,REST,moderate,"Moderate API: 3 entity types, 2 CRUD ops.",unknown,,feasible,7,medium,passed,2026-11-23T12:36:59.323653+00:00
+43,BigCommerce,Ecommerce,,unknown,"REST, GraphQL",unknown,Insufficient evidence to estimate API breadth.,unknown,,feasible,7,medium,passed,2026-11-23T12:37:02.645473+00:00
+44,Salesforce Commerce Cloud,Ecommerce,,unknown,,unknown,No content to analyze.,unknown,,needs_investigation,4,low,needs_review,2026-11-23T12:37:04.219856+00:00
+45,Magento (Adobe Commerce),Ecommerce,OAuth2,unknown,REST,narrow,Narrow API: limited signals (3 total).,unknown,,feasible,7,medium,passed,2026-11-23T12:37:05.593157+00:00
+46,Squarespace,Ecommerce,,unknown,REST,moderate,"Moderate API: 4 entity types, 1 CRUD ops.",unknown,,feasible,7,medium,passed,2026-11-23T12:37:07.497611+00:00
+47,Ecwid,Ecommerce,,unknown,,broad,"Broad API: 5 entity types, 3 CRUD ops detected.",unknown,,needs_investigation,5,low,partial,2026-11-23T12:37:08.426860+00:00
+48,Gumroad,Ecommerce,,unknown,,unknown,No content to analyze.,unknown,,needs_investigation,4,low,needs_review,2026-11-23T12:37:09.276599+00:00
+49,Amazon Selling Partner,Ecommerce,,unknown,,broad,"Broad API: 4 entity types, 4 CRUD ops detected.",unknown,,needs_investigation,5,low,partial,2026-11-23T12:37:10.623913+00:00
+50,fanbasis,Ecommerce,,unknown,,narrow,Narrow API: limited signals (2 total).,unknown,,significant_barriers,3,low,partial,2026-11-23T12:37:13.775252+00:00
+51,DataForSEO,"Data, SEO and Scraping",,unknown,REST,narrow,Narrow API: limited signals (2 total).,unknown,,feasible,6,medium,passed,2026-11-23T12:44:35.508433+00:00
+52,SE Ranking,"Data, SEO and Scraping",,unknown,,unknown,No content to analyze.,unknown,,needs_investigation,4,low,needs_review,2026-11-23T12:44:55.914832+00:00
+53,Ahrefs,"Data, SEO and Scraping",,unknown,REST,unknown,Insufficient evidence to estimate API breadth.,unknown,,feasible,7,medium,passed,2026-11-23T12:44:56.852047+00:00
+54,MrScraper,"Data, SEO and Scraping",,unknown,,unknown,No content to analyze.,unknown,,needs_investigation,4,low,needs_review,2026-11-23T12:44:58.293333+00:00
+55,Apify,"Data, SEO and Scraping",,unknown,REST,moderate,"Moderate API: 3 entity types, 2 CRUD ops.",mcp_unverified,,feasible,7,medium,passed,2026-11-23T12:45:00.183449+00:00
+56,Firecrawl,"Data, SEO and Scraping","OAuth2, API Key, Bearer Token",unknown,,broad,"Broad API: 5 entity types, 1 CRUD ops detected.",mcp_unverified,,feasible,6,medium,passed,2026-11-23T12:45:01.641170+00:00
+57,Bright Data,"Data, SEO and Scraping",API Key,free_self_serve,,moderate,"Moderate API: 2 entity types, 1 CRUD ops.",unknown,,feasible,7,medium,passed,2026-11-23T12:45:03.650502+00:00
+58,Sherlock,"Data, SEO and Scraping",,unknown,,unknown,No content to analyze.,unknown,,needs_investigation,4,low,needs_review,2026-11-23T12:45:05.572118+00:00
+59,Waterfall.io,"Data, SEO and Scraping",,unknown,,unknown,No content to analyze.,unknown,,needs_investigation,4,low,needs_review,2026-11-23T12:45:07.082384+00:00
+60,Clay,"Data, SEO and Scraping",,enterprise_only,,broad,"Broad API: 4 entity types, 3 CRUD ops detected.",unknown,,needs_investigation,4,low,partial,2026-11-23T12:45:08.646313+00:00
+61,GitHub,"Developer, Infra and Data Platforms",OAuth2,unknown,"REST, GraphQL",extensive,"Extensive API surface: 8 entity types, 1 CRUD ops, 4 advanced features.",official_mcp,https://github.com/search?q=github+mcp+server&type=repositories,ready_to_build,10,medium,passed,2026-11-23T12:45:40.814381+00:00
+62,Vercel,"Developer, Infra and Data Platforms",Bearer Token,unknown,REST,moderate,"Moderate API: 1 entity types, 1 CRUD ops.",unknown,,ready_to_build,8,medium,passed,2026-11-23T12:45:41.504688+00:00
+63,Netlify,"Developer, Infra and Data Platforms","OAuth2, Bearer Token",unknown,REST,moderate,"Moderate API: 1 entity types, 2 CRUD ops.",unknown,,ready_to_build,8,medium,passed,2026-11-23T12:45:42.567520+00:00
+64,Cloudflare,"Developer, Infra and Data Platforms",,unknown,,unknown,No content to analyze.,unknown,,needs_investigation,4,low,needs_review,2026-11-23T12:45:43.831618+00:00
+65,Supabase,"Developer, Infra and Data Platforms",,unknown,"REST, GraphQL",broad,"Broad API: 3 entity types, 4 CRUD ops detected.",unknown,,ready_to_build,8,medium,passed,2026-11-23T12:45:45.297632+00:00
+66,Neo4j,"Developer, Infra and Data Platforms",,unknown,,narrow,Narrow API: limited signals (1 total).,unknown,,significant_barriers,3,low,partial,2026-11-23T12:45:46.745658+00:00
+67,Snowflake,"Developer, Infra and Data Platforms",OAuth2,unknown,REST,moderate,"Moderate API: 1 entity types, 3 CRUD ops.",unknown,,ready_to_build,8,medium,passed,2026-11-23T12:45:48.134687+00:00
+68,MongoDB Atlas,"Developer, Infra and Data Platforms",,unknown,REST,moderate,"Moderate API: 2 entity types, 2 CRUD ops.",unknown,,feasible,7,medium,passed,2026-11-23T12:45:51.073114+00:00
+69,Datadog,"Developer, Infra and Data Platforms",API Key,unknown,REST,narrow,Narrow API: limited signals (1 total).,unknown,,feasible,7,medium,passed,2026-11-23T12:45:51.620877+00:00
+70,Sentry,"Developer, Infra and Data Platforms",,unknown,,broad,"Broad API: 4 entity types, 2 CRUD ops detected.",unknown,,needs_investigation,5,low,partial,2026-11-23T12:45:53.807321+00:00
+71,Notion,Productivity and Project Management,"OAuth2, Bearer Token, Personal Access Token",unknown,,broad,"Broad API: 7 entity types, 2 CRUD ops detected.",unknown,,feasible,6,medium,passed,2026-11-23T12:46:17.604896+00:00
+72,Airtable,Productivity and Project Management,,unknown,,unknown,No content to analyze.,unknown,,needs_investigation,4,low,needs_review,2026-11-23T12:46:18.847028+00:00
+73,Linear,Productivity and Project Management,OAuth2,unknown,GraphQL,narrow,Narrow API: limited signals (2 total).,unknown,,feasible,7,medium,passed,2026-11-23T12:46:20.742602+00:00
+74,Jira,Productivity and Project Management,,unknown,,unknown,No content to analyze.,unknown,,needs_investigation,4,low,needs_review,2026-11-23T12:46:23.185525+00:00
+75,Asana,Productivity and Project Management,,unknown,REST,narrow,Narrow API: limited signals (2 total).,unknown,,feasible,6,medium,passed,2026-11-23T12:46:24.164202+00:00
+76,Monday.com,Productivity and Project Management,,unknown,,unknown,No content to analyze.,unknown,,needs_investigation,4,low,needs_review,2026-11-23T12:46:25.583992+00:00
+77,ClickUp,Productivity and Project Management,OAuth2,unknown,,moderate,"Moderate API: 5 entity types, 0 CRUD ops.",mcp_unverified,,needs_investigation,5,medium,passed,2026-11-23T12:46:26.565474+00:00
+78,Coda,Productivity and Project Management,,unknown,,unknown,No content to analyze.,unknown,,needs_investigation,4,low,needs_review,2026-11-23T12:46:28.269944+00:00
+79,Smartsheet,Productivity and Project Management,,unknown,,unknown,Insufficient evidence to estimate API breadth.,unknown,,needs_investigation,4,low,partial,2026-11-23T12:46:30.985087+00:00
+80,Harvest,Productivity and Project Management,,unknown,,moderate,"Moderate API: 5 entity types, 0 CRUD ops.",unknown,,needs_investigation,4,low,partial,2026-11-23T12:46:32.067959+00:00
+81,Stripe,Finance and Fintech,API Key,unknown,REST,narrow,Narrow API: limited signals (3 total).,unknown,,feasible,7,medium,passed,2026-11-23T12:47:21.259087+00:00
+82,Plaid,Finance and Fintech,,unknown,,moderate,"Moderate API: 2 entity types, 1 CRUD ops.",unknown,,needs_investigation,4,low,partial,2026-11-23T12:47:22.638394+00:00
+83,Binance,Finance and Fintech,,unknown,,unknown,No content to analyze.,unknown,,needs_investigation,4,low,needs_review,2026-11-23T12:47:24.049927+00:00
+84,Paygent Connect,Finance and Fintech,,unknown,,unknown,No content to analyze.,unknown,,needs_investigation,4,low,needs_review,2026-11-23T12:47:26.662713+00:00
+85,iPayX,Finance and Fintech,,unknown,,unknown,No content to analyze.,unknown,,needs_investigation,4,low,needs_review,2026-11-23T12:47:28.210043+00:00
+86,QuickBooks,Finance and Fintech,,unknown,,unknown,No content to analyze.,unknown,,needs_investigation,4,low,needs_review,2026-11-23T12:47:31.433493+00:00
+87,Xero,Finance and Fintech,,unknown,,unknown,No content to analyze.,unknown,,needs_investigation,4,low,needs_review,2026-11-23T12:47:32.306472+00:00
+88,Brex,Finance and Fintech,,unknown,REST,broad,"Broad API: 6 entity types, 1 CRUD ops detected.",unknown,,ready_to_build,8,medium,passed,2026-11-23T12:47:33.292183+00:00
+89,Ramp,Finance and Fintech,,unknown,,unknown,No content to analyze.,unknown,,needs_investigation,4,low,needs_review,2026-11-23T12:47:33.963108+00:00
+90,PitchBook,Finance and Fintech,,unknown,,unknown,No content to analyze.,unknown,,needs_investigation,4,low,needs_review,2026-11-23T12:47:35.378322+00:00
+91,NotebookLM,"AI, Research and Media-Native",,unknown,,unknown,No content to analyze.,unknown,,needs_investigation,4,low,needs_review,2026-11-23T12:48:27.922326+00:00
+92,Otter AI,"AI, Research and Media-Native",,unknown,,unknown,No content to analyze.,unknown,,needs_investigation,4,low,needs_review,2026-11-23T12:48:48.309452+00:00
+93,Fathom,"AI, Research and Media-Native",,unknown,,unknown,No content to analyze.,unknown,,needs_investigation,4,low,needs_review,2026-11-23T12:48:49.860194+00:00
+94,Consensus,"AI, Research and Media-Native",,unknown,,unknown,No content to analyze.,unknown,,needs_investigation,4,low,needs_review,2026-11-23T12:48:51.417584+00:00
+95,Reducto,"AI, Research and Media-Native",,unknown,REST,narrow,Narrow API: limited signals (3 total).,mcp_unverified,,feasible,6,medium,passed,2026-11-23T12:48:52.223295+00:00
+96,Devin,"AI, Research and Media-Native",Bearer Token,unknown,,broad,"Broad API: 5 entity types, 2 CRUD ops detected.",unknown,,feasible,6,medium,passed,2026-11-23T12:48:54.342064+00:00
+97,higgsfield,"AI, Research and Media-Native",,unknown,,unknown,No content to analyze.,unknown,,needs_investigation,4,low,needs_review,2026-11-23T12:48:55.821449+00:00
+98,Mermaid CLI,"AI, Research and Media-Native",,unknown,,unknown,No content to analyze.,unknown,,needs_investigation,4,low,needs_review,2026-11-23T12:48:57.495353+00:00
+99,YouTube Transcript,"AI, Research and Media-Native",,unknown,,unknown,No content to analyze.,unknown,,needs_investigation,4,low,needs_review,2026-11-23T12:49:03.704962+00:00
+100,Grain,"AI, Research and Media-Native",,free_self_serve,,unknown,Insufficient evidence to estimate API breadth.,unknown,,feasible,6,low,partial,2026-11-23T12:49:04.984909+00:00

@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "generated_at": "2026-11-23T13:10:42.040507+00:00",
+    "scope": "100-Application Claim-Level Verification Report",
+    "note": "Operational verification metrics. Do not confuse evidence coverage with human-verified ground-truth accuracy."
+  },
+  "applications": {
+    "applications_represented": 100,
+    "applications_checked": 100,
+    "applications_with_contradictions": 22,
+    "applications_needing_human_review": 82
+  },
+  "claims": {
+    "claims_checked": 400,
+    "claims_supported_by_primary_evidence": 178,
+    "claims_independently_corroborated": 38,
+    "unsupported_claims": 0,
+    "contradicted_claims": 5,
+    "unavailable_sources_claims": 166,
+    "claims_needing_human_review": 7
+  },
+  "corrections": {
+    "corrections_proposed": 3,
+    "corrections_applied": 3,
+    "unresolved_claims": 12
+  },
+  "coverage": {
+    "evidence_verification_coverage_percent": 54.0
+  }
+}

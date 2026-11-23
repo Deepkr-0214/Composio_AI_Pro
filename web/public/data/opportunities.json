@@ -1,0 +1,326 @@
+{
+  "top_10_opportunities": [
+    {
+      "app_id": 61,
+      "app_name": "GitHub",
+      "category": "Developer, Infra and Data Platforms",
+      "priority_score": 72,
+      "toolkit_buildability_score": 10,
+      "auth_methods": [
+        "OAuth2"
+      ],
+      "credential_accessibility": "unknown",
+      "api_surface": [
+        "REST",
+        "GraphQL"
+      ],
+      "api_breadth": "extensive",
+      "mcp_status": "official_mcp",
+      "main_reason": "High API maturity (extensive), verified REST, GraphQL surface, and verified auth.",
+      "remaining_risk": "Requires standard OAuth2 client setup and webhook handling.",
+      "supporting_documentation_urls": [
+        "https://github.com/github",
+        "https://github.com/search?q=github+mcp+server&type=repositories"
+      ],
+      "verification_status": "passed"
+    },
+    {
+      "app_id": 11,
+      "app_name": "Zendesk",
+      "category": "Support and Helpdesk",
+      "priority_score": 70,
+      "toolkit_buildability_score": 10,
+      "auth_methods": [],
+      "credential_accessibility": "trial_self_serve",
+      "api_surface": [
+        "REST"
+      ],
+      "api_breadth": "extensive",
+      "mcp_status": "unknown",
+      "main_reason": "High API maturity (extensive), verified REST surface, and verified auth.",
+      "remaining_risk": "Subject to per-user rate limiting.",
+      "supporting_documentation_urls": [
+        "https://developer.zendesk.com/",
+        "https://developer.zendesk.com/api-reference"
+      ],
+      "verification_status": "passed"
+    },
+    {
+      "app_id": 8,
+      "app_name": "Close",
+      "category": "CRM and Sales",
+      "priority_score": 61,
+      "toolkit_buildability_score": 9,
+      "auth_methods": [
+        "OAuth2"
+      ],
+      "credential_accessibility": "unknown",
+      "api_surface": [
+        "REST"
+      ],
+      "api_breadth": "broad",
+      "mcp_status": "mcp_unverified",
+      "main_reason": "High API maturity (broad), verified REST surface, and verified auth.",
+      "remaining_risk": "Requires standard OAuth2 client setup and webhook handling.",
+      "supporting_documentation_urls": [
+        "https://developer.close.com/"
+      ],
+      "verification_status": "passed"
+    },
+    {
+      "app_id": 41,
+      "app_name": "Shopify",
+      "category": "Ecommerce",
+      "priority_score": 61,
+      "toolkit_buildability_score": 9,
+      "auth_methods": [
+        "OAuth2"
+      ],
+      "credential_accessibility": "unknown",
+      "api_surface": [
+        "GraphQL"
+      ],
+      "api_breadth": "broad",
+      "mcp_status": "mcp_unverified",
+      "main_reason": "High API maturity (broad), verified GraphQL surface, and verified auth.",
+      "remaining_risk": "Requires standard OAuth2 client setup and webhook handling.",
+      "supporting_documentation_urls": [
+        "https://developers.shopify.com/",
+        "https://developer.shopify.com/"
+      ],
+      "verification_status": "passed"
+    },
+    {
+      "app_id": 31,
+      "app_name": "Google Ads",
+      "category": "Marketing, Ads, Email and Social",
+      "priority_score": 57,
+      "toolkit_buildability_score": 9,
+      "auth_methods": [
+        "OAuth2",
+        "Service Account"
+      ],
+      "credential_accessibility": "unknown",
+      "api_surface": [
+        "REST"
+      ],
+      "api_breadth": "broad",
+      "mcp_status": "unknown",
+      "main_reason": "High API maturity (broad), verified REST surface, and verified auth.",
+      "remaining_risk": "Requires standard OAuth2 client setup and webhook handling.",
+      "supporting_documentation_urls": [
+        "https://developers.google.com/google-ads/api/docs/start",
+        "https://developers.google.com/google-ads/api/docs/oauth/overview"
+      ],
+      "verification_status": "passed"
+    },
+    {
+      "app_id": 62,
+      "app_name": "Vercel",
+      "category": "Developer, Infra and Data Platforms",
+      "priority_score": 56,
+      "toolkit_buildability_score": 8,
+      "auth_methods": [
+        "Bearer Token"
+      ],
+      "credential_accessibility": "unknown",
+      "api_surface": [
+        "REST"
+      ],
+      "api_breadth": "moderate",
+      "mcp_status": "unknown",
+      "main_reason": "High API maturity (moderate), verified REST surface, and verified auth.",
+      "remaining_risk": "Subject to per-user rate limiting.",
+      "supporting_documentation_urls": [
+        "https://vercel.com/docs/rest-api"
+      ],
+      "verification_status": "passed"
+    },
+    {
+      "app_id": 63,
+      "app_name": "Netlify",
+      "category": "Developer, Infra and Data Platforms",
+      "priority_score": 54,
+      "toolkit_buildability_score": 8,
+      "auth_methods": [
+        "OAuth2",
+        "Bearer Token"
+      ],
+      "credential_accessibility": "unknown",
+      "api_surface": [
+        "REST"
+      ],
+      "api_breadth": "moderate",
+      "mcp_status": "unknown",
+      "main_reason": "High API maturity (moderate), verified REST surface, and verified auth.",
+      "remaining_risk": "Requires standard OAuth2 client setup and webhook handling.",
+      "supporting_documentation_urls": [
+        "https://docs.netlify.com/api/get-started/"
+      ],
+      "verification_status": "passed"
+    },
+    {
+      "app_id": 67,
+      "app_name": "Snowflake",
+      "category": "Developer, Infra and Data Platforms",
+      "priority_score": 53,
+      "toolkit_buildability_score": 8,
+      "auth_methods": [
+        "OAuth2"
+      ],
+      "credential_accessibility": "unknown",
+      "api_surface": [
+        "REST"
+      ],
+      "api_breadth": "moderate",
+      "mcp_status": "unknown",
+      "main_reason": "High API maturity (moderate), verified REST surface, and verified auth.",
+      "remaining_risk": "Requires standard OAuth2 client setup and webhook handling.",
+      "supporting_documentation_urls": [
+        "https://docs.snowflake.com/en/developer-guide/sql-api/index"
+      ],
+      "verification_status": "passed"
+    },
+    {
+      "app_id": 69,
+      "app_name": "Datadog",
+      "category": "Developer, Infra and Data Platforms",
+      "priority_score": 52,
+      "toolkit_buildability_score": 7,
+      "auth_methods": [
+        "API Key"
+      ],
+      "credential_accessibility": "unknown",
+      "api_surface": [
+        "REST"
+      ],
+      "api_breadth": "narrow",
+      "mcp_status": "unknown",
+      "main_reason": "High API maturity (narrow), verified REST surface, and verified auth.",
+      "remaining_risk": "Subject to per-user rate limiting.",
+      "supporting_documentation_urls": [
+        "https://docs.datadoghq.com/api/latest/"
+      ],
+      "verification_status": "passed"
+    },
+    {
+      "app_id": 81,
+      "app_name": "Stripe",
+      "category": "Finance and Fintech",
+      "priority_score": 52,
+      "toolkit_buildability_score": 7,
+      "auth_methods": [
+        "API Key"
+      ],
+      "credential_accessibility": "unknown",
+      "api_surface": [
+        "REST"
+      ],
+      "api_breadth": "narrow",
+      "mcp_status": "unknown",
+      "main_reason": "High API maturity (narrow), verified REST surface, and verified auth.",
+      "remaining_risk": "Subject to per-user rate limiting.",
+      "supporting_documentation_urls": [
+        "https://stripe.com/docs",
+        "https://docs.stripe.com/api"
+      ],
+      "verification_status": "passed"
+    }
+  ],
+  "vendor_outreach_candidates": [
+    {
+      "app_id": 1,
+      "app_name": "Salesforce",
+      "category": "CRM and Sales",
+      "confirmed_access_restriction": "Cloudflare WAF Bot Challenge Wall (HTTP 403)",
+      "required_approval_or_commercial_step": "Register official Salesforce Developer Org or request IP allowlisting.",
+      "technical_feasibility": "Technically mature REST/SOAP APIs once developer credentials are provisioned.",
+      "evidence_urls": [],
+      "suggested_action": "Prioritize outreach to Salesforce partnerships team for platform developer sandbox."
+    },
+    {
+      "app_id": 10,
+      "app_name": "DealCloud",
+      "category": "CRM and Sales",
+      "confirmed_access_restriction": "Enterprise Client Login Required (Intapp Client Portal)",
+      "required_approval_or_commercial_step": "Initiate vendor partnership inquiry or enterprise customer sponsor request.",
+      "technical_feasibility": "Requires private tenant API credentials and signed NDA/MSA.",
+      "evidence_urls": [],
+      "suggested_action": "Prioritize outreach to DealCloud partnerships team for platform developer sandbox."
+    },
+    {
+      "app_id": 32,
+      "app_name": "Meta Ads",
+      "category": "Marketing, Ads, Email and Social",
+      "confirmed_access_restriction": "Meta App Review & Business Verification Required",
+      "required_approval_or_commercial_step": "Submit Composio Meta App for Marketing API permissions approval.",
+      "technical_feasibility": "Standard Graph API once business verification and App Review clear.",
+      "evidence_urls": [],
+      "suggested_action": "Prioritize outreach to Meta Ads partnerships team for platform developer sandbox."
+    },
+    {
+      "app_id": 83,
+      "app_name": "Binance",
+      "category": "Finance and Fintech",
+      "confirmed_access_restriction": "Jurisdiction & Financial API Key Onboarding",
+      "required_approval_or_commercial_step": "Verify regional endpoint availability (Binance Global vs US) and IP whitelisting.",
+      "technical_feasibility": "High performance HMAC-SHA256 REST/WebSocket API once account verified.",
+      "evidence_urls": [],
+      "suggested_action": "Prioritize outreach to Binance partnerships team for platform developer sandbox."
+    },
+    {
+      "app_id": 86,
+      "app_name": "QuickBooks",
+      "category": "Finance and Fintech",
+      "confirmed_access_restriction": "Accounting Sandbox & Production App Verification",
+      "required_approval_or_commercial_step": "Create Intuit Developer / Xero Partner account and complete production certification.",
+      "technical_feasibility": "Mature REST APIs with OAuth2 PKCE token lifecycle.",
+      "evidence_urls": [],
+      "suggested_action": "Prioritize outreach to QuickBooks partnerships team for platform developer sandbox."
+    },
+    {
+      "app_id": 87,
+      "app_name": "Xero",
+      "category": "Finance and Fintech",
+      "confirmed_access_restriction": "Accounting Sandbox & Production App Verification",
+      "required_approval_or_commercial_step": "Create Intuit Developer / Xero Partner account and complete production certification.",
+      "technical_feasibility": "Mature REST APIs with OAuth2 PKCE token lifecycle.",
+      "evidence_urls": [],
+      "suggested_action": "Prioritize outreach to Xero partnerships team for platform developer sandbox."
+    },
+    {
+      "app_id": 89,
+      "app_name": "Ramp",
+      "category": "Finance and Fintech",
+      "confirmed_access_restriction": "Corporate Card / Financial Authorization",
+      "required_approval_or_commercial_step": "Contact Ramp partnerships or obtain sandbox developer credentials.",
+      "technical_feasibility": "Developer API available for verified enterprise customers.",
+      "evidence_urls": [],
+      "suggested_action": "Prioritize outreach to Ramp partnerships team for platform developer sandbox."
+    },
+    {
+      "app_id": 90,
+      "app_name": "PitchBook",
+      "category": "Finance and Fintech",
+      "confirmed_access_restriction": "Commercial Market Data Licensing",
+      "required_approval_or_commercial_step": "Contact PitchBook commercial data sales team for API license agreement.",
+      "technical_feasibility": "Commercial API available under enterprise subscription.",
+      "evidence_urls": [],
+      "suggested_action": "Prioritize outreach to PitchBook partnerships team for platform developer sandbox."
+    }
+  ],
+  "opportunity_group_definitions": {
+    "Group A (Quick Wins)": "Publicly documented API, verified auth, passed quality gate, priority score >= 55.",
+    "Group B (Conditional)": "Technically feasible API surface; requires handling pagination, rate limits, or OAuth scopes.",
+    "Group C (Outreach Required)": "Commercial/partner gating or strict enterprise approval requires vendor outreach.",
+    "Group D (Further Investigation)": "Insufficient public documentation or edge WAF block requires deeper technical discovery.",
+    "Group E (No Confirmed Cloud Path)": "Local CLI tool or consumer UI with no confirmed standalone cloud REST API."
+  },
+  "opportunity_groups_distribution": {
+    "Group D (Further Investigation)": 52,
+    "Group B (Conditional)": 30,
+    "Group C (Outreach Required)": 9,
+    "Group A (Quick Wins)": 6,
+    "Group E (No Confirmed Cloud Path)": 3
+  }
+}

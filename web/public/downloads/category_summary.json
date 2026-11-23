@@ -1,0 +1,351 @@
+{
+  "CRM and Sales": {
+    "total_applications": 10,
+    "category_id": 1,
+    "research_completeness_rate": "50.0%",
+    "quality_gate_distribution": {
+      "needs_review": 3,
+      "partial": 2,
+      "passed": 5
+    },
+    "authentication_methods_distribution": {
+      "unknown": 8,
+      "API Key": 1,
+      "OAuth2": 1
+    },
+    "credential_accessibility_distribution": {
+      "unknown": 10
+    },
+    "api_surfaces_distribution": {
+      "unknown": 6,
+      "REST": 4
+    },
+    "mcp_availability_distribution": {
+      "unknown": 9,
+      "mcp_unverified": 1
+    },
+    "buildability_verdict_distribution": {
+      "needs_investigation": 6,
+      "feasible": 3,
+      "ready_to_build": 1
+    },
+    "most_frequent_blockers": {},
+    "apps_missing_documentation_evidence": 3,
+    "average_buildability_score": 5.1
+  },
+  "Support and Helpdesk": {
+    "total_applications": 10,
+    "category_id": 2,
+    "research_completeness_rate": "40.0%",
+    "quality_gate_distribution": {
+      "passed": 4,
+      "partial": 3,
+      "needs_review": 3
+    },
+    "authentication_methods_distribution": {
+      "unknown": 9,
+      "OAuth2": 1
+    },
+    "credential_accessibility_distribution": {
+      "trial_self_serve": 1,
+      "unknown": 9
+    },
+    "api_surfaces_distribution": {
+      "REST": 3,
+      "unknown": 7,
+      "Webhook": 1
+    },
+    "mcp_availability_distribution": {
+      "unknown": 10
+    },
+    "buildability_verdict_distribution": {
+      "ready_to_build": 1,
+      "needs_investigation": 6,
+      "significant_barriers": 1,
+      "feasible": 2
+    },
+    "most_frequent_blockers": {},
+    "apps_missing_documentation_evidence": 3,
+    "average_buildability_score": 5.3
+  },
+  "Communications and Messaging": {
+    "total_applications": 10,
+    "category_id": 3,
+    "research_completeness_rate": "30.0%",
+    "quality_gate_distribution": {
+      "passed": 3,
+      "needs_review": 4,
+      "partial": 3
+    },
+    "authentication_methods_distribution": {
+      "OAuth2": 2,
+      "unknown": 8,
+      "Basic Auth": 1
+    },
+    "credential_accessibility_distribution": {
+      "unknown": 10
+    },
+    "api_surfaces_distribution": {
+      "unknown": 8,
+      "REST": 2
+    },
+    "mcp_availability_distribution": {
+      "mcp_unverified": 1,
+      "unknown": 9
+    },
+    "buildability_verdict_distribution": {
+      "needs_investigation": 7,
+      "feasible": 1,
+      "significant_barriers": 1,
+      "ready_to_build": 1
+    },
+    "most_frequent_blockers": {},
+    "apps_missing_documentation_evidence": 4,
+    "average_buildability_score": 4.8
+  },
+  "Marketing, Ads, Email and Social": {
+    "total_applications": 10,
+    "category_id": 4,
+    "research_completeness_rate": "50.0%",
+    "quality_gate_distribution": {
+      "passed": 5,
+      "needs_review": 4,
+      "partial": 1
+    },
+    "authentication_methods_distribution": {
+      "OAuth2": 4,
+      "Service Account": 1,
+      "unknown": 6,
+      "API Key": 2,
+      "Bearer Token": 1
+    },
+    "credential_accessibility_distribution": {
+      "unknown": 10
+    },
+    "api_surfaces_distribution": {
+      "REST": 2,
+      "unknown": 8
+    },
+    "mcp_availability_distribution": {
+      "unknown": 10
+    },
+    "buildability_verdict_distribution": {
+      "ready_to_build": 1,
+      "needs_investigation": 8,
+      "feasible": 1
+    },
+    "most_frequent_blockers": {},
+    "apps_missing_documentation_evidence": 4,
+    "average_buildability_score": 4.9
+  },
+  "Ecommerce": {
+    "total_applications": 10,
+    "category_id": 5,
+    "research_completeness_rate": "50.0%",
+    "quality_gate_distribution": {
+      "passed": 5,
+      "needs_review": 2,
+      "partial": 3
+    },
+    "authentication_methods_distribution": {
+      "OAuth2": 2,
+      "unknown": 8
+    },
+    "credential_accessibility_distribution": {
+      "unknown": 10
+    },
+    "api_surfaces_distribution": {
+      "GraphQL": 2,
+      "REST": 4,
+      "unknown": 5
+    },
+    "mcp_availability_distribution": {
+      "mcp_unverified": 1,
+      "unknown": 9
+    },
+    "buildability_verdict_distribution": {
+      "ready_to_build": 1,
+      "feasible": 4,
+      "needs_investigation": 4,
+      "significant_barriers": 1
+    },
+    "most_frequent_blockers": {},
+    "apps_missing_documentation_evidence": 2,
+    "average_buildability_score": 5.8
+  },
+  "Data, SEO and Scraping": {
+    "total_applications": 10,
+    "category_id": 6,
+    "research_completeness_rate": "50.0%",
+    "quality_gate_distribution": {
+      "passed": 5,
+      "needs_review": 4,
+      "partial": 1
+    },
+    "authentication_methods_distribution": {
+      "unknown": 8,
+      "OAuth2": 1,
+      "API Key": 2,
+      "Bearer Token": 1
+    },
+    "credential_accessibility_distribution": {
+      "unknown": 8,
+      "free_self_serve": 1,
+      "enterprise_only": 1
+    },
+    "api_surfaces_distribution": {
+      "REST": 3,
+      "unknown": 7
+    },
+    "mcp_availability_distribution": {
+      "unknown": 8,
+      "mcp_unverified": 2
+    },
+    "buildability_verdict_distribution": {
+      "feasible": 5,
+      "needs_investigation": 5
+    },
+    "most_frequent_blockers": {
+      "credential_barrier": 1
+    },
+    "apps_missing_documentation_evidence": 4,
+    "average_buildability_score": 5.3
+  },
+  "Developer, Infra and Data Platforms": {
+    "total_applications": 10,
+    "category_id": 7,
+    "research_completeness_rate": "70.0%",
+    "quality_gate_distribution": {
+      "passed": 7,
+      "needs_review": 1,
+      "partial": 2
+    },
+    "authentication_methods_distribution": {
+      "OAuth2": 3,
+      "Bearer Token": 2,
+      "unknown": 5,
+      "API Key": 1
+    },
+    "credential_accessibility_distribution": {
+      "unknown": 10
+    },
+    "api_surfaces_distribution": {
+      "REST": 7,
+      "GraphQL": 2,
+      "unknown": 3
+    },
+    "mcp_availability_distribution": {
+      "official_mcp": 1,
+      "unknown": 9
+    },
+    "buildability_verdict_distribution": {
+      "ready_to_build": 5,
+      "needs_investigation": 2,
+      "significant_barriers": 1,
+      "feasible": 2
+    },
+    "most_frequent_blockers": {},
+    "apps_missing_documentation_evidence": 1,
+    "average_buildability_score": 6.8
+  },
+  "Productivity and Project Management": {
+    "total_applications": 10,
+    "category_id": 8,
+    "research_completeness_rate": "40.0%",
+    "quality_gate_distribution": {
+      "passed": 4,
+      "needs_review": 4,
+      "partial": 2
+    },
+    "authentication_methods_distribution": {
+      "OAuth2": 3,
+      "Bearer Token": 1,
+      "Personal Access Token": 1,
+      "unknown": 7
+    },
+    "credential_accessibility_distribution": {
+      "unknown": 10
+    },
+    "api_surfaces_distribution": {
+      "unknown": 8,
+      "GraphQL": 1,
+      "REST": 1
+    },
+    "mcp_availability_distribution": {
+      "unknown": 9,
+      "mcp_unverified": 1
+    },
+    "buildability_verdict_distribution": {
+      "feasible": 3,
+      "needs_investigation": 7
+    },
+    "most_frequent_blockers": {},
+    "apps_missing_documentation_evidence": 4,
+    "average_buildability_score": 4.8
+  },
+  "Finance and Fintech": {
+    "total_applications": 10,
+    "category_id": 9,
+    "research_completeness_rate": "20.0%",
+    "quality_gate_distribution": {
+      "passed": 2,
+      "partial": 1,
+      "needs_review": 7
+    },
+    "authentication_methods_distribution": {
+      "API Key": 1,
+      "unknown": 9
+    },
+    "credential_accessibility_distribution": {
+      "unknown": 10
+    },
+    "api_surfaces_distribution": {
+      "REST": 2,
+      "unknown": 8
+    },
+    "mcp_availability_distribution": {
+      "unknown": 10
+    },
+    "buildability_verdict_distribution": {
+      "feasible": 1,
+      "needs_investigation": 8,
+      "ready_to_build": 1
+    },
+    "most_frequent_blockers": {},
+    "apps_missing_documentation_evidence": 7,
+    "average_buildability_score": 4.7
+  },
+  "AI, Research and Media-Native": {
+    "total_applications": 10,
+    "category_id": 10,
+    "research_completeness_rate": "20.0%",
+    "quality_gate_distribution": {
+      "needs_review": 7,
+      "passed": 2,
+      "partial": 1
+    },
+    "authentication_methods_distribution": {
+      "unknown": 9,
+      "Bearer Token": 1
+    },
+    "credential_accessibility_distribution": {
+      "unknown": 9,
+      "free_self_serve": 1
+    },
+    "api_surfaces_distribution": {
+      "unknown": 9,
+      "REST": 1
+    },
+    "mcp_availability_distribution": {
+      "unknown": 9,
+      "mcp_unverified": 1
+    },
+    "buildability_verdict_distribution": {
+      "needs_investigation": 7,
+      "feasible": 3
+    },
+    "most_frequent_blockers": {},
+    "apps_missing_documentation_evidence": 7,
+    "average_buildability_score": 4.6
+  }
+}

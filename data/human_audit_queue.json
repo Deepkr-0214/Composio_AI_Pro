@@ -1,0 +1,1602 @@
+{
+  "metadata": {
+    "generated_at": "2026-11-23T13:10:42.040890+00:00",
+    "random_seed": 42,
+    "total_audit_candidates": 44,
+    "stratified_sample_size": 10,
+    "risk_based_sample_size": 34,
+    "note": "Human audit queue. Human judgment fields are unpopulated by design until human review occurs."
+  },
+  "queue": [
+    {
+      "audit_id": "AUDIT-STRAT-092",
+      "sample_type": "stratified_random",
+      "app_id": 92,
+      "app_name": "Otter AI",
+      "category_name": "AI, Research and Media-Native",
+      "original_agent_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "latest_corrected_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "relevant_source_urls": [],
+      "supporting_excerpts": [],
+      "questions_for_human_reviewer": [
+        "Verify whether Otter AI supports documented API integration.",
+        "Confirm if authentication requires OAuth2, API Key, or enterprise contract.",
+        "Check whether any MCP server exists officially or in the community."
+      ],
+      "human_judgment": {
+        "human_verified": false,
+        "reviewer_verdict": null,
+        "reviewer_notes": null,
+        "reviewed_at": null,
+        "reviewer_name": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-STRAT-001",
+      "sample_type": "stratified_random",
+      "app_id": 1,
+      "app_name": "Salesforce",
+      "category_name": "CRM and Sales",
+      "original_agent_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "latest_corrected_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "relevant_source_urls": [],
+      "supporting_excerpts": [],
+      "questions_for_human_reviewer": [
+        "Verify whether Salesforce supports documented API integration.",
+        "Confirm if authentication requires OAuth2, API Key, or enterprise contract.",
+        "Check whether any MCP server exists officially or in the community."
+      ],
+      "human_judgment": {
+        "human_verified": false,
+        "reviewer_verdict": null,
+        "reviewer_notes": null,
+        "reviewed_at": null,
+        "reviewer_name": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-STRAT-025",
+      "sample_type": "stratified_random",
+      "app_id": 25,
+      "app_name": "Pumble",
+      "category_name": "Communications and Messaging",
+      "original_agent_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "latest_corrected_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "relevant_source_urls": [],
+      "supporting_excerpts": [],
+      "questions_for_human_reviewer": [
+        "Verify whether Pumble supports documented API integration.",
+        "Confirm if authentication requires OAuth2, API Key, or enterprise contract.",
+        "Check whether any MCP server exists officially or in the community."
+      ],
+      "human_judgment": {
+        "human_verified": false,
+        "reviewer_verdict": null,
+        "reviewer_notes": null,
+        "reviewed_at": null,
+        "reviewer_name": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-STRAT-054",
+      "sample_type": "stratified_random",
+      "app_id": 54,
+      "app_name": "MrScraper",
+      "category_name": "Data, SEO and Scraping",
+      "original_agent_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "latest_corrected_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "relevant_source_urls": [],
+      "supporting_excerpts": [],
+      "questions_for_human_reviewer": [
+        "Verify whether MrScraper supports documented API integration.",
+        "Confirm if authentication requires OAuth2, API Key, or enterprise contract.",
+        "Check whether any MCP server exists officially or in the community."
+      ],
+      "human_judgment": {
+        "human_verified": false,
+        "reviewer_verdict": null,
+        "reviewer_notes": null,
+        "reviewed_at": null,
+        "reviewer_name": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-STRAT-064",
+      "sample_type": "stratified_random",
+      "app_id": 64,
+      "app_name": "Cloudflare",
+      "category_name": "Developer, Infra and Data Platforms",
+      "original_agent_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "latest_corrected_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "relevant_source_urls": [],
+      "supporting_excerpts": [],
+      "questions_for_human_reviewer": [
+        "Verify whether Cloudflare supports documented API integration.",
+        "Confirm if authentication requires OAuth2, API Key, or enterprise contract.",
+        "Check whether any MCP server exists officially or in the community."
+      ],
+      "human_judgment": {
+        "human_verified": false,
+        "reviewer_verdict": null,
+        "reviewer_notes": null,
+        "reviewed_at": null,
+        "reviewer_name": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-STRAT-043",
+      "sample_type": "stratified_random",
+      "app_id": 43,
+      "app_name": "BigCommerce",
+      "category_name": "Ecommerce",
+      "original_agent_answer": {
+        "auth_methods": [],
+        "api_type": [
+          "REST",
+          "GraphQL"
+        ],
+        "mcp_status": "unknown",
+        "buildability_verdict": "feasible",
+        "quality_gate_status": "partial"
+      },
+      "latest_corrected_answer": {
+        "auth_methods": [],
+        "api_type": [
+          "REST",
+          "GraphQL"
+        ],
+        "mcp_status": "unknown",
+        "buildability_verdict": "feasible",
+        "quality_gate_status": "partial"
+      },
+      "relevant_source_urls": [
+        "https://developer.bigcommerce.com/docs/rest"
+      ],
+      "supporting_excerpts": [
+        "email link. Once the cart ID has been retrieved, your application can use it to fetch and display information about the cart to the shopper using the REST Storefront API, the REST Management API, or the GraphQL Storefront API.",
+        "application can use it to fetch and display information about the cart to the shopper using the REST Storefront API, the REST Management API, or the GraphQL Storefront API."
+      ],
+      "questions_for_human_reviewer": [
+        "Verify whether BigCommerce supports documented API integration.",
+        "Confirm if authentication requires OAuth2, API Key, or enterprise contract.",
+        "Check whether any MCP server exists officially or in the community."
+      ],
+      "human_judgment": {
+        "human_verified": false,
+        "reviewer_verdict": null,
+        "reviewer_notes": null,
+        "reviewed_at": null,
+        "reviewer_name": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-STRAT-082",
+      "sample_type": "stratified_random",
+      "app_id": 82,
+      "app_name": "Plaid",
+      "category_name": "Finance and Fintech",
+      "original_agent_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "partial"
+      },
+      "latest_corrected_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "partial"
+      },
+      "relevant_source_urls": [
+        "https://plaid.com/docs/api/"
+      ],
+      "supporting_excerpts": [],
+      "questions_for_human_reviewer": [
+        "Verify whether Plaid supports documented API integration.",
+        "Confirm if authentication requires OAuth2, API Key, or enterprise contract.",
+        "Check whether any MCP server exists officially or in the community."
+      ],
+      "human_judgment": {
+        "human_verified": false,
+        "reviewer_verdict": null,
+        "reviewer_notes": null,
+        "reviewed_at": null,
+        "reviewer_name": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-STRAT-039",
+      "sample_type": "stratified_random",
+      "app_id": 39,
+      "app_name": "Threads (Meta)",
+      "category_name": "Marketing, Ads, Email and Social",
+      "original_agent_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "latest_corrected_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "relevant_source_urls": [],
+      "supporting_excerpts": [],
+      "questions_for_human_reviewer": [
+        "Verify whether Threads (Meta) supports documented API integration.",
+        "Confirm if authentication requires OAuth2, API Key, or enterprise contract.",
+        "Check whether any MCP server exists officially or in the community."
+      ],
+      "human_judgment": {
+        "human_verified": false,
+        "reviewer_verdict": null,
+        "reviewer_notes": null,
+        "reviewed_at": null,
+        "reviewer_name": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-STRAT-072",
+      "sample_type": "stratified_random",
+      "app_id": 72,
+      "app_name": "Airtable",
+      "category_name": "Productivity and Project Management",
+      "original_agent_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "latest_corrected_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "relevant_source_urls": [],
+      "supporting_excerpts": [],
+      "questions_for_human_reviewer": [
+        "Verify whether Airtable supports documented API integration.",
+        "Confirm if authentication requires OAuth2, API Key, or enterprise contract.",
+        "Check whether any MCP server exists officially or in the community."
+      ],
+      "human_judgment": {
+        "human_verified": false,
+        "reviewer_verdict": null,
+        "reviewer_notes": null,
+        "reviewed_at": null,
+        "reviewer_name": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-STRAT-020",
+      "sample_type": "stratified_random",
+      "app_id": 20,
+      "app_name": "Gladly",
+      "category_name": "Support and Helpdesk",
+      "original_agent_answer": {
+        "auth_methods": [],
+        "api_type": [
+          "REST",
+          "Webhook"
+        ],
+        "mcp_status": "unknown",
+        "buildability_verdict": "feasible",
+        "quality_gate_status": "passed"
+      },
+      "latest_corrected_answer": {
+        "auth_methods": [],
+        "api_type": [
+          "REST",
+          "Webhook"
+        ],
+        "mcp_status": "unknown",
+        "buildability_verdict": "feasible",
+        "quality_gate_status": "passed"
+      },
+      "relevant_source_urls": [
+        "https://developer.gladly.com/"
+      ],
+      "supporting_excerpts": [
+        "Sections: App Platform | REST API | Chat SDK | Help Center | Tutorials App Platform Build integrations with external systems to take action and retrieve data. Lea",
+        "mplementations for Gladly's APIs, webhooks, and platform tools. App Platform Tools App Platform Examples REST API Examples Webhook Examples Web Chat SDK Examples"
+      ],
+      "questions_for_human_reviewer": [
+        "Verify whether Gladly supports documented API integration.",
+        "Confirm if authentication requires OAuth2, API Key, or enterprise contract.",
+        "Check whether any MCP server exists officially or in the community."
+      ],
+      "human_judgment": {
+        "human_verified": false,
+        "reviewer_verdict": null,
+        "reviewer_notes": null,
+        "reviewed_at": null,
+        "reviewer_name": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-RISK-004",
+      "sample_type": "risk_based_priority",
+      "app_id": 4,
+      "app_name": "Attio",
+      "category_name": "CRM and Sales",
+      "original_agent_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "latest_corrected_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "relevant_source_urls": [],
+      "supporting_excerpts": [],
+      "questions_for_human_reviewer": [
+        "Risk trigger: Quality gate is 'needs_review' (potential WAF block or documentation deficit); Low overall confidence score",
+        "Check official developer accessibility for Attio.",
+        "Determine if human intervention is required to unblock API credentials."
+      ],
+      "human_judgment": {
+        "human_verified": false,
+        "reviewer_verdict": null,
+        "reviewer_notes": null,
+        "reviewed_at": null,
+        "reviewer_name": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-RISK-008",
+      "sample_type": "risk_based_priority",
+      "app_id": 8,
+      "app_name": "Close",
+      "category_name": "CRM and Sales",
+      "original_agent_answer": {
+        "auth_methods": [
+          "OAuth2"
+        ],
+        "api_type": [
+          "REST"
+        ],
+        "mcp_status": "mcp_unverified",
+        "buildability_verdict": "ready_to_build",
+        "quality_gate_status": "passed"
+      },
+      "latest_corrected_answer": {
+        "auth_methods": [
+          "OAuth2"
+        ],
+        "api_type": [
+          "REST"
+        ],
+        "mcp_status": "mcp_unverified",
+        "buildability_verdict": "ready_to_build",
+        "quality_gate_status": "passed"
+      },
+      "relevant_source_urls": [
+        "https://developer.close.com/"
+      ],
+      "supporting_excerpts": [
+        "AI agents need. REST API Reference Full endpoint docs with schemas, examples, and an interactive API explorer. Authentication API keys for scripts or OAuth 2.0 for user-facing integrations. Webhooks & Events Real-time event notifications and a 30-day event log. MCP Server Model Context Protocol for ",
+        "ustomer automating your sales process or a partner building an integration, the Close Developer Platform gives everything you or your AI agents need. REST API Reference Full endpoint docs with schemas, examples, and an interactive API explorer. Authentication API keys for scripts or OAuth 2.0 for us"
+      ],
+      "questions_for_human_reviewer": [
+        "Risk trigger: OAuth-only classification contradicted: documentation explicitly mentions API keys or personal access tokens.; Excerpt mismatch for auth_methods: claimed 'oauth2' does not appear in supporting excerpt.",
+        "Check official developer accessibility for Close.",
+        "Determine if human intervention is required to unblock API credentials."
+      ],
+      "human_judgment": {
+        "human_verified": false,
+        "reviewer_verdict": null,
+        "reviewer_notes": null,
+        "reviewed_at": null,
+        "reviewer_name": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-RISK-010",
+      "sample_type": "risk_based_priority",
+      "app_id": 10,
+      "app_name": "DealCloud",
+      "category_name": "CRM and Sales",
+      "original_agent_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "latest_corrected_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "relevant_source_urls": [],
+      "supporting_excerpts": [],
+      "questions_for_human_reviewer": [
+        "Risk trigger: Quality gate is 'needs_review' (potential WAF block or documentation deficit); Low overall confidence score",
+        "Check official developer accessibility for DealCloud.",
+        "Determine if human intervention is required to unblock API credentials."
+      ],
+      "human_judgment": {
+        "human_verified": false,
+        "reviewer_verdict": null,
+        "reviewer_notes": null,
+        "reviewed_at": null,
+        "reviewer_name": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-RISK-015",
+      "sample_type": "risk_based_priority",
+      "app_id": 15,
+      "app_name": "Pylon",
+      "category_name": "Support and Helpdesk",
+      "original_agent_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "latest_corrected_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "relevant_source_urls": [],
+      "supporting_excerpts": [],
+      "questions_for_human_reviewer": [
+        "Risk trigger: Quality gate is 'needs_review' (potential WAF block or documentation deficit); Low overall confidence score",
+        "Check official developer accessibility for Pylon.",
+        "Determine if human intervention is required to unblock API credentials."
+      ],
+      "human_judgment": {
+        "human_verified": false,
+        "reviewer_verdict": null,
+        "reviewer_notes": null,
+        "reviewed_at": null,
+        "reviewer_name": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-RISK-016",
+      "sample_type": "risk_based_priority",
+      "app_id": 16,
+      "app_name": "LiveAgent",
+      "category_name": "Support and Helpdesk",
+      "original_agent_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "latest_corrected_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "relevant_source_urls": [],
+      "supporting_excerpts": [],
+      "questions_for_human_reviewer": [
+        "Risk trigger: Quality gate is 'needs_review' (potential WAF block or documentation deficit); Low overall confidence score",
+        "Check official developer accessibility for LiveAgent.",
+        "Determine if human intervention is required to unblock API credentials."
+      ],
+      "human_judgment": {
+        "human_verified": false,
+        "reviewer_verdict": null,
+        "reviewer_notes": null,
+        "reviewed_at": null,
+        "reviewer_name": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-RISK-017",
+      "sample_type": "risk_based_priority",
+      "app_id": 17,
+      "app_name": "Plain",
+      "category_name": "Support and Helpdesk",
+      "original_agent_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "latest_corrected_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "relevant_source_urls": [],
+      "supporting_excerpts": [],
+      "questions_for_human_reviewer": [
+        "Risk trigger: Quality gate is 'needs_review' (potential WAF block or documentation deficit); Low overall confidence score",
+        "Check official developer accessibility for Plain.",
+        "Determine if human intervention is required to unblock API credentials."
+      ],
+      "human_judgment": {
+        "human_verified": false,
+        "reviewer_verdict": null,
+        "reviewer_notes": null,
+        "reviewed_at": null,
+        "reviewer_name": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-RISK-023",
+      "sample_type": "risk_based_priority",
+      "app_id": 23,
+      "app_name": "Zoho Cliq",
+      "category_name": "Communications and Messaging",
+      "original_agent_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "latest_corrected_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "relevant_source_urls": [],
+      "supporting_excerpts": [],
+      "questions_for_human_reviewer": [
+        "Risk trigger: Quality gate is 'needs_review' (potential WAF block or documentation deficit); Low overall confidence score",
+        "Check official developer accessibility for Zoho Cliq.",
+        "Determine if human intervention is required to unblock API credentials."
+      ],
+      "human_judgment": {
+        "human_verified": false,
+        "reviewer_verdict": null,
+        "reviewer_notes": null,
+        "reviewed_at": null,
+        "reviewer_name": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-RISK-024",
+      "sample_type": "risk_based_priority",
+      "app_id": 24,
+      "app_name": "Lark (Larksuite)",
+      "category_name": "Communications and Messaging",
+      "original_agent_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "latest_corrected_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "relevant_source_urls": [],
+      "supporting_excerpts": [],
+      "questions_for_human_reviewer": [
+        "Risk trigger: Quality gate is 'needs_review' (potential WAF block or documentation deficit); Low overall confidence score",
+        "Check official developer accessibility for Lark (Larksuite).",
+        "Determine if human intervention is required to unblock API credentials."
+      ],
+      "human_judgment": {
+        "human_verified": false,
+        "reviewer_verdict": null,
+        "reviewer_notes": null,
+        "reviewed_at": null,
+        "reviewer_name": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-RISK-028",
+      "sample_type": "risk_based_priority",
+      "app_id": 28,
+      "app_name": "WhatsApp Business",
+      "category_name": "Communications and Messaging",
+      "original_agent_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "latest_corrected_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "relevant_source_urls": [],
+      "supporting_excerpts": [],
+      "questions_for_human_reviewer": [
+        "Risk trigger: Quality gate is 'needs_review' (potential WAF block or documentation deficit); Low overall confidence score",
+        "Check official developer accessibility for WhatsApp Business.",
+        "Determine if human intervention is required to unblock API credentials."
+      ],
+      "human_judgment": {
+        "human_verified": false,
+        "reviewer_verdict": null,
+        "reviewer_notes": null,
+        "reviewed_at": null,
+        "reviewer_name": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-RISK-032",
+      "sample_type": "risk_based_priority",
+      "app_id": 32,
+      "app_name": "Meta Ads",
+      "category_name": "Marketing, Ads, Email and Social",
+      "original_agent_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "latest_corrected_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "relevant_source_urls": [],
+      "supporting_excerpts": [],
+      "questions_for_human_reviewer": [
+        "Risk trigger: Quality gate is 'needs_review' (potential WAF block or documentation deficit); Low overall confidence score",
+        "Check official developer accessibility for Meta Ads.",
+        "Determine if human intervention is required to unblock API credentials."
+      ],
+      "human_judgment": {
+        "human_verified": false,
+        "reviewer_verdict": null,
+        "reviewer_notes": null,
+        "reviewed_at": null,
+        "reviewer_name": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-RISK-037",
+      "sample_type": "risk_based_priority",
+      "app_id": 37,
+      "app_name": "systeme.io",
+      "category_name": "Marketing, Ads, Email and Social",
+      "original_agent_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "latest_corrected_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "relevant_source_urls": [],
+      "supporting_excerpts": [],
+      "questions_for_human_reviewer": [
+        "Risk trigger: Quality gate is 'needs_review' (potential WAF block or documentation deficit); Low overall confidence score",
+        "Check official developer accessibility for systeme.io.",
+        "Determine if human intervention is required to unblock API credentials."
+      ],
+      "human_judgment": {
+        "human_verified": false,
+        "reviewer_verdict": null,
+        "reviewer_notes": null,
+        "reviewed_at": null,
+        "reviewer_name": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-RISK-038",
+      "sample_type": "risk_based_priority",
+      "app_id": 38,
+      "app_name": "Pinterest",
+      "category_name": "Marketing, Ads, Email and Social",
+      "original_agent_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "latest_corrected_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "relevant_source_urls": [],
+      "supporting_excerpts": [],
+      "questions_for_human_reviewer": [
+        "Risk trigger: Quality gate is 'needs_review' (potential WAF block or documentation deficit); Low overall confidence score",
+        "Check official developer accessibility for Pinterest.",
+        "Determine if human intervention is required to unblock API credentials."
+      ],
+      "human_judgment": {
+        "human_verified": false,
+        "reviewer_verdict": null,
+        "reviewer_notes": null,
+        "reviewed_at": null,
+        "reviewer_name": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-RISK-044",
+      "sample_type": "risk_based_priority",
+      "app_id": 44,
+      "app_name": "Salesforce Commerce Cloud",
+      "category_name": "Ecommerce",
+      "original_agent_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "latest_corrected_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "relevant_source_urls": [],
+      "supporting_excerpts": [],
+      "questions_for_human_reviewer": [
+        "Risk trigger: Quality gate is 'needs_review' (potential WAF block or documentation deficit); Low overall confidence score",
+        "Check official developer accessibility for Salesforce Commerce Cloud.",
+        "Determine if human intervention is required to unblock API credentials."
+      ],
+      "human_judgment": {
+        "human_verified": false,
+        "reviewer_verdict": null,
+        "reviewer_notes": null,
+        "reviewed_at": null,
+        "reviewer_name": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-RISK-048",
+      "sample_type": "risk_based_priority",
+      "app_id": 48,
+      "app_name": "Gumroad",
+      "category_name": "Ecommerce",
+      "original_agent_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "latest_corrected_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "relevant_source_urls": [],
+      "supporting_excerpts": [],
+      "questions_for_human_reviewer": [
+        "Risk trigger: Quality gate is 'needs_review' (potential WAF block or documentation deficit); Low overall confidence score",
+        "Check official developer accessibility for Gumroad.",
+        "Determine if human intervention is required to unblock API credentials."
+      ],
+      "human_judgment": {
+        "human_verified": false,
+        "reviewer_verdict": null,
+        "reviewer_notes": null,
+        "reviewed_at": null,
+        "reviewer_name": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-RISK-052",
+      "sample_type": "risk_based_priority",
+      "app_id": 52,
+      "app_name": "SE Ranking",
+      "category_name": "Data, SEO and Scraping",
+      "original_agent_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "latest_corrected_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "relevant_source_urls": [],
+      "supporting_excerpts": [],
+      "questions_for_human_reviewer": [
+        "Risk trigger: Quality gate is 'needs_review' (potential WAF block or documentation deficit); Low overall confidence score",
+        "Check official developer accessibility for SE Ranking.",
+        "Determine if human intervention is required to unblock API credentials."
+      ],
+      "human_judgment": {
+        "human_verified": false,
+        "reviewer_verdict": null,
+        "reviewer_notes": null,
+        "reviewed_at": null,
+        "reviewer_name": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-RISK-058",
+      "sample_type": "risk_based_priority",
+      "app_id": 58,
+      "app_name": "Sherlock",
+      "category_name": "Data, SEO and Scraping",
+      "original_agent_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "latest_corrected_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "relevant_source_urls": [],
+      "supporting_excerpts": [],
+      "questions_for_human_reviewer": [
+        "Risk trigger: Nonstandard integration surface (CLI, enterprise-only, or ambiguous vendor identity); Quality gate is 'needs_review' (potential WAF block or documentation deficit)",
+        "Check official developer accessibility for Sherlock.",
+        "Determine if human intervention is required to unblock API credentials."
+      ],
+      "human_judgment": {
+        "human_verified": false,
+        "reviewer_verdict": null,
+        "reviewer_notes": null,
+        "reviewed_at": null,
+        "reviewer_name": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-RISK-059",
+      "sample_type": "risk_based_priority",
+      "app_id": 59,
+      "app_name": "Waterfall.io",
+      "category_name": "Data, SEO and Scraping",
+      "original_agent_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "latest_corrected_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "relevant_source_urls": [],
+      "supporting_excerpts": [],
+      "questions_for_human_reviewer": [
+        "Risk trigger: Quality gate is 'needs_review' (potential WAF block or documentation deficit); Low overall confidence score",
+        "Check official developer accessibility for Waterfall.io.",
+        "Determine if human intervention is required to unblock API credentials."
+      ],
+      "human_judgment": {
+        "human_verified": false,
+        "reviewer_verdict": null,
+        "reviewer_notes": null,
+        "reviewed_at": null,
+        "reviewer_name": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-RISK-073",
+      "sample_type": "risk_based_priority",
+      "app_id": 73,
+      "app_name": "Linear",
+      "category_name": "Productivity and Project Management",
+      "original_agent_answer": {
+        "auth_methods": [
+          "OAuth2"
+        ],
+        "api_type": [
+          "GraphQL"
+        ],
+        "mcp_status": "unknown",
+        "buildability_verdict": "feasible",
+        "quality_gate_status": "passed"
+      },
+      "latest_corrected_answer": {
+        "auth_methods": [
+          "OAuth2"
+        ],
+        "api_type": [
+          "GraphQL"
+        ],
+        "mcp_status": "unknown",
+        "buildability_verdict": "feasible",
+        "quality_gate_status": "passed"
+      },
+      "relevant_source_urls": [
+        "https://developers.linear.app/docs/graphql/working-with-the-graphql-api"
+      ],
+      "supporting_excerpts": [
+        "thentication | Agents | TypeScript SDK Getting Started GraphQL API Learn how to use the GraphQL API to query and mutate your data Authentication Use OAuth 2.0 or personal API keys to authenticate your requests to the Linear API Agents How to best integrate an AI agent into Linear TypeScript SDK Inst",
+        "Sections: Getting Started | GraphQL API | Authentication | Agents | TypeScript SDK Getting Started GraphQL API Learn how to use the GraphQL API to query and mutate your data Authentica"
+      ],
+      "questions_for_human_reviewer": [
+        "Risk trigger: OAuth-only classification contradicted: documentation explicitly mentions API keys or personal access tokens.; Excerpt mismatch for auth_methods: claimed 'oauth2' does not appear in supporting excerpt.",
+        "Check official developer accessibility for Linear.",
+        "Determine if human intervention is required to unblock API credentials."
+      ],
+      "human_judgment": {
+        "human_verified": false,
+        "reviewer_verdict": null,
+        "reviewer_notes": null,
+        "reviewed_at": null,
+        "reviewer_name": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-RISK-074",
+      "sample_type": "risk_based_priority",
+      "app_id": 74,
+      "app_name": "Jira",
+      "category_name": "Productivity and Project Management",
+      "original_agent_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "latest_corrected_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "relevant_source_urls": [],
+      "supporting_excerpts": [],
+      "questions_for_human_reviewer": [
+        "Risk trigger: Quality gate is 'needs_review' (potential WAF block or documentation deficit); Low overall confidence score",
+        "Check official developer accessibility for Jira.",
+        "Determine if human intervention is required to unblock API credentials."
+      ],
+      "human_judgment": {
+        "human_verified": false,
+        "reviewer_verdict": null,
+        "reviewer_notes": null,
+        "reviewed_at": null,
+        "reviewer_name": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-RISK-076",
+      "sample_type": "risk_based_priority",
+      "app_id": 76,
+      "app_name": "Monday.com",
+      "category_name": "Productivity and Project Management",
+      "original_agent_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "latest_corrected_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "relevant_source_urls": [],
+      "supporting_excerpts": [],
+      "questions_for_human_reviewer": [
+        "Risk trigger: Quality gate is 'needs_review' (potential WAF block or documentation deficit); Low overall confidence score",
+        "Check official developer accessibility for Monday.com.",
+        "Determine if human intervention is required to unblock API credentials."
+      ],
+      "human_judgment": {
+        "human_verified": false,
+        "reviewer_verdict": null,
+        "reviewer_notes": null,
+        "reviewed_at": null,
+        "reviewer_name": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-RISK-078",
+      "sample_type": "risk_based_priority",
+      "app_id": 78,
+      "app_name": "Coda",
+      "category_name": "Productivity and Project Management",
+      "original_agent_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "latest_corrected_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "relevant_source_urls": [],
+      "supporting_excerpts": [],
+      "questions_for_human_reviewer": [
+        "Risk trigger: Quality gate is 'needs_review' (potential WAF block or documentation deficit); Low overall confidence score",
+        "Check official developer accessibility for Coda.",
+        "Determine if human intervention is required to unblock API credentials."
+      ],
+      "human_judgment": {
+        "human_verified": false,
+        "reviewer_verdict": null,
+        "reviewer_notes": null,
+        "reviewed_at": null,
+        "reviewer_name": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-RISK-083",
+      "sample_type": "risk_based_priority",
+      "app_id": 83,
+      "app_name": "Binance",
+      "category_name": "Finance and Fintech",
+      "original_agent_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "latest_corrected_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "relevant_source_urls": [],
+      "supporting_excerpts": [],
+      "questions_for_human_reviewer": [
+        "Risk trigger: Quality gate is 'needs_review' (potential WAF block or documentation deficit); Low overall confidence score",
+        "Check official developer accessibility for Binance.",
+        "Determine if human intervention is required to unblock API credentials."
+      ],
+      "human_judgment": {
+        "human_verified": false,
+        "reviewer_verdict": null,
+        "reviewer_notes": null,
+        "reviewed_at": null,
+        "reviewer_name": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-RISK-084",
+      "sample_type": "risk_based_priority",
+      "app_id": 84,
+      "app_name": "Paygent Connect",
+      "category_name": "Finance and Fintech",
+      "original_agent_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "latest_corrected_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "relevant_source_urls": [],
+      "supporting_excerpts": [],
+      "questions_for_human_reviewer": [
+        "Risk trigger: Nonstandard integration surface (CLI, enterprise-only, or ambiguous vendor identity); Quality gate is 'needs_review' (potential WAF block or documentation deficit)",
+        "Check official developer accessibility for Paygent Connect.",
+        "Determine if human intervention is required to unblock API credentials."
+      ],
+      "human_judgment": {
+        "human_verified": false,
+        "reviewer_verdict": null,
+        "reviewer_notes": null,
+        "reviewed_at": null,
+        "reviewer_name": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-RISK-085",
+      "sample_type": "risk_based_priority",
+      "app_id": 85,
+      "app_name": "iPayX",
+      "category_name": "Finance and Fintech",
+      "original_agent_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "latest_corrected_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "relevant_source_urls": [],
+      "supporting_excerpts": [],
+      "questions_for_human_reviewer": [
+        "Risk trigger: Nonstandard integration surface (CLI, enterprise-only, or ambiguous vendor identity); Quality gate is 'needs_review' (potential WAF block or documentation deficit)",
+        "Check official developer accessibility for iPayX.",
+        "Determine if human intervention is required to unblock API credentials."
+      ],
+      "human_judgment": {
+        "human_verified": false,
+        "reviewer_verdict": null,
+        "reviewer_notes": null,
+        "reviewed_at": null,
+        "reviewer_name": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-RISK-086",
+      "sample_type": "risk_based_priority",
+      "app_id": 86,
+      "app_name": "QuickBooks",
+      "category_name": "Finance and Fintech",
+      "original_agent_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "latest_corrected_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "relevant_source_urls": [],
+      "supporting_excerpts": [],
+      "questions_for_human_reviewer": [
+        "Risk trigger: Quality gate is 'needs_review' (potential WAF block or documentation deficit); Low overall confidence score",
+        "Check official developer accessibility for QuickBooks.",
+        "Determine if human intervention is required to unblock API credentials."
+      ],
+      "human_judgment": {
+        "human_verified": false,
+        "reviewer_verdict": null,
+        "reviewer_notes": null,
+        "reviewed_at": null,
+        "reviewer_name": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-RISK-087",
+      "sample_type": "risk_based_priority",
+      "app_id": 87,
+      "app_name": "Xero",
+      "category_name": "Finance and Fintech",
+      "original_agent_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "latest_corrected_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "relevant_source_urls": [],
+      "supporting_excerpts": [],
+      "questions_for_human_reviewer": [
+        "Risk trigger: Quality gate is 'needs_review' (potential WAF block or documentation deficit); Low overall confidence score",
+        "Check official developer accessibility for Xero.",
+        "Determine if human intervention is required to unblock API credentials."
+      ],
+      "human_judgment": {
+        "human_verified": false,
+        "reviewer_verdict": null,
+        "reviewer_notes": null,
+        "reviewed_at": null,
+        "reviewer_name": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-RISK-089",
+      "sample_type": "risk_based_priority",
+      "app_id": 89,
+      "app_name": "Ramp",
+      "category_name": "Finance and Fintech",
+      "original_agent_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "latest_corrected_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "relevant_source_urls": [],
+      "supporting_excerpts": [],
+      "questions_for_human_reviewer": [
+        "Risk trigger: Quality gate is 'needs_review' (potential WAF block or documentation deficit); Low overall confidence score",
+        "Check official developer accessibility for Ramp.",
+        "Determine if human intervention is required to unblock API credentials."
+      ],
+      "human_judgment": {
+        "human_verified": false,
+        "reviewer_verdict": null,
+        "reviewer_notes": null,
+        "reviewed_at": null,
+        "reviewer_name": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-RISK-090",
+      "sample_type": "risk_based_priority",
+      "app_id": 90,
+      "app_name": "PitchBook",
+      "category_name": "Finance and Fintech",
+      "original_agent_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "latest_corrected_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "relevant_source_urls": [],
+      "supporting_excerpts": [],
+      "questions_for_human_reviewer": [
+        "Risk trigger: Nonstandard integration surface (CLI, enterprise-only, or ambiguous vendor identity); Quality gate is 'needs_review' (potential WAF block or documentation deficit)",
+        "Check official developer accessibility for PitchBook.",
+        "Determine if human intervention is required to unblock API credentials."
+      ],
+      "human_judgment": {
+        "human_verified": false,
+        "reviewer_verdict": null,
+        "reviewer_notes": null,
+        "reviewed_at": null,
+        "reviewer_name": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-RISK-091",
+      "sample_type": "risk_based_priority",
+      "app_id": 91,
+      "app_name": "NotebookLM",
+      "category_name": "AI, Research and Media-Native",
+      "original_agent_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "latest_corrected_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "relevant_source_urls": [],
+      "supporting_excerpts": [],
+      "questions_for_human_reviewer": [
+        "Risk trigger: Nonstandard integration surface (CLI, enterprise-only, or ambiguous vendor identity); Quality gate is 'needs_review' (potential WAF block or documentation deficit)",
+        "Check official developer accessibility for NotebookLM.",
+        "Determine if human intervention is required to unblock API credentials."
+      ],
+      "human_judgment": {
+        "human_verified": false,
+        "reviewer_verdict": null,
+        "reviewer_notes": null,
+        "reviewed_at": null,
+        "reviewer_name": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-RISK-093",
+      "sample_type": "risk_based_priority",
+      "app_id": 93,
+      "app_name": "Fathom",
+      "category_name": "AI, Research and Media-Native",
+      "original_agent_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "latest_corrected_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "relevant_source_urls": [],
+      "supporting_excerpts": [],
+      "questions_for_human_reviewer": [
+        "Risk trigger: Quality gate is 'needs_review' (potential WAF block or documentation deficit); Low overall confidence score",
+        "Check official developer accessibility for Fathom.",
+        "Determine if human intervention is required to unblock API credentials."
+      ],
+      "human_judgment": {
+        "human_verified": false,
+        "reviewer_verdict": null,
+        "reviewer_notes": null,
+        "reviewed_at": null,
+        "reviewer_name": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-RISK-094",
+      "sample_type": "risk_based_priority",
+      "app_id": 94,
+      "app_name": "Consensus",
+      "category_name": "AI, Research and Media-Native",
+      "original_agent_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "latest_corrected_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "relevant_source_urls": [],
+      "supporting_excerpts": [],
+      "questions_for_human_reviewer": [
+        "Risk trigger: Nonstandard integration surface (CLI, enterprise-only, or ambiguous vendor identity); Quality gate is 'needs_review' (potential WAF block or documentation deficit)",
+        "Check official developer accessibility for Consensus.",
+        "Determine if human intervention is required to unblock API credentials."
+      ],
+      "human_judgment": {
+        "human_verified": false,
+        "reviewer_verdict": null,
+        "reviewer_notes": null,
+        "reviewed_at": null,
+        "reviewer_name": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-RISK-097",
+      "sample_type": "risk_based_priority",
+      "app_id": 97,
+      "app_name": "higgsfield",
+      "category_name": "AI, Research and Media-Native",
+      "original_agent_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "latest_corrected_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "relevant_source_urls": [],
+      "supporting_excerpts": [],
+      "questions_for_human_reviewer": [
+        "Risk trigger: Quality gate is 'needs_review' (potential WAF block or documentation deficit); Low overall confidence score",
+        "Check official developer accessibility for higgsfield.",
+        "Determine if human intervention is required to unblock API credentials."
+      ],
+      "human_judgment": {
+        "human_verified": false,
+        "reviewer_verdict": null,
+        "reviewer_notes": null,
+        "reviewed_at": null,
+        "reviewer_name": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-RISK-098",
+      "sample_type": "risk_based_priority",
+      "app_id": 98,
+      "app_name": "Mermaid CLI",
+      "category_name": "AI, Research and Media-Native",
+      "original_agent_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "latest_corrected_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "relevant_source_urls": [],
+      "supporting_excerpts": [],
+      "questions_for_human_reviewer": [
+        "Risk trigger: Nonstandard integration surface (CLI, enterprise-only, or ambiguous vendor identity); Quality gate is 'needs_review' (potential WAF block or documentation deficit)",
+        "Check official developer accessibility for Mermaid CLI.",
+        "Determine if human intervention is required to unblock API credentials."
+      ],
+      "human_judgment": {
+        "human_verified": false,
+        "reviewer_verdict": null,
+        "reviewer_notes": null,
+        "reviewed_at": null,
+        "reviewer_name": null
+      }
+    },
+    {
+      "audit_id": "AUDIT-RISK-099",
+      "sample_type": "risk_based_priority",
+      "app_id": 99,
+      "app_name": "YouTube Transcript",
+      "category_name": "AI, Research and Media-Native",
+      "original_agent_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "latest_corrected_answer": {
+        "auth_methods": [],
+        "api_type": [],
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "quality_gate_status": "needs_review"
+      },
+      "relevant_source_urls": [],
+      "supporting_excerpts": [],
+      "questions_for_human_reviewer": [
+        "Risk trigger: Nonstandard integration surface (CLI, enterprise-only, or ambiguous vendor identity); Quality gate is 'needs_review' (potential WAF block or documentation deficit)",
+        "Check official developer accessibility for YouTube Transcript.",
+        "Determine if human intervention is required to unblock API credentials."
+      ],
+      "human_judgment": {
+        "human_verified": false,
+        "reviewer_verdict": null,
+        "reviewer_notes": null,
+        "reviewed_at": null,
+        "reviewer_name": null
+      }
+    }
+  ]
+}

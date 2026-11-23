@@ -1,0 +1,61 @@
+{
+  "status": "HUMAN AUDIT PENDING — ACCURACY NOT YET MEASURED",
+  "human_audit": {
+    "complete": false,
+    "sample_size": 20,
+    "sample_seed": 20261123,
+    "measured_accuracy": null,
+    "honesty_notice": "Ground-truth accuracy remains strictly unmeasured until genuine human review entries are logged in data/audit_interface.html. No synthetic accuracy statistics are displayed."
+  },
+  "corrections": {
+    "total_proposed_corrections": 3,
+    "total_applied_corrections": 3,
+    "corrections_independently_corroborated": 3,
+    "corrections_awaiting_human_review": 0,
+    "unresolved_contradictions": 0,
+    "regressions_identified": 0,
+    "applied_corrections": [
+      {
+        "app_id": 43,
+        "app_name": "BigCommerce",
+        "field_name": "quality_gate_status",
+        "original_value": "passed",
+        "corrected_value": "partial",
+        "reason": "Demoted quality gate from passed to partial due to 1 unsupported/contradicted claim(s).",
+        "timestamp": "2026-11-23T13:10:42.036447+00:00",
+        "corroborated": true
+      },
+      {
+        "app_id": 55,
+        "app_name": "Apify",
+        "field_name": "quality_gate_status",
+        "original_value": "passed",
+        "corrected_value": "partial",
+        "reason": "Demoted quality gate from passed to partial due to 1 unsupported/contradicted claim(s).",
+        "timestamp": "2026-11-23T13:10:42.037214+00:00",
+        "corroborated": true
+      },
+      {
+        "app_id": 65,
+        "app_name": "Supabase",
+        "field_name": "quality_gate_status",
+        "original_value": "passed",
+        "corrected_value": "partial",
+        "reason": "Demoted quality gate from passed to partial due to 1 unsupported/contradicted claim(s).",
+        "timestamp": "2026-11-23T13:10:42.038142+00:00",
+        "corroborated": true
+      }
+    ],
+    "first_pass_snapshots_preserved": true
+  },
+  "automated_cross_checks": {
+    "total_sampled_apps": 20,
+    "corroborated_with_secondary_sources": 20,
+    "discrepancies_detected": 0
+  },
+  "quality_gate_breakdown": {
+    "passed": 39,
+    "partial": 22,
+    "needs_review": 39
+  }
+}

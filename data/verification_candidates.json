@@ -1,0 +1,938 @@
+{
+  "metadata": {
+    "generated_at": "2026-11-23T18:23:37.163657",
+    "total_targeted_candidates": 73,
+    "total_stratified_audit_candidates": 10,
+    "note": "Candidate pool for Prompt 7 verification workflows. Accuracy is not pre-calculated here."
+  },
+  "targeted_candidates": [
+    {
+      "app_id": 1,
+      "app_name": "Salesforce",
+      "category_name": "CRM and Sales",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "needs_review",
+      "reasons_for_review": [
+        "Quality gate: needs_review (no discoverable docs or blocked by WAF)"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 2,
+      "app_name": "HubSpot",
+      "category_name": "CRM and Sales",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "partial",
+      "reasons_for_review": [
+        "Low confidence classification"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 3,
+      "app_name": "Pipedrive",
+      "category_name": "CRM and Sales",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "partial",
+      "reasons_for_review": [
+        "Low confidence classification"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 4,
+      "app_name": "Attio",
+      "category_name": "CRM and Sales",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "needs_review",
+      "reasons_for_review": [
+        "Quality gate: needs_review (no discoverable docs or blocked by WAF)"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 8,
+      "app_name": "Close",
+      "category_name": "CRM and Sales",
+      "current_verdict": "ready_to_build",
+      "current_quality_gate": "passed",
+      "reasons_for_review": [
+        "MCP claim audit: mcp_unverified",
+        "High buildability score audit: 9/10"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 10,
+      "app_name": "DealCloud",
+      "category_name": "CRM and Sales",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "needs_review",
+      "reasons_for_review": [
+        "Quality gate: needs_review (no discoverable docs or blocked by WAF)"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 11,
+      "app_name": "Zendesk",
+      "category_name": "Support and Helpdesk",
+      "current_verdict": "ready_to_build",
+      "current_quality_gate": "passed",
+      "reasons_for_review": [
+        "High buildability score audit: 10/10"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 12,
+      "app_name": "Intercom",
+      "category_name": "Support and Helpdesk",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "partial",
+      "reasons_for_review": [
+        "Low confidence classification"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 13,
+      "app_name": "Freshdesk",
+      "category_name": "Support and Helpdesk",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "partial",
+      "reasons_for_review": [
+        "Low confidence classification"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 15,
+      "app_name": "Pylon",
+      "category_name": "Support and Helpdesk",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "needs_review",
+      "reasons_for_review": [
+        "Quality gate: needs_review (no discoverable docs or blocked by WAF)"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 16,
+      "app_name": "LiveAgent",
+      "category_name": "Support and Helpdesk",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "needs_review",
+      "reasons_for_review": [
+        "Quality gate: needs_review (no discoverable docs or blocked by WAF)"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 17,
+      "app_name": "Plain",
+      "category_name": "Support and Helpdesk",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "needs_review",
+      "reasons_for_review": [
+        "Quality gate: needs_review (no discoverable docs or blocked by WAF)"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 18,
+      "app_name": "Help Scout",
+      "category_name": "Support and Helpdesk",
+      "current_verdict": "significant_barriers",
+      "current_quality_gate": "partial",
+      "reasons_for_review": [
+        "Low confidence classification"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 21,
+      "app_name": "Slack",
+      "category_name": "Communications and Messaging",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "passed",
+      "reasons_for_review": [
+        "MCP claim audit: mcp_unverified"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 23,
+      "app_name": "Zoho Cliq",
+      "category_name": "Communications and Messaging",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "needs_review",
+      "reasons_for_review": [
+        "Quality gate: needs_review (no discoverable docs or blocked by WAF)"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 24,
+      "app_name": "Lark (Larksuite)",
+      "category_name": "Communications and Messaging",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "needs_review",
+      "reasons_for_review": [
+        "Quality gate: needs_review (no discoverable docs or blocked by WAF)"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 25,
+      "app_name": "Pumble",
+      "category_name": "Communications and Messaging",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "needs_review",
+      "reasons_for_review": [
+        "Quality gate: needs_review (no discoverable docs or blocked by WAF)"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 26,
+      "app_name": "Discord",
+      "category_name": "Communications and Messaging",
+      "current_verdict": "significant_barriers",
+      "current_quality_gate": "partial",
+      "reasons_for_review": [
+        "Low confidence classification"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 27,
+      "app_name": "Telegram",
+      "category_name": "Communications and Messaging",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "partial",
+      "reasons_for_review": [
+        "Low confidence classification"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 28,
+      "app_name": "WhatsApp Business",
+      "category_name": "Communications and Messaging",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "needs_review",
+      "reasons_for_review": [
+        "Quality gate: needs_review (no discoverable docs or blocked by WAF)"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 29,
+      "app_name": "Aircall",
+      "category_name": "Communications and Messaging",
+      "current_verdict": "ready_to_build",
+      "current_quality_gate": "passed",
+      "reasons_for_review": [
+        "Multiple documented authentication methods"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 30,
+      "app_name": "Vonage",
+      "category_name": "Communications and Messaging",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "partial",
+      "reasons_for_review": [
+        "Low confidence classification"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 31,
+      "app_name": "Google Ads",
+      "category_name": "Marketing, Ads, Email and Social",
+      "current_verdict": "ready_to_build",
+      "current_quality_gate": "passed",
+      "reasons_for_review": [
+        "High buildability score audit: 9/10",
+        "Multiple documented authentication methods"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 32,
+      "app_name": "Meta Ads",
+      "category_name": "Marketing, Ads, Email and Social",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "needs_review",
+      "reasons_for_review": [
+        "Quality gate: needs_review (no discoverable docs or blocked by WAF)"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 33,
+      "app_name": "LinkedIn Ads",
+      "category_name": "Marketing, Ads, Email and Social",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "partial",
+      "reasons_for_review": [
+        "Low confidence classification"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 35,
+      "app_name": "Mailchimp",
+      "category_name": "Marketing, Ads, Email and Social",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "passed",
+      "reasons_for_review": [
+        "Multiple documented authentication methods"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 36,
+      "app_name": "Klaviyo",
+      "category_name": "Marketing, Ads, Email and Social",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "passed",
+      "reasons_for_review": [
+        "Multiple documented authentication methods"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 37,
+      "app_name": "systeme.io",
+      "category_name": "Marketing, Ads, Email and Social",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "needs_review",
+      "reasons_for_review": [
+        "Quality gate: needs_review (no discoverable docs or blocked by WAF)"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 38,
+      "app_name": "Pinterest",
+      "category_name": "Marketing, Ads, Email and Social",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "needs_review",
+      "reasons_for_review": [
+        "Quality gate: needs_review (no discoverable docs or blocked by WAF)"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 39,
+      "app_name": "Threads (Meta)",
+      "category_name": "Marketing, Ads, Email and Social",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "needs_review",
+      "reasons_for_review": [
+        "Quality gate: needs_review (no discoverable docs or blocked by WAF)"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 41,
+      "app_name": "Shopify",
+      "category_name": "Ecommerce",
+      "current_verdict": "ready_to_build",
+      "current_quality_gate": "passed",
+      "reasons_for_review": [
+        "MCP claim audit: mcp_unverified",
+        "High buildability score audit: 9/10"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 44,
+      "app_name": "Salesforce Commerce Cloud",
+      "category_name": "Ecommerce",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "needs_review",
+      "reasons_for_review": [
+        "Quality gate: needs_review (no discoverable docs or blocked by WAF)"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 47,
+      "app_name": "Ecwid",
+      "category_name": "Ecommerce",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "partial",
+      "reasons_for_review": [
+        "Low confidence classification"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 48,
+      "app_name": "Gumroad",
+      "category_name": "Ecommerce",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "needs_review",
+      "reasons_for_review": [
+        "Quality gate: needs_review (no discoverable docs or blocked by WAF)"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 49,
+      "app_name": "Amazon Selling Partner",
+      "category_name": "Ecommerce",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "partial",
+      "reasons_for_review": [
+        "Low confidence classification"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 50,
+      "app_name": "fanbasis",
+      "category_name": "Ecommerce",
+      "current_verdict": "significant_barriers",
+      "current_quality_gate": "partial",
+      "reasons_for_review": [
+        "Low confidence classification"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 52,
+      "app_name": "SE Ranking",
+      "category_name": "Data, SEO and Scraping",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "needs_review",
+      "reasons_for_review": [
+        "Quality gate: needs_review (no discoverable docs or blocked by WAF)"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 54,
+      "app_name": "MrScraper",
+      "category_name": "Data, SEO and Scraping",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "needs_review",
+      "reasons_for_review": [
+        "Quality gate: needs_review (no discoverable docs or blocked by WAF)"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 55,
+      "app_name": "Apify",
+      "category_name": "Data, SEO and Scraping",
+      "current_verdict": "feasible",
+      "current_quality_gate": "passed",
+      "reasons_for_review": [
+        "MCP claim audit: mcp_unverified"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 56,
+      "app_name": "Firecrawl",
+      "category_name": "Data, SEO and Scraping",
+      "current_verdict": "feasible",
+      "current_quality_gate": "passed",
+      "reasons_for_review": [
+        "MCP claim audit: mcp_unverified",
+        "Multiple documented authentication methods"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 58,
+      "app_name": "Sherlock",
+      "category_name": "Data, SEO and Scraping",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "needs_review",
+      "reasons_for_review": [
+        "Nonstandard integration surface (CLI, enterprise-only, or ambiguous vendor identity)",
+        "Quality gate: needs_review (no discoverable docs or blocked by WAF)"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 59,
+      "app_name": "Waterfall.io",
+      "category_name": "Data, SEO and Scraping",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "needs_review",
+      "reasons_for_review": [
+        "Quality gate: needs_review (no discoverable docs or blocked by WAF)"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 60,
+      "app_name": "Clay",
+      "category_name": "Data, SEO and Scraping",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "partial",
+      "reasons_for_review": [
+        "Low confidence classification"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 61,
+      "app_name": "GitHub",
+      "category_name": "Developer, Infra and Data Platforms",
+      "current_verdict": "ready_to_build",
+      "current_quality_gate": "passed",
+      "reasons_for_review": [
+        "MCP claim audit: official_mcp",
+        "High buildability score audit: 10/10"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 63,
+      "app_name": "Netlify",
+      "category_name": "Developer, Infra and Data Platforms",
+      "current_verdict": "ready_to_build",
+      "current_quality_gate": "passed",
+      "reasons_for_review": [
+        "Multiple documented authentication methods"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 64,
+      "app_name": "Cloudflare",
+      "category_name": "Developer, Infra and Data Platforms",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "needs_review",
+      "reasons_for_review": [
+        "Quality gate: needs_review (no discoverable docs or blocked by WAF)"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 66,
+      "app_name": "Neo4j",
+      "category_name": "Developer, Infra and Data Platforms",
+      "current_verdict": "significant_barriers",
+      "current_quality_gate": "partial",
+      "reasons_for_review": [
+        "Low confidence classification"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 70,
+      "app_name": "Sentry",
+      "category_name": "Developer, Infra and Data Platforms",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "partial",
+      "reasons_for_review": [
+        "Low confidence classification"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 71,
+      "app_name": "Notion",
+      "category_name": "Productivity and Project Management",
+      "current_verdict": "feasible",
+      "current_quality_gate": "passed",
+      "reasons_for_review": [
+        "Multiple documented authentication methods"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 72,
+      "app_name": "Airtable",
+      "category_name": "Productivity and Project Management",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "needs_review",
+      "reasons_for_review": [
+        "Quality gate: needs_review (no discoverable docs or blocked by WAF)"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 74,
+      "app_name": "Jira",
+      "category_name": "Productivity and Project Management",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "needs_review",
+      "reasons_for_review": [
+        "Quality gate: needs_review (no discoverable docs or blocked by WAF)"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 76,
+      "app_name": "Monday.com",
+      "category_name": "Productivity and Project Management",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "needs_review",
+      "reasons_for_review": [
+        "Quality gate: needs_review (no discoverable docs or blocked by WAF)"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 77,
+      "app_name": "ClickUp",
+      "category_name": "Productivity and Project Management",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "passed",
+      "reasons_for_review": [
+        "MCP claim audit: mcp_unverified"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 78,
+      "app_name": "Coda",
+      "category_name": "Productivity and Project Management",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "needs_review",
+      "reasons_for_review": [
+        "Quality gate: needs_review (no discoverable docs or blocked by WAF)"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 79,
+      "app_name": "Smartsheet",
+      "category_name": "Productivity and Project Management",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "partial",
+      "reasons_for_review": [
+        "Low confidence classification"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 80,
+      "app_name": "Harvest",
+      "category_name": "Productivity and Project Management",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "partial",
+      "reasons_for_review": [
+        "Low confidence classification"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 82,
+      "app_name": "Plaid",
+      "category_name": "Finance and Fintech",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "partial",
+      "reasons_for_review": [
+        "Low confidence classification"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 83,
+      "app_name": "Binance",
+      "category_name": "Finance and Fintech",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "needs_review",
+      "reasons_for_review": [
+        "Quality gate: needs_review (no discoverable docs or blocked by WAF)"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 84,
+      "app_name": "Paygent Connect",
+      "category_name": "Finance and Fintech",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "needs_review",
+      "reasons_for_review": [
+        "Nonstandard integration surface (CLI, enterprise-only, or ambiguous vendor identity)",
+        "Quality gate: needs_review (no discoverable docs or blocked by WAF)"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 85,
+      "app_name": "iPayX",
+      "category_name": "Finance and Fintech",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "needs_review",
+      "reasons_for_review": [
+        "Nonstandard integration surface (CLI, enterprise-only, or ambiguous vendor identity)",
+        "Quality gate: needs_review (no discoverable docs or blocked by WAF)"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 86,
+      "app_name": "QuickBooks",
+      "category_name": "Finance and Fintech",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "needs_review",
+      "reasons_for_review": [
+        "Quality gate: needs_review (no discoverable docs or blocked by WAF)"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 87,
+      "app_name": "Xero",
+      "category_name": "Finance and Fintech",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "needs_review",
+      "reasons_for_review": [
+        "Quality gate: needs_review (no discoverable docs or blocked by WAF)"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 89,
+      "app_name": "Ramp",
+      "category_name": "Finance and Fintech",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "needs_review",
+      "reasons_for_review": [
+        "Quality gate: needs_review (no discoverable docs or blocked by WAF)"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 90,
+      "app_name": "PitchBook",
+      "category_name": "Finance and Fintech",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "needs_review",
+      "reasons_for_review": [
+        "Nonstandard integration surface (CLI, enterprise-only, or ambiguous vendor identity)",
+        "Quality gate: needs_review (no discoverable docs or blocked by WAF)"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 91,
+      "app_name": "NotebookLM",
+      "category_name": "AI, Research and Media-Native",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "needs_review",
+      "reasons_for_review": [
+        "Nonstandard integration surface (CLI, enterprise-only, or ambiguous vendor identity)",
+        "Quality gate: needs_review (no discoverable docs or blocked by WAF)"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 92,
+      "app_name": "Otter AI",
+      "category_name": "AI, Research and Media-Native",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "needs_review",
+      "reasons_for_review": [
+        "Quality gate: needs_review (no discoverable docs or blocked by WAF)"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 93,
+      "app_name": "Fathom",
+      "category_name": "AI, Research and Media-Native",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "needs_review",
+      "reasons_for_review": [
+        "Quality gate: needs_review (no discoverable docs or blocked by WAF)"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 94,
+      "app_name": "Consensus",
+      "category_name": "AI, Research and Media-Native",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "needs_review",
+      "reasons_for_review": [
+        "Nonstandard integration surface (CLI, enterprise-only, or ambiguous vendor identity)",
+        "Quality gate: needs_review (no discoverable docs or blocked by WAF)"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 95,
+      "app_name": "Reducto",
+      "category_name": "AI, Research and Media-Native",
+      "current_verdict": "feasible",
+      "current_quality_gate": "passed",
+      "reasons_for_review": [
+        "MCP claim audit: mcp_unverified"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 97,
+      "app_name": "higgsfield",
+      "category_name": "AI, Research and Media-Native",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "needs_review",
+      "reasons_for_review": [
+        "Quality gate: needs_review (no discoverable docs or blocked by WAF)"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 98,
+      "app_name": "Mermaid CLI",
+      "category_name": "AI, Research and Media-Native",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "needs_review",
+      "reasons_for_review": [
+        "Nonstandard integration surface (CLI, enterprise-only, or ambiguous vendor identity)",
+        "Quality gate: needs_review (no discoverable docs or blocked by WAF)"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 99,
+      "app_name": "YouTube Transcript",
+      "category_name": "AI, Research and Media-Native",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "needs_review",
+      "reasons_for_review": [
+        "Nonstandard integration surface (CLI, enterprise-only, or ambiguous vendor identity)",
+        "Quality gate: needs_review (no discoverable docs or blocked by WAF)"
+      ],
+      "candidate_type": "targeted_investigation"
+    },
+    {
+      "app_id": 100,
+      "app_name": "Grain",
+      "category_name": "AI, Research and Media-Native",
+      "current_verdict": "feasible",
+      "current_quality_gate": "partial",
+      "reasons_for_review": [
+        "Low confidence classification"
+      ],
+      "candidate_type": "targeted_investigation"
+    }
+  ],
+  "stratified_category_sample": [
+    {
+      "app_id": 1,
+      "app_name": "Salesforce",
+      "category_name": "CRM and Sales",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "needs_review",
+      "candidate_type": "stratified_category_audit",
+      "reasons_for_review": [
+        "Stratified category baseline audit"
+      ]
+    },
+    {
+      "app_id": 11,
+      "app_name": "Zendesk",
+      "category_name": "Support and Helpdesk",
+      "current_verdict": "ready_to_build",
+      "current_quality_gate": "passed",
+      "candidate_type": "stratified_category_audit",
+      "reasons_for_review": [
+        "Stratified category baseline audit"
+      ]
+    },
+    {
+      "app_id": 21,
+      "app_name": "Slack",
+      "category_name": "Communications and Messaging",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "passed",
+      "candidate_type": "stratified_category_audit",
+      "reasons_for_review": [
+        "Stratified category baseline audit"
+      ]
+    },
+    {
+      "app_id": 31,
+      "app_name": "Google Ads",
+      "category_name": "Marketing, Ads, Email and Social",
+      "current_verdict": "ready_to_build",
+      "current_quality_gate": "passed",
+      "candidate_type": "stratified_category_audit",
+      "reasons_for_review": [
+        "Stratified category baseline audit"
+      ]
+    },
+    {
+      "app_id": 41,
+      "app_name": "Shopify",
+      "category_name": "Ecommerce",
+      "current_verdict": "ready_to_build",
+      "current_quality_gate": "passed",
+      "candidate_type": "stratified_category_audit",
+      "reasons_for_review": [
+        "Stratified category baseline audit"
+      ]
+    },
+    {
+      "app_id": 51,
+      "app_name": "DataForSEO",
+      "category_name": "Data, SEO and Scraping",
+      "current_verdict": "feasible",
+      "current_quality_gate": "passed",
+      "candidate_type": "stratified_category_audit",
+      "reasons_for_review": [
+        "Stratified category baseline audit"
+      ]
+    },
+    {
+      "app_id": 61,
+      "app_name": "GitHub",
+      "category_name": "Developer, Infra and Data Platforms",
+      "current_verdict": "ready_to_build",
+      "current_quality_gate": "passed",
+      "candidate_type": "stratified_category_audit",
+      "reasons_for_review": [
+        "Stratified category baseline audit"
+      ]
+    },
+    {
+      "app_id": 71,
+      "app_name": "Notion",
+      "category_name": "Productivity and Project Management",
+      "current_verdict": "feasible",
+      "current_quality_gate": "passed",
+      "candidate_type": "stratified_category_audit",
+      "reasons_for_review": [
+        "Stratified category baseline audit"
+      ]
+    },
+    {
+      "app_id": 81,
+      "app_name": "Stripe",
+      "category_name": "Finance and Fintech",
+      "current_verdict": "feasible",
+      "current_quality_gate": "passed",
+      "candidate_type": "stratified_category_audit",
+      "reasons_for_review": [
+        "Stratified category baseline audit"
+      ]
+    },
+    {
+      "app_id": 91,
+      "app_name": "NotebookLM",
+      "category_name": "AI, Research and Media-Native",
+      "current_verdict": "needs_investigation",
+      "current_quality_gate": "needs_review",
+      "candidate_type": "stratified_category_audit",
+      "reasons_for_review": [
+        "Stratified category baseline audit"
+      ]
+    }
+  ]
+}

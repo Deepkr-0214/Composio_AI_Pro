@@ -1,0 +1,331 @@
+{
+  "metadata": {
+    "sample_size": 20,
+    "methodology": "Secondary documentation retrieval and repository cross-referencing.",
+    "disclaimer": "These automated cross-checks assist verification but do not substitute for human audit."
+  },
+  "cross_checks": [
+    {
+      "app_id": 3,
+      "app_name": "Pipedrive",
+      "category_name": "CRM and Sales",
+      "first_pass_verdict": "needs_investigation",
+      "latest_verdict": "needs_investigation",
+      "cross_check_status": "corroborated",
+      "secondary_source_url": "https://developers.pipedrive.com/docs/api/v1",
+      "corroborated_auth_methods": [
+        "OAuth2",
+        "API Key"
+      ],
+      "corroborated_api_type": [
+        "REST"
+      ],
+      "cross_check_notes": "Official v1 REST API supports both API token and OAuth 2.0 app authorization."
+    },
+    {
+      "app_id": 10,
+      "app_name": "DealCloud",
+      "category_name": "CRM and Sales",
+      "first_pass_verdict": "needs_investigation",
+      "latest_verdict": "needs_investigation",
+      "cross_check_status": "unresolved_enterprise_gated",
+      "secondary_source_url": "https://www.intapp.com/dealcloud/",
+      "corroborated_auth_methods": [],
+      "corroborated_api_type": [],
+      "cross_check_notes": "DealCloud (Intapp) developer documentation requires private enterprise client login. No open public API docs."
+    },
+    {
+      "app_id": 16,
+      "app_name": "LiveAgent",
+      "category_name": "Support and Helpdesk",
+      "first_pass_verdict": "needs_investigation",
+      "latest_verdict": "needs_investigation",
+      "cross_check_status": "corroborated",
+      "secondary_source_url": "https://support.liveagent.com/061756-API-v3",
+      "corroborated_auth_methods": [
+        "API Key"
+      ],
+      "corroborated_api_type": [
+        "REST"
+      ],
+      "cross_check_notes": "LiveAgent provides API v3 REST endpoints authenticated via API key."
+    },
+    {
+      "app_id": 18,
+      "app_name": "Help Scout",
+      "category_name": "Support and Helpdesk",
+      "first_pass_verdict": "significant_barriers",
+      "latest_verdict": "significant_barriers",
+      "cross_check_status": "corroborated",
+      "secondary_source_url": "https://developer.helpscout.com/mailbox-api/overview/",
+      "corroborated_auth_methods": [
+        "OAuth2"
+      ],
+      "corroborated_api_type": [
+        "REST"
+      ],
+      "cross_check_notes": "Mailbox API 2.0 supports OAuth 2.0 client credentials and authorization code flows."
+    },
+    {
+      "app_id": 22,
+      "app_name": "Twilio",
+      "category_name": "Communications and Messaging",
+      "first_pass_verdict": "feasible",
+      "latest_verdict": "feasible",
+      "cross_check_status": "corroborated",
+      "secondary_source_url": "https://www.twilio.com/docs/usage/api",
+      "corroborated_auth_methods": [
+        "Basic Auth",
+        "API Key"
+      ],
+      "corroborated_api_type": [
+        "REST"
+      ],
+      "cross_check_notes": "Extensive REST API authenticated via Account SID and Auth Token (HTTP Basic Auth) or API Keys."
+    },
+    {
+      "app_id": 29,
+      "app_name": "Aircall",
+      "category_name": "Communications and Messaging",
+      "first_pass_verdict": "ready_to_build",
+      "latest_verdict": "ready_to_build",
+      "cross_check_status": "corroborated",
+      "secondary_source_url": "https://developer.aircall.io/api-references/",
+      "corroborated_auth_methods": [
+        "Basic Auth",
+        "OAuth2"
+      ],
+      "corroborated_api_type": [
+        "REST"
+      ],
+      "cross_check_notes": "Confirmed REST API supporting API ID/Token HTTP Basic auth as well as OAuth2 partner integration."
+    },
+    {
+      "app_id": 32,
+      "app_name": "Meta Ads",
+      "category_name": "Marketing, Ads, Email and Social",
+      "first_pass_verdict": "needs_investigation",
+      "latest_verdict": "needs_investigation",
+      "cross_check_status": "corroborated_with_barriers",
+      "secondary_source_url": "https://developers.facebook.com/docs/marketing-apis/",
+      "corroborated_auth_methods": [
+        "OAuth2",
+        "Bearer Token"
+      ],
+      "corroborated_api_type": [
+        "REST",
+        "GraphQL"
+      ],
+      "cross_check_notes": "Marketing API requires Meta App Review, Business Manager verification, and system user access tokens."
+    },
+    {
+      "app_id": 35,
+      "app_name": "Mailchimp",
+      "category_name": "Marketing, Ads, Email and Social",
+      "first_pass_verdict": "needs_investigation",
+      "latest_verdict": "needs_investigation",
+      "cross_check_status": "corroborated",
+      "secondary_source_url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+      "corroborated_auth_methods": [
+        "API Key",
+        "OAuth2"
+      ],
+      "corroborated_api_type": [
+        "REST"
+      ],
+      "cross_check_notes": "Marketing API v3 REST endpoints support both API Key (Basic Auth) and OAuth2."
+    },
+    {
+      "app_id": 41,
+      "app_name": "Shopify",
+      "category_name": "Ecommerce",
+      "first_pass_verdict": "ready_to_build",
+      "latest_verdict": "ready_to_build",
+      "cross_check_status": "corroborated",
+      "secondary_source_url": "https://shopify.dev/docs/api/admin-graphql",
+      "corroborated_auth_methods": [
+        "OAuth2"
+      ],
+      "corroborated_api_type": [
+        "GraphQL",
+        "REST"
+      ],
+      "cross_check_notes": "Extensive Admin GraphQL & REST APIs with OAuth2 access tokens."
+    },
+    {
+      "app_id": 42,
+      "app_name": "WooCommerce",
+      "category_name": "Ecommerce",
+      "first_pass_verdict": "feasible",
+      "latest_verdict": "feasible",
+      "cross_check_status": "corroborated",
+      "secondary_source_url": "https://woocommerce.github.io/woocommerce-rest-api-docs/",
+      "corroborated_auth_methods": [
+        "Basic Auth",
+        "OAuth2"
+      ],
+      "corroborated_api_type": [
+        "REST"
+      ],
+      "cross_check_notes": "Open-source REST API using Consumer Key & Secret via HTTPS Basic Auth or OAuth 1.0a."
+    },
+    {
+      "app_id": 57,
+      "app_name": "Bright Data",
+      "category_name": "Data, SEO and Scraping",
+      "first_pass_verdict": "feasible",
+      "latest_verdict": "feasible",
+      "cross_check_status": "corroborated",
+      "secondary_source_url": "https://docs.brightdata.com/",
+      "corroborated_auth_methods": [
+        "API Key",
+        "Bearer Token"
+      ],
+      "corroborated_api_type": [
+        "REST"
+      ],
+      "cross_check_notes": "Scraping & proxy API authenticated via API Bearer token."
+    },
+    {
+      "app_id": 59,
+      "app_name": "Waterfall.io",
+      "category_name": "Data, SEO and Scraping",
+      "first_pass_verdict": "needs_investigation",
+      "latest_verdict": "needs_investigation",
+      "cross_check_status": "unresolved_missing_portal",
+      "secondary_source_url": "https://waterfall.io/",
+      "corroborated_auth_methods": [],
+      "corroborated_api_type": [],
+      "cross_check_notes": "Product website lacks self-serve public developer portal."
+    },
+    {
+      "app_id": 63,
+      "app_name": "Netlify",
+      "category_name": "Developer, Infra and Data Platforms",
+      "first_pass_verdict": "ready_to_build",
+      "latest_verdict": "ready_to_build",
+      "cross_check_status": "corroborated",
+      "secondary_source_url": "https://open-api.netlify.com/",
+      "corroborated_auth_methods": [
+        "OAuth2",
+        "Personal Access Token"
+      ],
+      "corroborated_api_type": [
+        "REST"
+      ],
+      "cross_check_notes": "Comprehensive OpenAPI 2.0 / REST specification with Bearer token authentication."
+    },
+    {
+      "app_id": 67,
+      "app_name": "Snowflake",
+      "category_name": "Developer, Infra and Data Platforms",
+      "first_pass_verdict": "ready_to_build",
+      "latest_verdict": "ready_to_build",
+      "cross_check_status": "corroborated",
+      "secondary_source_url": "https://docs.snowflake.com/en/developer-guide/sql-api/index",
+      "corroborated_auth_methods": [
+        "OAuth2",
+        "JWT"
+      ],
+      "corroborated_api_type": [
+        "REST"
+      ],
+      "cross_check_notes": "SQL REST API authenticated via OAuth2 or key-pair JWT tokens."
+    },
+    {
+      "app_id": 71,
+      "app_name": "Notion",
+      "category_name": "Productivity and Project Management",
+      "first_pass_verdict": "feasible",
+      "latest_verdict": "feasible",
+      "cross_check_status": "corroborated",
+      "secondary_source_url": "https://developers.notion.com/reference/intro",
+      "corroborated_auth_methods": [
+        "Bearer Token",
+        "OAuth2"
+      ],
+      "corroborated_api_type": [
+        "REST"
+      ],
+      "cross_check_notes": "Notion API authenticated with Bearer tokens (internal integrations) and OAuth2 (public integrations)."
+    },
+    {
+      "app_id": 75,
+      "app_name": "Asana",
+      "category_name": "Productivity and Project Management",
+      "first_pass_verdict": "feasible",
+      "latest_verdict": "feasible",
+      "cross_check_status": "corroborated",
+      "secondary_source_url": "https://developers.asana.com/docs/overview",
+      "corroborated_auth_methods": [
+        "OAuth2",
+        "Personal Access Token"
+      ],
+      "corroborated_api_type": [
+        "REST"
+      ],
+      "cross_check_notes": "Official REST API supporting OAuth2 and Personal Access Tokens."
+    },
+    {
+      "app_id": 82,
+      "app_name": "Plaid",
+      "category_name": "Finance and Fintech",
+      "first_pass_verdict": "needs_investigation",
+      "latest_verdict": "needs_investigation",
+      "cross_check_status": "corroborated",
+      "secondary_source_url": "https://plaid.com/docs/api/",
+      "corroborated_auth_methods": [
+        "API Key"
+      ],
+      "corroborated_api_type": [
+        "REST"
+      ],
+      "cross_check_notes": "REST API authenticated with client_id and secret in JSON request body or headers."
+    },
+    {
+      "app_id": 87,
+      "app_name": "Xero",
+      "category_name": "Finance and Fintech",
+      "first_pass_verdict": "needs_investigation",
+      "latest_verdict": "needs_investigation",
+      "cross_check_status": "corroborated",
+      "secondary_source_url": "https://developer.xero.com/documentation/guides/oauth2/overview/",
+      "corroborated_auth_methods": [
+        "OAuth2"
+      ],
+      "corroborated_api_type": [
+        "REST"
+      ],
+      "cross_check_notes": "Requires OAuth 2.0 PKCE / Authorization code for all accounting API access."
+    },
+    {
+      "app_id": 98,
+      "app_name": "Mermaid CLI",
+      "category_name": "AI, Research and Media-Native",
+      "first_pass_verdict": "needs_investigation",
+      "latest_verdict": "needs_investigation",
+      "cross_check_status": "corroborated_nonstandard",
+      "secondary_source_url": "https://github.com/mermaid-js/mermaid-cli",
+      "corroborated_auth_methods": [
+        "none"
+      ],
+      "corroborated_api_type": [
+        "CLI Only",
+        "Local/Open-Source"
+      ],
+      "cross_check_notes": "Local command-line tool distributed via npm (mmdc). No hosted cloud SaaS API."
+    },
+    {
+      "app_id": 100,
+      "app_name": "Grain",
+      "category_name": "AI, Research and Media-Native",
+      "first_pass_verdict": "feasible",
+      "latest_verdict": "feasible",
+      "cross_check_status": "unresolved_missing_portal",
+      "secondary_source_url": "https://grain.com/",
+      "corroborated_auth_methods": [],
+      "corroborated_api_type": [],
+      "cross_check_notes": "No publicly documented developer REST API; integration is primarily native Zoom/Meet apps."
+    }
+  ]
+}

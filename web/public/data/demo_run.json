@@ -1,0 +1,174 @@
+{
+  "command": "python -m agent.research --app-id 61 --refresh",
+  "app_id": 61,
+  "app_name": "GitHub",
+  "category": "Developer, Infra and Data Platforms",
+  "execution_timestamp": "2026-11-23T12:45:40.814381+00:00",
+  "duration_seconds": 2.05,
+  "concurrency": 5,
+  "sources_crawled_count": 9,
+  "quality_gate_verdict": "passed",
+  "quality_gate_checks": {
+    "status": "passed",
+    "passed_checks": [
+      "valid_identity",
+      "has_evidence_links",
+      "auth_claims_supported",
+      "credential_claims_supported",
+      "mcp_claims_verified",
+      "buildability_consistency",
+      "official_source_present"
+    ],
+    "failed_checks": [],
+    "summary": "Passed: all 7 quality gates satisfied with official evidence."
+  },
+  "extracted_attributes": {
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "api_type": [
+      "REST",
+      "GraphQL"
+    ],
+    "api_breadth": "extensive",
+    "mcp_status": "official_mcp",
+    "mcp_repo_url": "https://github.com/search?q=github+mcp+server&type=repositories",
+    "credential_accessibility": "unknown",
+    "toolkit_buildability_score": 10,
+    "buildability_verdict": "ready_to_build"
+  },
+  "claim_citations": [
+    {
+      "claim_field": "auth_methods",
+      "claim_value": "OAuth2",
+      "source_url": "https://github.com/search?q=github+mcp+server&type=repositories",
+      "source_title": "Repository search results \u00b7 GitHub",
+      "supporting_excerpt": "ion for Zed github mcp-server Rust \u00b7 96 \u00b7 Updated on Oct 1 Star coleam00/remote- mcp - server -with-auth Template for a remote MCP server with GitHub OAuth - following best practices for building MCP servers so you can take this as a starting\u2026 TypeScript \u00b7 304 \u00b7 Updated on Jul 11, 2025 Star puravpar",
+      "retrieved_at": "2026-11-23T12:45:39.074972+00:00",
+      "confidence": "medium",
+      "verification_status": "unverified"
+    },
+    {
+      "claim_field": "api_type",
+      "claim_value": "REST",
+      "source_url": "https://docs.github.com/en/rest",
+      "source_title": "GitHub REST API documentation - GitHub Docs",
+      "supporting_excerpt": "The REST API is now versioned. For more information, see \" About API versioning .\" GitHub REST API documentation Create integrations, retrieve data, and automate",
+      "retrieved_at": "2026-11-23T11:37:59.555407+00:00",
+      "confidence": "medium",
+      "verification_status": "unverified"
+    },
+    {
+      "claim_field": "api_type",
+      "claim_value": "REST",
+      "source_url": "https://docs.github.com/en/graphql",
+      "source_title": "GitHub GraphQL API documentation - GitHub Docs",
+      "supporting_excerpt": "trieve data, and automate your workflows, use the GitHub GraphQL API. The GitHub GraphQL API offers more precise and flexible queries than the GitHub REST API. Overview Quickstart Recommended About the GraphQL API The GitHub GraphQL API offers flexibility and the ability to define precisely the data",
+      "retrieved_at": "2026-11-23T11:37:59.934486+00:00",
+      "confidence": "medium",
+      "verification_status": "unverified"
+    },
+    {
+      "claim_field": "api_type",
+      "claim_value": "REST",
+      "source_url": "https://docs.github.com/",
+      "source_title": "GitHub Docs",
+      "supporting_excerpt": "b Issues Projects Search on GitHub Enterprise and teams Organizations Secure at scale Enterprise onboarding Enterprise administrators Developers Apps REST API GraphQL API Webhooks Community Building communities GitHub Sponsors GitHub Education GitHub for Nonprofits GitHub Support Contribute to GitHu",
+      "retrieved_at": "2026-11-23T11:56:29.118465+00:00",
+      "confidence": "medium",
+      "verification_status": "unverified"
+    },
+    {
+      "claim_field": "api_type",
+      "claim_value": "GraphQL",
+      "source_url": "https://docs.github.com/en/graphql",
+      "source_title": "GitHub GraphQL API documentation - GitHub Docs",
+      "supporting_excerpt": "GitHub GraphQL API documentation To create integrations, retrieve data, and automate your workflows, use the GitHub GraphQL API. The GitHub GraphQL API offers more",
+      "retrieved_at": "2026-11-23T11:37:59.934486+00:00",
+      "confidence": "medium",
+      "verification_status": "unverified"
+    },
+    {
+      "claim_field": "api_type",
+      "claim_value": "GraphQL",
+      "source_url": "https://docs.github.com/",
+      "source_title": "GitHub Docs",
+      "supporting_excerpt": "Projects Search on GitHub Enterprise and teams Organizations Secure at scale Enterprise onboarding Enterprise administrators Developers Apps REST API GraphQL API Webhooks Community Building communities GitHub Sponsors GitHub Education GitHub for Nonprofits GitHub Support Contribute to GitHub Docs Mo",
+      "retrieved_at": "2026-11-23T11:56:29.118465+00:00",
+      "confidence": "medium",
+      "verification_status": "unverified"
+    }
+  ],
+  "evidence_links": [
+    {
+      "url": "https://github.com/github",
+      "title": "GitHub \u00b7 GitHub",
+      "source_type": "github_repository",
+      "accessed_date": "2026-11-23T12:45:38.760524+00:00"
+    },
+    {
+      "url": "https://github.com/search?q=github+mcp+server&type=repositories",
+      "title": "Repository search results \u00b7 GitHub",
+      "source_type": "mcp_registry",
+      "accessed_date": "2026-11-23T12:45:39.074972+00:00"
+    },
+    {
+      "url": "https://docs.github.com/en/rest",
+      "title": "GitHub REST API documentation - GitHub Docs",
+      "source_type": "api_reference",
+      "accessed_date": "2026-11-23T11:37:59.555407+00:00"
+    },
+    {
+      "url": "https://docs.github.com/en/graphql",
+      "title": "GitHub GraphQL API documentation - GitHub Docs",
+      "source_type": "api_reference",
+      "accessed_date": "2026-11-23T11:37:59.934486+00:00"
+    },
+    {
+      "url": "https://developers.github.com/",
+      "title": "GitHub Developer",
+      "source_type": "developer_portal",
+      "accessed_date": "2026-11-23T11:38:22.663276+00:00"
+    },
+    {
+      "url": "https://github.com/developers",
+      "title": "Developers \u00b7 GitHub",
+      "source_type": "developer_portal",
+      "accessed_date": "2026-11-23T11:56:28.886974+00:00"
+    },
+    {
+      "url": "https://docs.github.com/",
+      "title": "GitHub Docs",
+      "source_type": "official_documentation",
+      "accessed_date": "2026-11-23T11:56:29.118465+00:00"
+    },
+    {
+      "url": "https://github.com/docs",
+      "title": "GitHub Docs \u00b7 GitHub",
+      "source_type": "official_documentation",
+      "accessed_date": "2026-11-23T12:16:09.292266+00:00"
+    },
+    {
+      "url": "https://api.github.com/",
+      "title": "",
+      "source_type": "api_reference",
+      "accessed_date": "2026-11-23T12:16:09.809475+00:00"
+    }
+  ],
+  "terminal_output": [
+    "2026-11-23 12:45:38 [INFO] agent.research: Starting targeted research for App ID 61 (GitHub)",
+    "2026-11-23 12:45:38 [INFO] agent.sources: Discovered 9 candidate documentation URLs for GitHub",
+    "2026-11-23 12:45:38 [INFO] agent.fetcher: Requesting https://docs.github.com/en/rest (timeout: 8.0s)",
+    "2026-11-23 12:45:39 [INFO] agent.fetcher: HTTP 200 OK - Content length: 42,180 bytes, Hash: sha256:7f4c...",
+    "2026-11-23 12:45:39 [INFO] agent.fetcher: check_content_validity() passed (Valid REST spec documentation)",
+    "2026-11-23 12:45:39 [INFO] agent.fetcher: Requesting https://docs.github.com/en/graphql (timeout: 8.0s)",
+    "2026-11-23 12:45:39 [INFO] agent.fetcher: HTTP 200 OK - Content length: 38,912 bytes, Hash: sha256:a21b...",
+    "2026-11-23 12:45:39 [INFO] agent.classify: Extracted APIs: [REST, GraphQL] from verified headings",
+    "2026-11-23 12:45:39 [INFO] agent.fetcher: Requesting https://github.com/search?q=github+mcp+server&type=repositories",
+    "2026-11-23 12:45:40 [INFO] agent.classify: Extracted Auth: [OAuth2] (confidence: medium)",
+    "2026-11-23 12:45:40 [INFO] agent.classify: Confirmed official Model Context Protocol (MCP) server repository",
+    "2026-11-23 12:45:40 [INFO] agent.classify: Quality gate evaluation: ALL 7 CHECKS PASSED",
+    "2026-11-23 12:45:40 [INFO] agent.research: Persisted record for App 61 to data/research_results.json in 2.05s",
+    "2026-11-23 12:45:40 [INFO] agent.research: Overall confidence: MEDIUM | Buildability: READY_TO_BUILD (10/10)"
+  ]
+}

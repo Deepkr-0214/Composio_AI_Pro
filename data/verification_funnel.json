@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "generated_at": "2026-11-23T18:52:00Z",
+    "scope": "100 Application Verification Pipeline Funnel",
+    "note": "Demonstrates operational progression from initial dataset to human audit checkpoint."
+  },
+  "stages": [
+    {
+      "stage_id": 1,
+      "stage_name": "Assigned Applications",
+      "count": 100,
+      "percentage_of_total": 100.0,
+      "description": "Target applications across 10 categories."
+    },
+    {
+      "stage_id": 2,
+      "stage_name": "Automated Research Attempted",
+      "count": 100,
+      "percentage_of_total": 100.0,
+      "description": "Applications with executed documentation discovery and HTTP fetching."
+    },
+    {
+      "stage_id": 3,
+      "stage_name": "Passing Structural Validation",
+      "count": 100,
+      "percentage_of_total": 100.0,
+      "description": "Applications adhering strictly to 12 schema, ID, enum, and type integrity rules."
+    },
+    {
+      "stage_id": 4,
+      "stage_name": "Passing Quality Gates & Evidence Checks",
+      "count": 39,
+      "percentage_of_total": 39.0,
+      "description": "Applications with verified HTTP 200 sources meeting full evidence quality gates (plus 19 partial)."
+    },
+    {
+      "stage_id": 5,
+      "stage_name": "Independently Cross-Checked",
+      "count": 20,
+      "percentage_of_total": 20.0,
+      "description": "Sampled applications evaluated against secondary sources and repository cross-references."
+    },
+    {
+      "stage_id": 6,
+      "stage_name": "Manually Reviewed by Human Auditor",
+      "count": 0,
+      "percentage_of_total": 0.0,
+      "description": "Applications with completed human ground-truth judgments (Currently: PENDING HUMAN REVIEW)."
+    },
+    {
+      "stage_id": 7,
+      "stage_name": "Applications with Measured Accuracy",
+      "count": 0,
+      "percentage_of_total": 0.0,
+      "description": "Applications with empirically scored accuracy against human ground truth (Status: NOT MEASURED)."
+    }
+  ],
+  "funnel_summary": {
+    "total_assigned": 100,
+    "researched_count": 100,
+    "quality_gate_passed": 39,
+    "quality_gate_partial": 22,
+    "with_documentation_evidence": 61,
+    "cross_checked_sample_size": 20,
+    "human_reviews_completed": 0,
+    "accuracy_status": "HUMAN AUDIT PENDING \u2014 ACCURACY NOT YET MEASURED."
+  }
+}

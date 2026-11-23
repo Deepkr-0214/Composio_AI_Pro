@@ -1,0 +1,888 @@
+[
+  {
+    "app_id": 1,
+    "app_name": "Salesforce",
+    "category_id": 1,
+    "category_name": "CRM and Sales",
+    "description": "",
+    "website_url": "",
+    "auth_methods": [],
+    "auth_methods_status": "unknown",
+    "credential_accessibility": "unknown",
+    "credential_accessibility_status": "unknown",
+    "credential_notes": "",
+    "api_type": [],
+    "api_type_status": "unknown",
+    "api_docs_url": "",
+    "api_breadth": "unknown",
+    "api_breadth_status": "unknown",
+    "api_breadth_notes": "No content to analyze.",
+    "estimated_endpoint_count": null,
+    "has_official_mcp": "unknown",
+    "has_community_mcp": "unknown",
+    "mcp_status": "unknown",
+    "mcp_repo_url": "",
+    "mcp_notes": "No MCP evidence found.",
+    "toolkit_buildability": "confirmed_yes",
+    "toolkit_buildability_score": 4,
+    "toolkit_buildability_notes": "API availability unknown. Authentication methods unknown. Credential accessibility unknown.",
+    "buildability_verdict": "needs_investigation",
+    "blockers": [],
+    "blockers_status": "unknown",
+    "overall_confidence": "low",
+    "evidence_links": [],
+    "claim_evidence": [],
+    "evidence_quality_score": 0.7,
+    "evidence_warnings": [
+      "Salesforce: No evidence links recorded."
+    ],
+    "quality_gate_status": "needs_review",
+    "quality_gate_checks": {
+      "status": "needs_review",
+      "passed_checks": [
+        "valid_identity",
+        "auth_claims_supported",
+        "credential_claims_supported",
+        "mcp_claims_verified",
+        "buildability_consistency"
+      ],
+      "failed_checks": [
+        "has_evidence_links",
+        "official_source_present"
+      ],
+      "summary": "Needs Review: no verifiable evidence collected."
+    },
+    "researched_at": "2026-11-23T12:15:50.699513+00:00",
+    "verified_at": "",
+    "research_notes": "No documentation content could be fetched.",
+    "research_duration_seconds": 2.0,
+    "human_intervention_needed": false,
+    "human_intervention_notes": ""
+  },
+  {
+    "app_id": 11,
+    "app_name": "Zendesk",
+    "category_id": 2,
+    "category_name": "Support and Helpdesk",
+    "description": "",
+    "website_url": "",
+    "auth_methods": [],
+    "auth_methods_status": "unknown",
+    "credential_accessibility": "unknown",
+    "credential_accessibility_status": "unknown",
+    "credential_notes": "",
+    "api_type": [],
+    "api_type_status": "unknown",
+    "api_docs_url": "",
+    "api_breadth": "broad",
+    "api_breadth_status": "confirmed_yes",
+    "api_breadth_notes": "Broad API: 6 entity types, 1 CRUD ops detected.",
+    "estimated_endpoint_count": null,
+    "has_official_mcp": "unknown",
+    "has_community_mcp": "unknown",
+    "mcp_status": "unknown",
+    "mcp_repo_url": "",
+    "mcp_notes": "No MCP evidence found.",
+    "toolkit_buildability": "confirmed_yes",
+    "toolkit_buildability_score": 5,
+    "toolkit_buildability_notes": "API availability unknown. Authentication methods unknown. Credential accessibility unknown.",
+    "buildability_verdict": "needs_investigation",
+    "blockers": [],
+    "blockers_status": "unknown",
+    "overall_confidence": "low",
+    "evidence_links": [
+      {
+        "url": "https://developer.zendesk.com/api-reference",
+        "title": "API Reference Home | Zendesk Developer Docs",
+        "source_type": "api_reference",
+        "accessed_date": "2026-11-23T12:15:50.731987+00:00"
+      }
+    ],
+    "claim_evidence": [],
+    "evidence_quality_score": 1.0,
+    "evidence_warnings": [],
+    "quality_gate_status": "partial",
+    "quality_gate_checks": {
+      "status": "partial",
+      "passed_checks": [
+        "valid_identity",
+        "has_evidence_links",
+        "auth_claims_supported",
+        "credential_claims_supported",
+        "mcp_claims_verified",
+        "buildability_consistency",
+        "official_source_present"
+      ],
+      "failed_checks": [],
+      "summary": "Partial: preliminary evidence gathered (7 passed, 0 gaps)."
+    },
+    "researched_at": "2026-11-23T12:15:55.310895+00:00",
+    "verified_at": "",
+    "research_notes": "",
+    "research_duration_seconds": 4.58,
+    "human_intervention_needed": false,
+    "human_intervention_notes": ""
+  },
+  {
+    "app_id": 21,
+    "app_name": "Slack",
+    "category_id": 3,
+    "category_name": "Communications and Messaging",
+    "description": "",
+    "website_url": "",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "auth_methods_status": "confirmed_yes",
+    "credential_accessibility": "unknown",
+    "credential_accessibility_status": "unknown",
+    "credential_notes": "",
+    "api_type": [],
+    "api_type_status": "unknown",
+    "api_docs_url": "",
+    "api_breadth": "moderate",
+    "api_breadth_status": "confirmed_yes",
+    "api_breadth_notes": "Moderate API: 3 entity types, 2 CRUD ops.",
+    "estimated_endpoint_count": null,
+    "has_official_mcp": "unknown",
+    "has_community_mcp": "unknown",
+    "mcp_status": "mcp_unverified",
+    "mcp_repo_url": "",
+    "mcp_notes": "MCP mentioned in documentation but not confirmed with repository evidence.",
+    "toolkit_buildability": "confirmed_yes",
+    "toolkit_buildability_score": 5,
+    "toolkit_buildability_notes": "API availability unknown. Standard auth: OAuth2. Credential accessibility unknown.",
+    "buildability_verdict": "needs_investigation",
+    "blockers": [],
+    "blockers_status": "unknown",
+    "overall_confidence": "medium",
+    "evidence_links": [
+      {
+        "url": "https://api.slack.com/",
+        "title": "Build an app with a coding agent | Slack Developer Docs",
+        "source_type": "api_reference",
+        "accessed_date": "2026-11-23T12:15:55.344363+00:00"
+      },
+      {
+        "url": "https://api.slack.com/authentication",
+        "title": "Authentication overview | Slack Developer Docs",
+        "source_type": "authentication_documentation",
+        "accessed_date": "2026-11-23T12:15:56.574817+00:00"
+      }
+    ],
+    "claim_evidence": [
+      {
+        "claim_field": "auth_methods",
+        "claim_value": "OAuth2",
+        "source_url": "https://api.slack.com/authentication",
+        "source_title": "Authentication overview | Slack Developer Docs",
+        "supporting_excerpt": "ut it doesn’t have to be daunting. With the right tools and best practices, you’ll have a secure, smooth authentication flow. Whether you’re handling OAuth 2.0 , verifying requests , or setting up Sign in with Slack , we’ve got you covered. Authentication basics ​ Before your app can access Slack da",
+        "retrieved_at": "2026-11-23T12:15:56.574817+00:00",
+        "confidence": "medium",
+        "verification_status": "unverified"
+      }
+    ],
+    "evidence_quality_score": 0.9,
+    "evidence_warnings": [
+      "Slack: Auth methods identified but credential accessibility is unknown."
+    ],
+    "quality_gate_status": "passed",
+    "quality_gate_checks": {
+      "status": "passed",
+      "passed_checks": [
+        "valid_identity",
+        "has_evidence_links",
+        "auth_claims_supported",
+        "credential_claims_supported",
+        "mcp_claims_verified",
+        "buildability_consistency",
+        "official_source_present"
+      ],
+      "failed_checks": [],
+      "summary": "Passed: all 7 quality gates satisfied with official evidence."
+    },
+    "researched_at": "2026-11-23T12:16:02.305711+00:00",
+    "verified_at": "",
+    "research_notes": "",
+    "research_duration_seconds": 6.96,
+    "human_intervention_needed": false,
+    "human_intervention_notes": ""
+  },
+  {
+    "app_id": 31,
+    "app_name": "Google Ads",
+    "category_id": 4,
+    "category_name": "Marketing, Ads, Email and Social",
+    "description": "",
+    "website_url": "",
+    "auth_methods": [],
+    "auth_methods_status": "unknown",
+    "credential_accessibility": "unknown",
+    "credential_accessibility_status": "unknown",
+    "credential_notes": "",
+    "api_type": [],
+    "api_type_status": "unknown",
+    "api_docs_url": "",
+    "api_breadth": "broad",
+    "api_breadth_status": "confirmed_yes",
+    "api_breadth_notes": "Broad API: 3 entity types, 2 CRUD ops detected.",
+    "estimated_endpoint_count": null,
+    "has_official_mcp": "unknown",
+    "has_community_mcp": "unknown",
+    "mcp_status": "unknown",
+    "mcp_repo_url": "",
+    "mcp_notes": "No MCP evidence found.",
+    "toolkit_buildability": "confirmed_yes",
+    "toolkit_buildability_score": 5,
+    "toolkit_buildability_notes": "API availability unknown. Authentication methods unknown. Credential accessibility unknown.",
+    "buildability_verdict": "needs_investigation",
+    "blockers": [],
+    "blockers_status": "unknown",
+    "overall_confidence": "low",
+    "evidence_links": [
+      {
+        "url": "https://developers.google.com/google-ads/api/docs/start",
+        "title": "Introduction to the Google Ads API  |  Google for Developers",
+        "source_type": "api_reference",
+        "accessed_date": "2026-11-23T12:16:02.323121+00:00"
+      }
+    ],
+    "claim_evidence": [],
+    "evidence_quality_score": 1.0,
+    "evidence_warnings": [],
+    "quality_gate_status": "partial",
+    "quality_gate_checks": {
+      "status": "partial",
+      "passed_checks": [
+        "valid_identity",
+        "has_evidence_links",
+        "auth_claims_supported",
+        "credential_claims_supported",
+        "mcp_claims_verified",
+        "buildability_consistency",
+        "official_source_present"
+      ],
+      "failed_checks": [],
+      "summary": "Partial: preliminary evidence gathered (7 passed, 0 gaps)."
+    },
+    "researched_at": "2026-11-23T12:16:05.263641+00:00",
+    "verified_at": "",
+    "research_notes": "",
+    "research_duration_seconds": 2.94,
+    "human_intervention_needed": false,
+    "human_intervention_notes": ""
+  },
+  {
+    "app_id": 41,
+    "app_name": "Shopify",
+    "category_id": 5,
+    "category_name": "Ecommerce",
+    "description": "",
+    "website_url": "",
+    "auth_methods": [],
+    "auth_methods_status": "unknown",
+    "credential_accessibility": "unknown",
+    "credential_accessibility_status": "unknown",
+    "credential_notes": "",
+    "api_type": [
+      "GraphQL"
+    ],
+    "api_type_status": "confirmed_yes",
+    "api_docs_url": "",
+    "api_breadth": "moderate",
+    "api_breadth_status": "confirmed_yes",
+    "api_breadth_notes": "Moderate API: 0 entity types, 1 CRUD ops.",
+    "estimated_endpoint_count": null,
+    "has_official_mcp": "unknown",
+    "has_community_mcp": "unknown",
+    "mcp_status": "unknown",
+    "mcp_repo_url": "",
+    "mcp_notes": "No MCP evidence found.",
+    "toolkit_buildability": "confirmed_yes",
+    "toolkit_buildability_score": 7,
+    "toolkit_buildability_notes": "Has GraphQL API(s). Authentication methods unknown. Credential accessibility unknown.",
+    "buildability_verdict": "feasible",
+    "blockers": [],
+    "blockers_status": "unknown",
+    "overall_confidence": "medium",
+    "evidence_links": [
+      {
+        "url": "https://shopify.dev/docs/api",
+        "title": "Shopify APIs, libraries, and tools",
+        "source_type": "api_reference",
+        "accessed_date": "2026-11-23T12:16:05.276812+00:00"
+      }
+    ],
+    "claim_evidence": [
+      {
+        "claim_field": "api_type",
+        "claim_value": "GraphQL",
+        "source_url": "https://shopify.dev/docs/api",
+        "source_title": "Shopify APIs, libraries, and tools",
+        "supporting_excerpt": "error codes are shared across APIs, and idempotent requests let you safely retry a request that might have failed. Global IDs identify objects in the GraphQL APIs, cursor-based pagination walks long lists of them, and the search query syntax filters those lists. Dev tools Anchor to Set up your devel",
+        "retrieved_at": "2026-11-23T12:16:05.276812+00:00",
+        "confidence": "medium",
+        "verification_status": "unverified"
+      }
+    ],
+    "evidence_quality_score": 1.0,
+    "evidence_warnings": [],
+    "quality_gate_status": "passed",
+    "quality_gate_checks": {
+      "status": "passed",
+      "passed_checks": [
+        "valid_identity",
+        "has_evidence_links",
+        "auth_claims_supported",
+        "credential_claims_supported",
+        "mcp_claims_verified",
+        "buildability_consistency",
+        "official_source_present"
+      ],
+      "failed_checks": [],
+      "summary": "Passed: all 7 quality gates satisfied with official evidence."
+    },
+    "researched_at": "2026-11-23T12:16:06.222457+00:00",
+    "verified_at": "",
+    "research_notes": "",
+    "research_duration_seconds": 0.95,
+    "human_intervention_needed": false,
+    "human_intervention_notes": ""
+  },
+  {
+    "app_id": 55,
+    "app_name": "Apify",
+    "category_id": 6,
+    "category_name": "Data, SEO and Scraping",
+    "description": "",
+    "website_url": "",
+    "auth_methods": [],
+    "auth_methods_status": "unknown",
+    "credential_accessibility": "unknown",
+    "credential_accessibility_status": "unknown",
+    "credential_notes": "",
+    "api_type": [
+      "REST"
+    ],
+    "api_type_status": "confirmed_yes",
+    "api_docs_url": "",
+    "api_breadth": "moderate",
+    "api_breadth_status": "confirmed_yes",
+    "api_breadth_notes": "Moderate API: 2 entity types, 2 CRUD ops.",
+    "estimated_endpoint_count": null,
+    "has_official_mcp": "unknown",
+    "has_community_mcp": "unknown",
+    "mcp_status": "mcp_unverified",
+    "mcp_repo_url": "",
+    "mcp_notes": "MCP mentioned in documentation but not confirmed with repository evidence.",
+    "toolkit_buildability": "confirmed_yes",
+    "toolkit_buildability_score": 7,
+    "toolkit_buildability_notes": "Has REST API(s). Authentication methods unknown. Credential accessibility unknown.",
+    "buildability_verdict": "feasible",
+    "blockers": [],
+    "blockers_status": "unknown",
+    "overall_confidence": "medium",
+    "evidence_links": [
+      {
+        "url": "https://docs.apify.com/api/v2",
+        "title": "Apify API | Apify Documentation",
+        "source_type": "api_reference",
+        "accessed_date": "2026-11-23T12:16:06.241677+00:00"
+      },
+      {
+        "url": "https://github.com/apify",
+        "title": "Apify · GitHub",
+        "source_type": "github_repository",
+        "accessed_date": "2026-11-23T12:16:06.841000+00:00"
+      }
+    ],
+    "claim_evidence": [
+      {
+        "claim_field": "api_type",
+        "claim_value": "REST",
+        "source_url": "https://docs.apify.com/api/v2",
+        "source_title": "Apify API | Apify Documentation",
+        "supporting_excerpt": "v2-2026-11-18T151559Z YAML JSON Apify API The Apify API (version 2) provides programmatic access to the Apify platform . The API is organized around RESTful HTTP endpoints. You can download the complete OpenAPI schema of Apify API in the YAML or JSON formats. The source code is also available on Git",
+        "retrieved_at": "2026-11-23T12:16:06.241677+00:00",
+        "confidence": "medium",
+        "verification_status": "unverified"
+      }
+    ],
+    "evidence_quality_score": 1.0,
+    "evidence_warnings": [],
+    "quality_gate_status": "passed",
+    "quality_gate_checks": {
+      "status": "passed",
+      "passed_checks": [
+        "valid_identity",
+        "has_evidence_links",
+        "auth_claims_supported",
+        "credential_claims_supported",
+        "mcp_claims_verified",
+        "buildability_consistency",
+        "official_source_present"
+      ],
+      "failed_checks": [],
+      "summary": "Passed: all 7 quality gates satisfied with official evidence."
+    },
+    "researched_at": "2026-11-23T12:16:09.277252+00:00",
+    "verified_at": "",
+    "research_notes": "",
+    "research_duration_seconds": 3.04,
+    "human_intervention_needed": false,
+    "human_intervention_notes": ""
+  },
+  {
+    "app_id": 61,
+    "app_name": "GitHub",
+    "category_id": 7,
+    "category_name": "Developer, Infra and Data Platforms",
+    "description": "",
+    "website_url": "",
+    "auth_methods": [],
+    "auth_methods_status": "unknown",
+    "credential_accessibility": "unknown",
+    "credential_accessibility_status": "unknown",
+    "credential_notes": "",
+    "api_type": [
+      "REST",
+      "GraphQL"
+    ],
+    "api_type_status": "confirmed_yes",
+    "api_docs_url": "",
+    "api_breadth": "broad",
+    "api_breadth_status": "confirmed_yes",
+    "api_breadth_notes": "Broad API: 7 entity types, 1 CRUD ops detected.",
+    "estimated_endpoint_count": null,
+    "has_official_mcp": "unknown",
+    "has_community_mcp": "unknown",
+    "mcp_status": "unknown",
+    "mcp_repo_url": "",
+    "mcp_notes": "No MCP evidence found.",
+    "toolkit_buildability": "confirmed_yes",
+    "toolkit_buildability_score": 8,
+    "toolkit_buildability_notes": "Has REST, GraphQL API(s). Authentication methods unknown. Credential accessibility unknown.",
+    "buildability_verdict": "ready_to_build",
+    "blockers": [],
+    "blockers_status": "unknown",
+    "overall_confidence": "medium",
+    "evidence_links": [
+      {
+        "url": "https://github.com/docs",
+        "title": "GitHub Docs · GitHub",
+        "source_type": "official_documentation",
+        "accessed_date": "2026-11-23T12:16:09.292266+00:00"
+      },
+      {
+        "url": "https://api.github.com/",
+        "title": "",
+        "source_type": "api_reference",
+        "accessed_date": "2026-11-23T12:16:09.809475+00:00"
+      },
+      {
+        "url": "https://docs.github.com/en/rest",
+        "title": "GitHub REST API documentation - GitHub Docs",
+        "source_type": "api_reference",
+        "accessed_date": "2026-11-23T11:37:59.555407+00:00"
+      },
+      {
+        "url": "https://docs.github.com/en/graphql",
+        "title": "GitHub GraphQL API documentation - GitHub Docs",
+        "source_type": "api_reference",
+        "accessed_date": "2026-11-23T11:37:59.934486+00:00"
+      },
+      {
+        "url": "https://developers.github.com/",
+        "title": "GitHub Developer",
+        "source_type": "developer_portal",
+        "accessed_date": "2026-11-23T11:38:22.663276+00:00"
+      },
+      {
+        "url": "https://github.com/developers",
+        "title": "Developers · GitHub",
+        "source_type": "developer_portal",
+        "accessed_date": "2026-11-23T11:56:28.886974+00:00"
+      },
+      {
+        "url": "https://docs.github.com/",
+        "title": "GitHub Docs",
+        "source_type": "official_documentation",
+        "accessed_date": "2026-11-23T11:56:29.118465+00:00"
+      }
+    ],
+    "claim_evidence": [
+      {
+        "claim_field": "api_type",
+        "claim_value": "REST",
+        "source_url": "https://docs.github.com/en/rest",
+        "source_title": "GitHub REST API documentation - GitHub Docs",
+        "supporting_excerpt": "The REST API is now versioned. For more information, see \" About API versioning .\" GitHub REST API documentation Create integrations, retrieve data, and automate",
+        "retrieved_at": "2026-11-23T11:37:59.555407+00:00",
+        "confidence": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "claim_field": "api_type",
+        "claim_value": "REST",
+        "source_url": "https://docs.github.com/en/graphql",
+        "source_title": "GitHub GraphQL API documentation - GitHub Docs",
+        "supporting_excerpt": "trieve data, and automate your workflows, use the GitHub GraphQL API. The GitHub GraphQL API offers more precise and flexible queries than the GitHub REST API. Overview Quickstart Recommended About the GraphQL API The GitHub GraphQL API offers flexibility and the ability to define precisely the data",
+        "retrieved_at": "2026-11-23T11:37:59.934486+00:00",
+        "confidence": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "claim_field": "api_type",
+        "claim_value": "REST",
+        "source_url": "https://docs.github.com/",
+        "source_title": "GitHub Docs",
+        "supporting_excerpt": "b Issues Projects Search on GitHub Enterprise and teams Organizations Secure at scale Enterprise onboarding Enterprise administrators Developers Apps REST API GraphQL API Webhooks Community Building communities GitHub Sponsors GitHub Education GitHub for Nonprofits GitHub Support Contribute to GitHu",
+        "retrieved_at": "2026-11-23T11:56:29.118465+00:00",
+        "confidence": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "claim_field": "api_type",
+        "claim_value": "GraphQL",
+        "source_url": "https://docs.github.com/en/graphql",
+        "source_title": "GitHub GraphQL API documentation - GitHub Docs",
+        "supporting_excerpt": "GitHub GraphQL API documentation To create integrations, retrieve data, and automate your workflows, use the GitHub GraphQL API. The GitHub GraphQL API offers more",
+        "retrieved_at": "2026-11-23T11:37:59.934486+00:00",
+        "confidence": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "claim_field": "api_type",
+        "claim_value": "GraphQL",
+        "source_url": "https://docs.github.com/",
+        "source_title": "GitHub Docs",
+        "supporting_excerpt": "Projects Search on GitHub Enterprise and teams Organizations Secure at scale Enterprise onboarding Enterprise administrators Developers Apps REST API GraphQL API Webhooks Community Building communities GitHub Sponsors GitHub Education GitHub for Nonprofits GitHub Support Contribute to GitHub Docs Mo",
+        "retrieved_at": "2026-11-23T11:56:29.118465+00:00",
+        "confidence": "medium",
+        "verification_status": "unverified"
+      }
+    ],
+    "evidence_quality_score": 1.0,
+    "evidence_warnings": [],
+    "quality_gate_status": "passed",
+    "quality_gate_checks": {
+      "status": "passed",
+      "passed_checks": [
+        "valid_identity",
+        "has_evidence_links",
+        "auth_claims_supported",
+        "credential_claims_supported",
+        "mcp_claims_verified",
+        "buildability_consistency",
+        "official_source_present"
+      ],
+      "failed_checks": [],
+      "summary": "Passed: all 7 quality gates satisfied with official evidence."
+    },
+    "researched_at": "2026-11-23T12:16:11.452431+00:00",
+    "verified_at": "",
+    "research_notes": "",
+    "research_duration_seconds": 2.16,
+    "human_intervention_needed": false,
+    "human_intervention_notes": ""
+  },
+  {
+    "app_id": 71,
+    "app_name": "Notion",
+    "category_id": 8,
+    "category_name": "Productivity and Project Management",
+    "description": "",
+    "website_url": "",
+    "auth_methods": [
+      "OAuth2",
+      "Bearer Token",
+      "Personal Access Token"
+    ],
+    "auth_methods_status": "confirmed_yes",
+    "credential_accessibility": "unknown",
+    "credential_accessibility_status": "unknown",
+    "credential_notes": "",
+    "api_type": [],
+    "api_type_status": "unknown",
+    "api_docs_url": "",
+    "api_breadth": "moderate",
+    "api_breadth_status": "confirmed_yes",
+    "api_breadth_notes": "Moderate API: 3 entity types, 2 CRUD ops.",
+    "estimated_endpoint_count": null,
+    "has_official_mcp": "unknown",
+    "has_community_mcp": "unknown",
+    "mcp_status": "unknown",
+    "mcp_repo_url": "",
+    "mcp_notes": "No MCP evidence found.",
+    "toolkit_buildability": "confirmed_yes",
+    "toolkit_buildability_score": 5,
+    "toolkit_buildability_notes": "API availability unknown. Standard auth: OAuth2, Bearer Token, Personal Access Token. Credential accessibility unknown.",
+    "buildability_verdict": "needs_investigation",
+    "blockers": [],
+    "blockers_status": "unknown",
+    "overall_confidence": "medium",
+    "evidence_links": [
+      {
+        "url": "https://developers.notion.com/reference/intro",
+        "title": "Introduction - Notion Docs",
+        "source_type": "api_reference",
+        "accessed_date": "2026-11-23T11:38:23.916190+00:00"
+      },
+      {
+        "url": "https://developers.notion.com/",
+        "title": "Notion API quickstart",
+        "source_type": "developer_portal",
+        "accessed_date": "2026-11-23T11:56:30.197642+00:00"
+      }
+    ],
+    "claim_evidence": [
+      {
+        "claim_field": "auth_methods",
+        "claim_value": "OAuth2",
+        "source_url": "https://developers.notion.com/",
+        "source_title": "Notion API quickstart",
+        "supporting_excerpt": "a personal access token A personal access token (PAT) lets you authenticate API requests as yourself without setting up a connection or completing an OAuth flow. 1 Open Personal access tokens in the Developer portal. 2 Select New token . 3 Enter a name, select the Notion API capability, and then sel",
+        "retrieved_at": "2026-11-23T11:56:30.197642+00:00",
+        "confidence": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "claim_field": "auth_methods",
+        "claim_value": "Bearer Token",
+        "source_url": "https://developers.notion.com/reference/intro",
+        "source_title": "Introduction - Notion Docs",
+        "supporting_excerpt": "on.com . To make your first request, follow the API quickstart . Conventions For requests to pages, databases, and other workspace resources, send an Authorization: Bearer header with your token and a Notion-Version header . The authentication reference lists the supported token types. Most endpoint",
+        "retrieved_at": "2026-11-23T11:38:23.916190+00:00",
+        "confidence": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "claim_field": "auth_methods",
+        "claim_value": "Bearer Token",
+        "source_url": "https://developers.notion.com/",
+        "source_title": "Notion API quickstart",
+        "supporting_excerpt": "API creates a private page in your workspace, using the # heading as the page title automatically. curl -X POST https://api.notion.com/v1/pages \\ -H \"Authorization: Bearer $NOTION_API_KEY \" \\ -H \"Notion-Version: 2026-03-11\" \\ -H \"Content-Type: application/json\" \\ -d '{ \"icon\": { \"emoji\": \"🚀\" }, \"mar",
+        "retrieved_at": "2026-11-23T11:56:30.197642+00:00",
+        "confidence": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "claim_field": "auth_methods",
+        "claim_value": "Personal Access Token",
+        "source_url": "https://developers.notion.com/",
+        "source_title": "Notion API quickstart",
+        "supporting_excerpt": "share feedback in Notion. This guide walks you through creating your first page with the API. You need a Notion account and a terminal. Step 1: Get a personal access token A personal access token (PAT) lets you authenticate API requests as yourself without setting up a connection or completing an OA",
+        "retrieved_at": "2026-11-23T11:56:30.197642+00:00",
+        "confidence": "medium",
+        "verification_status": "unverified"
+      }
+    ],
+    "evidence_quality_score": 0.9,
+    "evidence_warnings": [
+      "Notion: Auth methods identified but credential accessibility is unknown."
+    ],
+    "quality_gate_status": "passed",
+    "quality_gate_checks": {
+      "status": "passed",
+      "passed_checks": [
+        "valid_identity",
+        "has_evidence_links",
+        "auth_claims_supported",
+        "credential_claims_supported",
+        "mcp_claims_verified",
+        "buildability_consistency",
+        "official_source_present"
+      ],
+      "failed_checks": [],
+      "summary": "Passed: all 7 quality gates satisfied with official evidence."
+    },
+    "researched_at": "2026-11-23T12:16:14.122354+00:00",
+    "verified_at": "",
+    "research_notes": "",
+    "research_duration_seconds": 2.66,
+    "human_intervention_needed": false,
+    "human_intervention_notes": ""
+  },
+  {
+    "app_id": 81,
+    "app_name": "Stripe",
+    "category_id": 9,
+    "category_name": "Finance and Fintech",
+    "description": "",
+    "website_url": "",
+    "auth_methods": [
+      "API Key"
+    ],
+    "auth_methods_status": "confirmed_yes",
+    "credential_accessibility": "unknown",
+    "credential_accessibility_status": "unknown",
+    "credential_notes": "",
+    "api_type": [
+      "REST"
+    ],
+    "api_type_status": "confirmed_yes",
+    "api_docs_url": "",
+    "api_breadth": "narrow",
+    "api_breadth_status": "confirmed_yes",
+    "api_breadth_notes": "Narrow API: limited signals (3 total).",
+    "estimated_endpoint_count": null,
+    "has_official_mcp": "unknown",
+    "has_community_mcp": "unknown",
+    "mcp_status": "unknown",
+    "mcp_repo_url": "",
+    "mcp_notes": "No MCP evidence found.",
+    "toolkit_buildability": "confirmed_yes",
+    "toolkit_buildability_score": 7,
+    "toolkit_buildability_notes": "Has REST API(s). Standard auth: API Key. Credential accessibility unknown.",
+    "buildability_verdict": "feasible",
+    "blockers": [],
+    "blockers_status": "unknown",
+    "overall_confidence": "medium",
+    "evidence_links": [
+      {
+        "url": "https://docs.stripe.com/",
+        "title": "Stripe Documentation",
+        "source_type": "official_documentation",
+        "accessed_date": "2026-11-23T12:16:14.669904+00:00"
+      },
+      {
+        "url": "https://docs.stripe.com/api",
+        "title": "Stripe API Reference",
+        "source_type": "api_reference",
+        "accessed_date": "2026-11-23T11:38:24.842266+00:00"
+      }
+    ],
+    "claim_evidence": [
+      {
+        "claim_field": "auth_methods",
+        "claim_value": "API Key",
+        "source_url": "https://docs.stripe.com/api",
+        "source_title": "Stripe API Reference",
+        "supporting_excerpt": "codes, authentication, and verbs. You can use the Stripe API in sandboxes without affecting your live data or interacting with banking networks. The API key that you use to authenticate the request determines whether the request runs in live mode or in a sandbox. Sandboxes support all v2 APIs. Test ",
+        "retrieved_at": "2026-11-23T11:38:24.842266+00:00",
+        "confidence": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "claim_field": "api_type",
+        "claim_value": "REST",
+        "source_url": "https://docs.stripe.com/api",
+        "source_title": "Stripe API Reference",
+        "supporting_excerpt": "API Reference The Stripe API is organized around REST . Our API has predictable resource-oriented URLs, accepts form-encoded request bodies, returns JSON-encoded responses, and uses standard HTTP respons",
+        "retrieved_at": "2026-11-23T11:38:24.842266+00:00",
+        "confidence": "medium",
+        "verification_status": "unverified"
+      }
+    ],
+    "evidence_quality_score": 0.9,
+    "evidence_warnings": [
+      "Stripe: Auth methods identified but credential accessibility is unknown."
+    ],
+    "quality_gate_status": "passed",
+    "quality_gate_checks": {
+      "status": "passed",
+      "passed_checks": [
+        "valid_identity",
+        "has_evidence_links",
+        "auth_claims_supported",
+        "credential_claims_supported",
+        "mcp_claims_verified",
+        "buildability_consistency",
+        "official_source_present"
+      ],
+      "failed_checks": [],
+      "summary": "Passed: all 7 quality gates satisfied with official evidence."
+    },
+    "researched_at": "2026-11-23T12:16:16.823408+00:00",
+    "verified_at": "",
+    "research_notes": "",
+    "research_duration_seconds": 2.68,
+    "human_intervention_needed": false,
+    "human_intervention_notes": ""
+  },
+  {
+    "app_id": 96,
+    "app_name": "Devin",
+    "category_id": 10,
+    "category_name": "AI, Research and Media-Native",
+    "description": "",
+    "website_url": "",
+    "auth_methods": [
+      "Bearer Token"
+    ],
+    "auth_methods_status": "confirmed_yes",
+    "credential_accessibility": "unknown",
+    "credential_accessibility_status": "unknown",
+    "credential_notes": "",
+    "api_type": [],
+    "api_type_status": "unknown",
+    "api_docs_url": "",
+    "api_breadth": "broad",
+    "api_breadth_status": "confirmed_yes",
+    "api_breadth_notes": "Broad API: 5 entity types, 2 CRUD ops detected.",
+    "estimated_endpoint_count": null,
+    "has_official_mcp": "unknown",
+    "has_community_mcp": "unknown",
+    "mcp_status": "unknown",
+    "mcp_repo_url": "",
+    "mcp_notes": "No MCP evidence found.",
+    "toolkit_buildability": "confirmed_yes",
+    "toolkit_buildability_score": 6,
+    "toolkit_buildability_notes": "API availability unknown. Standard auth: Bearer Token. Credential accessibility unknown.",
+    "buildability_verdict": "feasible",
+    "blockers": [],
+    "blockers_status": "unknown",
+    "overall_confidence": "medium",
+    "evidence_links": [
+      {
+        "url": "https://docs.devin.ai/",
+        "title": "Introducing Devin - Devin Docs",
+        "source_type": "official_documentation",
+        "accessed_date": "2026-11-23T12:16:16.835867+00:00"
+      },
+      {
+        "url": "https://docs.devin.ai/api-reference",
+        "title": "API Overview - Devin Docs",
+        "source_type": "api_reference",
+        "accessed_date": "2026-11-23T12:16:17.312853+00:00"
+      }
+    ],
+    "claim_evidence": [
+      {
+        "claim_field": "auth_methods",
+        "claim_value": "Bearer Token",
+        "source_url": "https://docs.devin.ai/api-reference",
+        "source_title": "API Overview - Devin Docs",
+        "supporting_excerpt": "count toward their usage — just like they created it themselves. curl -X POST \"https://api.devin.ai/v3/organizations/ $DEVIN_ORG_ID /sessions\" \\ -H \"Authorization: Bearer $DEVIN_API_KEY \" \\ -H \"Content-Type: application/json\" \\ -d '{ \"prompt\": \"Fix the login bug in issue #42\", \"create_as_user_id\": \"",
+        "retrieved_at": "2026-11-23T12:16:17.312853+00:00",
+        "confidence": "medium",
+        "verification_status": "unverified"
+      }
+    ],
+    "evidence_quality_score": 0.9,
+    "evidence_warnings": [
+      "Devin: Auth methods identified but credential accessibility is unknown."
+    ],
+    "quality_gate_status": "passed",
+    "quality_gate_checks": {
+      "status": "passed",
+      "passed_checks": [
+        "valid_identity",
+        "has_evidence_links",
+        "auth_claims_supported",
+        "credential_claims_supported",
+        "mcp_claims_verified",
+        "buildability_consistency",
+        "official_source_present"
+      ],
+      "failed_checks": [],
+      "summary": "Passed: all 7 quality gates satisfied with official evidence."
+    },
+    "researched_at": "2026-11-23T12:16:20.921457+00:00",
+    "verified_at": "",
+    "research_notes": "",
+    "research_duration_seconds": 4.09,
+    "human_intervention_needed": false,
+    "human_intervention_notes": ""
+  }
+]

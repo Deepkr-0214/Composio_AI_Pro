@@ -1,0 +1,26 @@
+{
+  "batch": "batch1_apps_1_to_50",
+  "timestamp": "2026-11-23T18:11:18.134933",
+  "applications_attempted": 50,
+  "quality_gate_passed": 22,
+  "quality_gate_partial": 12,
+  "quality_gate_needs_review": 16,
+  "quality_gate_blocked": 0,
+  "with_auth_evidence": 11,
+  "with_api_evidence": 16,
+  "with_documentation_evidence": 34,
+  "missing_auth_evidence": 39,
+  "missing_api_evidence": 34,
+  "average_duration_seconds": 2.0,
+  "total_duration_seconds": 99.8,
+  "buildability_distribution": {
+    "high_7_10": 12,
+    "mid_4_6": 35,
+    "low_1_3": 3
+  },
+  "gate_distribution": {
+    "needs_review": 16,
+    "partial": 12,
+    "passed": 22
+  }
+}

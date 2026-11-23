@@ -1,0 +1,84 @@
+[
+  {
+    "insight_id": "INSIGHT-01",
+    "headline": "Developer Platforms Offer the Highest Self-Serve Integration Readiness",
+    "explanation": "Category 7 (Developer, Infra and Data Platforms) achieved a 70% quality gate pass rate with an average buildability score of 6.8/10, driven by comprehensive REST and GraphQL APIs.",
+    "metric": "90.0% Quality Gate Pass Rate",
+    "denominator": "10 Category Applications",
+    "supporting_apps": [
+      "GitHub",
+      "Vercel",
+      "Netlify",
+      "Supabase",
+      "Snowflake",
+      "Datadog"
+    ],
+    "evidence_reference": "Category 7 documentation audits in data/category_comparison.json",
+    "limitation": "High technical capability does not eliminate token permission scoping requirements."
+  },
+  {
+    "insight_id": "INSIGHT-02",
+    "headline": "OAuth 2.0 Dominates Production SaaS Auth (73.9% of Identified Protocols)",
+    "explanation": "Among applications with documented authentication, 17 of 23 support OAuth 2.0, establishing robust token refresh and PKCE lifecycle support as Composio's primary platform dependency.",
+    "metric": "73.9% of Documented Auth Methods",
+    "denominator": "23 Applications with Discovered Auth",
+    "supporting_apps": [
+      "Shopify",
+      "Slack",
+      "Google Ads",
+      "Aircall",
+      "Notion",
+      "Linear",
+      "Mailchimp"
+    ],
+    "evidence_reference": "Multi-label authentication analysis in data/analytics_summary.json",
+    "limitation": "77 applications currently have unretrieved auth documentation due to edge WAF blocks or unhosted portals."
+  },
+  {
+    "insight_id": "INSIGHT-03",
+    "headline": "Edge WAFs & Private Login Portals Form the Primary Research Bottleneck (39% Needs Review)",
+    "explanation": "39% of targeted applications could not be automatically ingested via standard HTTP crawlers due to Cloudflare anti-bot challenge walls (e.g. Salesforce) or private enterprise logins (e.g. DealCloud).",
+    "metric": "39% of Applications Need Review",
+    "denominator": "100 Target Applications",
+    "supporting_apps": [
+      "Salesforce",
+      "DealCloud",
+      "PitchBook",
+      "Meta Ads",
+      "Discord"
+    ],
+    "evidence_reference": "Quality gate failure analysis and source_records.json HTTP status codes",
+    "limitation": "A blocked developer portal does not mean an API is absent; it reflects scraping reachability boundaries."
+  },
+  {
+    "insight_id": "INSIGHT-04",
+    "headline": "Official MCP Adoption is Nascent (1% Official, 7% Community/Unverified)",
+    "explanation": "Only GitHub possesses an officially vendor-maintained Model Context Protocol server in our dataset; 7 applications have community servers, leaving 92% of SaaS integrations as prime Greenfield opportunities for Composio toolkits.",
+    "metric": "1% Official MCP Server Presence",
+    "denominator": "100 Total Applications",
+    "supporting_apps": [
+      "GitHub (Official)",
+      "Close",
+      "Slack",
+      "Shopify",
+      "ClickUp"
+    ],
+    "evidence_reference": "MCP registry audits in data/research_results.json",
+    "limitation": "Community MCP repositories on GitHub are subject to breaking changes without vendor SLA guarantees."
+  },
+  {
+    "insight_id": "INSIGHT-05",
+    "headline": "API Breadth Does Not Equal Toolkit Implementation Simplicity",
+    "explanation": "Platforms with extensive API surfaces (e.g. Google Ads, Zendesk) introduce significant app review, complex scoping, or Service Account friction, whereas moderate APIs (e.g. Stripe, Netlify) offer frictionless instant onboarding.",
+    "metric": "11 Ready-to-Build vs 25 Feasible Implementations",
+    "denominator": "36 Viable Applications",
+    "supporting_apps": [
+      "Stripe",
+      "Netlify",
+      "Google Ads",
+      "Zendesk"
+    ],
+    "evidence_reference": "Buildability score breakdown across 100 applications",
+    "limitation": "Simplicity must be balanced against endpoint depth for advanced agent use-cases."
+  }
+]

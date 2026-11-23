@@ -1,0 +1,1053 @@
+{
+  "metadata": {
+    "sampling_method": "stratified_random_by_category",
+    "seed": 20261123,
+    "sample_size": 20,
+    "categories_covered": 10,
+    "apps_per_category": 2,
+    "selected_app_ids": [
+      3,
+      10,
+      16,
+      18,
+      22,
+      29,
+      32,
+      35,
+      41,
+      42,
+      57,
+      59,
+      63,
+      67,
+      71,
+      75,
+      82,
+      87,
+      98,
+      100
+    ],
+    "description": "Representative 20-app audit sample across all 10 categories for independent human verification."
+  },
+  "sample": [
+    {
+      "app_id": 3,
+      "app_name": "Pipedrive",
+      "category_name": "CRM and Sales",
+      "first_pass_findings": {
+        "auth_methods": [],
+        "credential_accessibility": "unknown",
+        "api_type": [],
+        "api_breadth": "unknown",
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "toolkit_buildability_score": 4,
+        "quality_gate_status": "partial"
+      },
+      "latest_findings": {
+        "auth_methods": [],
+        "credential_accessibility": "unknown",
+        "api_type": [],
+        "api_breadth": "unknown",
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "toolkit_buildability_score": 4,
+        "quality_gate_status": "partial"
+      },
+      "evidence_links": [
+        {
+          "url": "https://developers.pipedrive.com/docs/api/v1",
+          "title": "Pipedrive API Reference and Documentation",
+          "source_type": "api_reference",
+          "accessed_date": "2026-11-23T12:31:17.922286+00:00"
+        }
+      ],
+      "claim_evidence": [],
+      "research_notes": ""
+    },
+    {
+      "app_id": 10,
+      "app_name": "DealCloud",
+      "category_name": "CRM and Sales",
+      "first_pass_findings": {
+        "auth_methods": [],
+        "credential_accessibility": "unknown",
+        "api_type": [],
+        "api_breadth": "unknown",
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "toolkit_buildability_score": 4,
+        "quality_gate_status": "needs_review"
+      },
+      "latest_findings": {
+        "auth_methods": [],
+        "credential_accessibility": "unknown",
+        "api_type": [],
+        "api_breadth": "unknown",
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "toolkit_buildability_score": 4,
+        "quality_gate_status": "needs_review"
+      },
+      "evidence_links": [],
+      "claim_evidence": [],
+      "research_notes": "No documentation content could be fetched."
+    },
+    {
+      "app_id": 16,
+      "app_name": "LiveAgent",
+      "category_name": "Support and Helpdesk",
+      "first_pass_findings": {
+        "auth_methods": [],
+        "credential_accessibility": "unknown",
+        "api_type": [],
+        "api_breadth": "unknown",
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "toolkit_buildability_score": 4,
+        "quality_gate_status": "needs_review"
+      },
+      "latest_findings": {
+        "auth_methods": [],
+        "credential_accessibility": "unknown",
+        "api_type": [],
+        "api_breadth": "unknown",
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "toolkit_buildability_score": 4,
+        "quality_gate_status": "needs_review"
+      },
+      "evidence_links": [],
+      "claim_evidence": [],
+      "research_notes": "No documentation content could be fetched."
+    },
+    {
+      "app_id": 18,
+      "app_name": "Help Scout",
+      "category_name": "Support and Helpdesk",
+      "first_pass_findings": {
+        "auth_methods": [],
+        "credential_accessibility": "unknown",
+        "api_type": [],
+        "api_breadth": "narrow",
+        "mcp_status": "unknown",
+        "buildability_verdict": "significant_barriers",
+        "toolkit_buildability_score": 3,
+        "quality_gate_status": "partial"
+      },
+      "latest_findings": {
+        "auth_methods": [],
+        "credential_accessibility": "unknown",
+        "api_type": [],
+        "api_breadth": "narrow",
+        "mcp_status": "unknown",
+        "buildability_verdict": "significant_barriers",
+        "toolkit_buildability_score": 3,
+        "quality_gate_status": "partial"
+      },
+      "evidence_links": [
+        {
+          "url": "https://developer.helpscout.com/",
+          "title": "Help Scout Developers - API Documentation\n      \n      | Help Scout Developers",
+          "source_type": "developer_portal",
+          "accessed_date": "2026-11-23T12:33:23.541401+00:00"
+        }
+      ],
+      "claim_evidence": [],
+      "research_notes": ""
+    },
+    {
+      "app_id": 22,
+      "app_name": "Twilio",
+      "category_name": "Communications and Messaging",
+      "first_pass_findings": {
+        "auth_methods": [],
+        "credential_accessibility": "unknown",
+        "api_type": [
+          "REST"
+        ],
+        "api_breadth": "moderate",
+        "mcp_status": "unknown",
+        "buildability_verdict": "feasible",
+        "toolkit_buildability_score": 7,
+        "quality_gate_status": "passed"
+      },
+      "latest_findings": {
+        "auth_methods": [],
+        "credential_accessibility": "unknown",
+        "api_type": [
+          "REST"
+        ],
+        "api_breadth": "moderate",
+        "mcp_status": "unknown",
+        "buildability_verdict": "feasible",
+        "toolkit_buildability_score": 7,
+        "quality_gate_status": "passed"
+      },
+      "evidence_links": [
+        {
+          "url": "https://www.twilio.com/docs/usage/api",
+          "title": "Twilio API overview | Twilio",
+          "source_type": "api_reference",
+          "accessed_date": "2026-11-23T12:35:50.258196+00:00"
+        }
+      ],
+      "claim_evidence": [
+        {
+          "claim_field": "api_type",
+          "claim_value": "REST",
+          "source_url": "https://www.twilio.com/docs/usage/api",
+          "source_title": "Twilio API overview | Twilio",
+          "supporting_excerpt": "Open in Cursor Open in Perplexity Build with AI Connect your AI agent Install Twilio Skills Twilio API overview The Twilio APIs are organized around REST . Behind these APIs is a software layer connecting and optimizing communications networks around the world. With the Twilio APIs, you can build ap",
+          "retrieved_at": "2026-11-23T12:35:50.258196+00:00",
+          "confidence": "medium",
+          "verification_status": "unverified"
+        }
+      ],
+      "research_notes": ""
+    },
+    {
+      "app_id": 29,
+      "app_name": "Aircall",
+      "category_name": "Communications and Messaging",
+      "first_pass_findings": {
+        "auth_methods": [
+          "OAuth2",
+          "Basic Auth"
+        ],
+        "credential_accessibility": "unknown",
+        "api_type": [
+          "REST"
+        ],
+        "api_breadth": "unknown",
+        "mcp_status": "unknown",
+        "buildability_verdict": "ready_to_build",
+        "toolkit_buildability_score": 8,
+        "quality_gate_status": "passed"
+      },
+      "latest_findings": {
+        "auth_methods": [
+          "OAuth2",
+          "Basic Auth"
+        ],
+        "credential_accessibility": "unknown",
+        "api_type": [
+          "REST"
+        ],
+        "api_breadth": "unknown",
+        "mcp_status": "unknown",
+        "buildability_verdict": "ready_to_build",
+        "toolkit_buildability_score": 8,
+        "quality_gate_status": "passed"
+      },
+      "evidence_links": [
+        {
+          "url": "https://developer.aircall.io/api-references/",
+          "title": "API References | Aircall",
+          "source_type": "api_reference",
+          "accessed_date": "2026-11-23T12:36:00.949291+00:00"
+        }
+      ],
+      "claim_evidence": [
+        {
+          "claim_field": "auth_methods",
+          "claim_value": "OAuth2",
+          "source_url": "https://developer.aircall.io/api-references/",
+          "source_title": "API References | Aircall",
+          "supporting_excerpt": "Sections: REST API | Authentication | Introduction | OAuth\ufe63 Technology Partners | Basic Auth\ufe63 Aircall customers Content-Type",
+          "retrieved_at": "2026-11-23T12:36:00.949291+00:00",
+          "confidence": "medium",
+          "verification_status": "unverified"
+        },
+        {
+          "claim_field": "auth_methods",
+          "claim_value": "Basic Auth",
+          "source_url": "https://developer.aircall.io/api-references/",
+          "source_title": "API References | Aircall",
+          "supporting_excerpt": "Sections: REST API | Authentication | Introduction | OAuth\ufe63 Technology Partners | Basic Auth\ufe63 Aircall customers Content-Type",
+          "retrieved_at": "2026-11-23T12:36:00.949291+00:00",
+          "confidence": "medium",
+          "verification_status": "unverified"
+        },
+        {
+          "claim_field": "api_type",
+          "claim_value": "REST",
+          "source_url": "https://developer.aircall.io/api-references/",
+          "source_title": "API References | Aircall",
+          "supporting_excerpt": "Sections: REST API | Authentication | Introduction | OAuth\ufe63 Technology Partners | Basic Auth\ufe63 Aircall customers Content-Type",
+          "retrieved_at": "2026-11-23T12:36:00.949291+00:00",
+          "confidence": "medium",
+          "verification_status": "unverified"
+        }
+      ],
+      "research_notes": ""
+    },
+    {
+      "app_id": 32,
+      "app_name": "Meta Ads",
+      "category_name": "Marketing, Ads, Email and Social",
+      "first_pass_findings": {
+        "auth_methods": [],
+        "credential_accessibility": "unknown",
+        "api_type": [],
+        "api_breadth": "unknown",
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "toolkit_buildability_score": 4,
+        "quality_gate_status": "needs_review"
+      },
+      "latest_findings": {
+        "auth_methods": [],
+        "credential_accessibility": "unknown",
+        "api_type": [],
+        "api_breadth": "unknown",
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "toolkit_buildability_score": 4,
+        "quality_gate_status": "needs_review"
+      },
+      "evidence_links": [],
+      "claim_evidence": [],
+      "research_notes": "No documentation content could be fetched."
+    },
+    {
+      "app_id": 35,
+      "app_name": "Mailchimp",
+      "category_name": "Marketing, Ads, Email and Social",
+      "first_pass_findings": {
+        "auth_methods": [
+          "OAuth2",
+          "API Key",
+          "Bearer Token"
+        ],
+        "credential_accessibility": "unknown",
+        "api_type": [],
+        "api_breadth": "moderate",
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "toolkit_buildability_score": 5,
+        "quality_gate_status": "passed"
+      },
+      "latest_findings": {
+        "auth_methods": [
+          "OAuth2",
+          "API Key",
+          "Bearer Token"
+        ],
+        "credential_accessibility": "unknown",
+        "api_type": [],
+        "api_breadth": "moderate",
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "toolkit_buildability_score": 5,
+        "quality_gate_status": "passed"
+      },
+      "evidence_links": [
+        {
+          "url": "https://mailchimp.com/developer/marketing/api/",
+          "title": "List API root resources | Mailchimp | Developer",
+          "source_type": "api_reference",
+          "accessed_date": "2026-11-23T12:36:49.976595+00:00"
+        }
+      ],
+      "claim_evidence": [
+        {
+          "claim_field": "auth_methods",
+          "claim_value": "OAuth2",
+          "source_url": "https://mailchimp.com/developer/marketing/api/",
+          "source_title": "List API root resources | Mailchimp | Developer",
+          "supporting_excerpt": "he API. Authentication Authorization Bearer Authorization using a Mailchimp API key (a.k.a. Bearer token) OR Authorization Bearer Authorization using OAuth Query parameters fields list of strings Optional A comma-separated list of fields to return. Reference parameters of sub-objects with dot notati",
+          "retrieved_at": "2026-11-23T12:36:49.976595+00:00",
+          "confidence": "medium",
+          "verification_status": "unverified"
+        },
+        {
+          "claim_field": "auth_methods",
+          "claim_value": "API Key",
+          "source_url": "https://mailchimp.com/developer/marketing/api/",
+          "source_title": "List API root resources | Mailchimp | Developer",
+          "supporting_excerpt": "r Mailchimp Marketing API. Get links to all other resources available in the API. Authentication Authorization Bearer Authorization using a Mailchimp API key (a.k.a. Bearer token) OR Authorization Bearer Authorization using OAuth Query parameters fields list of strings Optional A comma-separated lis",
+          "retrieved_at": "2026-11-23T12:36:49.976595+00:00",
+          "confidence": "medium",
+          "verification_status": "unverified"
+        },
+        {
+          "claim_field": "auth_methods",
+          "claim_value": "Bearer Token",
+          "source_url": "https://mailchimp.com/developer/marketing/api/",
+          "source_title": "List API root resources | Mailchimp | Developer",
+          "supporting_excerpt": "eting API. Get links to all other resources available in the API. Authentication Authorization Bearer Authorization using a Mailchimp API key (a.k.a. Bearer token) OR Authorization Bearer Authorization using OAuth Query parameters fields list of strings Optional A comma-separated list of fields to r",
+          "retrieved_at": "2026-11-23T12:36:49.976595+00:00",
+          "confidence": "medium",
+          "verification_status": "unverified"
+        }
+      ],
+      "research_notes": ""
+    },
+    {
+      "app_id": 41,
+      "app_name": "Shopify",
+      "category_name": "Ecommerce",
+      "first_pass_findings": {
+        "auth_methods": [
+          "OAuth2"
+        ],
+        "credential_accessibility": "unknown",
+        "api_type": [
+          "GraphQL"
+        ],
+        "api_breadth": "broad",
+        "mcp_status": "mcp_unverified",
+        "buildability_verdict": "ready_to_build",
+        "toolkit_buildability_score": 9,
+        "quality_gate_status": "passed"
+      },
+      "latest_findings": {
+        "auth_methods": [
+          "OAuth2"
+        ],
+        "credential_accessibility": "unknown",
+        "api_type": [
+          "GraphQL"
+        ],
+        "api_breadth": "broad",
+        "mcp_status": "mcp_unverified",
+        "buildability_verdict": "ready_to_build",
+        "toolkit_buildability_score": 9,
+        "quality_gate_status": "passed"
+      },
+      "evidence_links": [
+        {
+          "url": "https://developers.shopify.com/",
+          "title": "Shopify Dev Docs",
+          "source_type": "developer_portal",
+          "accessed_date": "2026-11-23T12:36:55.836382+00:00"
+        },
+        {
+          "url": "https://developer.shopify.com/",
+          "title": "Shopify Dev Docs",
+          "source_type": "developer_portal",
+          "accessed_date": "2026-11-23T12:36:56.232707+00:00"
+        },
+        {
+          "url": "https://shopify.dev/docs/api",
+          "title": "Shopify APIs, libraries, and tools",
+          "source_type": "api_reference",
+          "accessed_date": "2026-11-23T12:16:05.276812+00:00"
+        },
+        {
+          "url": "https://shopify.dev/docs/apps/build/authentication-authorization",
+          "title": "About app authentication",
+          "source_type": "authentication_documentation",
+          "accessed_date": "2026-11-23T12:18:50.948477+00:00"
+        }
+      ],
+      "claim_evidence": [
+        {
+          "claim_field": "auth_methods",
+          "claim_value": "OAuth2",
+          "source_url": "https://shopify.dev/docs/apps/build/authentication-authorization",
+          "source_title": "About app authentication",
+          "supporting_excerpt": ", so if you're authenticating requests to the Storefront API or the Customer Account API, see Shopify API authentication instead. You don't implement OAuth by hand for most apps. Shopify CLI and the Shopify app templates handle the token flow for you. Anchor to What you can do What you can do Call t",
+          "retrieved_at": "2026-11-23T12:18:50.948477+00:00",
+          "confidence": "medium",
+          "verification_status": "unverified"
+        },
+        {
+          "claim_field": "api_type",
+          "claim_value": "GraphQL",
+          "source_url": "https://shopify.dev/docs/api",
+          "source_title": "Shopify APIs, libraries, and tools",
+          "supporting_excerpt": "error codes are shared across APIs, and idempotent requests let you safely retry a request that might have failed. Global IDs identify objects in the GraphQL APIs, cursor-based pagination walks long lists of them, and the search query syntax filters those lists. Dev tools Anchor to Set up your devel",
+          "retrieved_at": "2026-11-23T12:16:05.276812+00:00",
+          "confidence": "medium",
+          "verification_status": "unverified"
+        },
+        {
+          "claim_field": "api_type",
+          "claim_value": "GraphQL",
+          "source_url": "https://shopify.dev/docs/apps/build/authentication-authorization",
+          "source_title": "About app authentication",
+          "supporting_excerpt": "ements | Anchor to Key terminologyKey terminology | Anchor to Authentication and authorizationAuthentication and authorization Shopify apps call the GraphQL Admin API to read and write store data on behalf of merchants. Before your app can make those calls, it needs to authenticate: prove which app ",
+          "retrieved_at": "2026-11-23T12:18:50.948477+00:00",
+          "confidence": "medium",
+          "verification_status": "unverified"
+        }
+      ],
+      "research_notes": ""
+    },
+    {
+      "app_id": 42,
+      "app_name": "WooCommerce",
+      "category_name": "Ecommerce",
+      "first_pass_findings": {
+        "auth_methods": [],
+        "credential_accessibility": "unknown",
+        "api_type": [
+          "REST"
+        ],
+        "api_breadth": "moderate",
+        "mcp_status": "unknown",
+        "buildability_verdict": "feasible",
+        "toolkit_buildability_score": 7,
+        "quality_gate_status": "passed"
+      },
+      "latest_findings": {
+        "auth_methods": [],
+        "credential_accessibility": "unknown",
+        "api_type": [
+          "REST"
+        ],
+        "api_breadth": "moderate",
+        "mcp_status": "unknown",
+        "buildability_verdict": "feasible",
+        "toolkit_buildability_score": 7,
+        "quality_gate_status": "passed"
+      },
+      "evidence_links": [
+        {
+          "url": "https://woocommerce.github.io/woocommerce-rest-api-docs/",
+          "title": "WooCommerce REST API Documentation - WP REST API v3",
+          "source_type": "api_reference",
+          "accessed_date": "2026-11-23T12:36:57.305930+00:00"
+        },
+        {
+          "url": "https://github.com/woocommerce/woocommerce",
+          "title": "GitHub - woocommerce/woocommerce: A customizable, open-source ecommerce platform built on WordPress. Build any commerce solution you can imagine. \u00b7 GitHub",
+          "source_type": "github_repository",
+          "accessed_date": "2026-11-23T12:36:57.473345+00:00"
+        }
+      ],
+      "claim_evidence": [
+        {
+          "claim_field": "api_type",
+          "claim_value": "REST",
+          "source_url": "https://woocommerce.github.io/woocommerce-rest-api-docs/",
+          "source_title": "WooCommerce REST API Documentation - WP REST API v3",
+          "supporting_excerpt": "oduction | Requirements | Request/Response Format | JSONP Support | Errors Introduction WooCommerce (WC) 2.6+ is fully integrated with the WordPress REST API. This allows WC data to be created, read, updated, and deleted using requests in JSON format and using WordPress REST API Authentication metho",
+          "retrieved_at": "2026-11-23T12:36:57.305930+00:00",
+          "confidence": "medium",
+          "verification_status": "unverified"
+        }
+      ],
+      "research_notes": ""
+    },
+    {
+      "app_id": 57,
+      "app_name": "Bright Data",
+      "category_name": "Data, SEO and Scraping",
+      "first_pass_findings": {
+        "auth_methods": [
+          "API Key"
+        ],
+        "credential_accessibility": "free_self_serve",
+        "api_type": [],
+        "api_breadth": "moderate",
+        "mcp_status": "unknown",
+        "buildability_verdict": "feasible",
+        "toolkit_buildability_score": 7,
+        "quality_gate_status": "passed"
+      },
+      "latest_findings": {
+        "auth_methods": [
+          "API Key"
+        ],
+        "credential_accessibility": "free_self_serve",
+        "api_type": [],
+        "api_breadth": "moderate",
+        "mcp_status": "unknown",
+        "buildability_verdict": "feasible",
+        "toolkit_buildability_score": 7,
+        "quality_gate_status": "passed"
+      },
+      "evidence_links": [
+        {
+          "url": "https://docs.brightdata.com/",
+          "title": "Bright Data documentation - Bright Data Docs",
+          "source_type": "api_reference",
+          "accessed_date": "2026-11-23T12:45:01.648971+00:00"
+        }
+      ],
+      "claim_evidence": [
+        {
+          "claim_field": "auth_methods",
+          "claim_value": "API Key",
+          "source_url": "https://docs.brightdata.com/",
+          "source_title": "Bright Data documentation - Bright Data Docs",
+          "supporting_excerpt": "duct | Data extraction | Web search Start building with live web data Scrape any site, buy ready-made datasets. Thousands of pre-built scrapers, one API key. Read https://docs.brightdata.com/llms.txt and get me set up with Bright Data 5,000 free credits per month , no credit card required. See the f",
+          "retrieved_at": "2026-11-23T12:45:01.648971+00:00",
+          "confidence": "medium",
+          "verification_status": "unverified"
+        },
+        {
+          "claim_field": "credential_accessibility",
+          "claim_value": "free_self_serve",
+          "source_url": "https://docs.brightdata.com/",
+          "source_title": "Bright Data documentation - Bright Data Docs",
+          "supporting_excerpt": "API key. Read https://docs.brightdata.com/llms.txt and get me set up with Bright Data 5,000 free credits per month , no credit card required. See the free tier . Quickstart Scrape your first page and get structured JSON in three steps. You're an agent? Start here llms.txt, skills and MCP tools for A",
+          "retrieved_at": "2026-11-23T12:45:01.648971+00:00",
+          "confidence": "medium",
+          "verification_status": "unverified"
+        }
+      ],
+      "research_notes": ""
+    },
+    {
+      "app_id": 59,
+      "app_name": "Waterfall.io",
+      "category_name": "Data, SEO and Scraping",
+      "first_pass_findings": {
+        "auth_methods": [],
+        "credential_accessibility": "unknown",
+        "api_type": [],
+        "api_breadth": "unknown",
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "toolkit_buildability_score": 4,
+        "quality_gate_status": "needs_review"
+      },
+      "latest_findings": {
+        "auth_methods": [],
+        "credential_accessibility": "unknown",
+        "api_type": [],
+        "api_breadth": "unknown",
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "toolkit_buildability_score": 4,
+        "quality_gate_status": "needs_review"
+      },
+      "evidence_links": [],
+      "claim_evidence": [],
+      "research_notes": "No documentation content could be fetched."
+    },
+    {
+      "app_id": 63,
+      "app_name": "Netlify",
+      "category_name": "Developer, Infra and Data Platforms",
+      "first_pass_findings": {
+        "auth_methods": [
+          "OAuth2",
+          "Bearer Token"
+        ],
+        "credential_accessibility": "unknown",
+        "api_type": [
+          "REST"
+        ],
+        "api_breadth": "moderate",
+        "mcp_status": "unknown",
+        "buildability_verdict": "ready_to_build",
+        "toolkit_buildability_score": 8,
+        "quality_gate_status": "passed"
+      },
+      "latest_findings": {
+        "auth_methods": [
+          "OAuth2",
+          "Bearer Token"
+        ],
+        "credential_accessibility": "unknown",
+        "api_type": [
+          "REST"
+        ],
+        "api_breadth": "moderate",
+        "mcp_status": "unknown",
+        "buildability_verdict": "ready_to_build",
+        "toolkit_buildability_score": 8,
+        "quality_gate_status": "passed"
+      },
+      "evidence_links": [
+        {
+          "url": "https://docs.netlify.com/api/get-started/",
+          "title": "Get started with the Netlify API | Netlify Docs",
+          "source_type": "api_reference",
+          "accessed_date": "2026-11-23T12:45:41.511512+00:00"
+        }
+      ],
+      "claim_evidence": [
+        {
+          "claim_field": "auth_methods",
+          "claim_value": "OAuth2",
+          "source_url": "https://docs.netlify.com/api/get-started/",
+          "source_title": "Get started with the Netlify API | Netlify Docs",
+          "supporting_excerpt": "\" Authorization: Bearer YOUR_OAUTH2_ACCESS_TOKEN \" \\ https://api.netlify.com/api/v1/sites Authentication Section titled \u201cAuthentication\u201d Netlify uses OAuth2 for authentication authentication The process of verif",
+          "retrieved_at": "2026-11-23T12:45:41.511512+00:00",
+          "confidence": "medium",
+          "verification_status": "unverified"
+        },
+        {
+          "claim_field": "auth_methods",
+          "claim_value": "Bearer Token",
+          "source_url": "https://docs.netlify.com/api/get-started/",
+          "source_title": "Get started with the Netlify API | Netlify Docs",
+          "supporting_excerpt": "g like https://api.netlify.com/api/v1/sites . Here\u2019s an example in curl: Terminal window curl -H \" User-Agent: MyApp (YOUR_NAME@EXAMPLE.COM) \" \\ -H \" Authorization: Bearer YOUR_OAUTH2_ACCESS_TOKEN \" \\ https://api.netlify.com/api/v1/sites Authentication Section titled \u201cAuthentication\u201d Netlify uses OA",
+          "retrieved_at": "2026-11-23T12:45:41.511512+00:00",
+          "confidence": "medium",
+          "verification_status": "unverified"
+        },
+        {
+          "claim_field": "api_type",
+          "claim_value": "REST",
+          "source_url": "https://docs.netlify.com/api/get-started/",
+          "source_title": "Get started with the Netlify API | Netlify Docs",
+          "supporting_excerpt": "| Rate limiting | Pagination The new Netlify experience is here. Learn more or join the waitlist . Get started with the Netlify API Use the Netlify REST API to manage atomic deploys of your sites and apps, manage form submissions, inject JavaScript snippets, manage DNS DNS The system that translates",
+          "retrieved_at": "2026-11-23T12:45:41.511512+00:00",
+          "confidence": "medium",
+          "verification_status": "unverified"
+        }
+      ],
+      "research_notes": ""
+    },
+    {
+      "app_id": 67,
+      "app_name": "Snowflake",
+      "category_name": "Developer, Infra and Data Platforms",
+      "first_pass_findings": {
+        "auth_methods": [
+          "OAuth2"
+        ],
+        "credential_accessibility": "unknown",
+        "api_type": [
+          "REST"
+        ],
+        "api_breadth": "moderate",
+        "mcp_status": "unknown",
+        "buildability_verdict": "ready_to_build",
+        "toolkit_buildability_score": 8,
+        "quality_gate_status": "passed"
+      },
+      "latest_findings": {
+        "auth_methods": [
+          "OAuth2"
+        ],
+        "credential_accessibility": "unknown",
+        "api_type": [
+          "REST"
+        ],
+        "api_breadth": "moderate",
+        "mcp_status": "unknown",
+        "buildability_verdict": "ready_to_build",
+        "toolkit_buildability_score": 8,
+        "quality_gate_status": "passed"
+      },
+      "evidence_links": [
+        {
+          "url": "https://docs.snowflake.com/en/developer-guide/sql-api/index",
+          "title": "Snowflake SQL API | Snowflake Documentation",
+          "source_type": "api_reference",
+          "accessed_date": "2026-11-23T12:45:46.752938+00:00"
+        }
+      ],
+      "claim_evidence": [
+        {
+          "claim_field": "auth_methods",
+          "claim_value": "OAuth2",
+          "source_url": "https://docs.snowflake.com/en/developer-guide/sql-api/index",
+          "source_title": "Snowflake SQL API | Snowflake Documentation",
+          "supporting_excerpt": "the SQL API Get an overview of the API. About the SQL API endpoints Learn about the endpoints that make up the API. Authenticating to the server Use OAuth or Key Pair to authenticate with the Snowflake server. Submitting a request to execute SQL statements Set up and submit requests using an API end",
+          "retrieved_at": "2026-11-23T12:45:46.752938+00:00",
+          "confidence": "medium",
+          "verification_status": "unverified"
+        },
+        {
+          "claim_field": "api_type",
+          "claim_value": "REST",
+          "source_url": "https://docs.snowflake.com/en/developer-guide/sql-api/index",
+          "source_title": "Snowflake SQL API | Snowflake Documentation",
+          "supporting_excerpt": "Sections: Snowflake SQL API\u00b6 Snowflake SQL API \u00b6 The Snowflake SQL API is a REST API that you can use to access and update data in a Snowflake database. You can use this API to develop custom applications and integrations that: Perfor",
+          "retrieved_at": "2026-11-23T12:45:46.752938+00:00",
+          "confidence": "medium",
+          "verification_status": "unverified"
+        }
+      ],
+      "research_notes": ""
+    },
+    {
+      "app_id": 71,
+      "app_name": "Notion",
+      "category_name": "Productivity and Project Management",
+      "first_pass_findings": {
+        "auth_methods": [
+          "OAuth2",
+          "Bearer Token",
+          "Personal Access Token"
+        ],
+        "credential_accessibility": "unknown",
+        "api_type": [],
+        "api_breadth": "broad",
+        "mcp_status": "unknown",
+        "buildability_verdict": "feasible",
+        "toolkit_buildability_score": 6,
+        "quality_gate_status": "passed"
+      },
+      "latest_findings": {
+        "auth_methods": [
+          "OAuth2",
+          "Bearer Token",
+          "Personal Access Token"
+        ],
+        "credential_accessibility": "unknown",
+        "api_type": [],
+        "api_breadth": "broad",
+        "mcp_status": "unknown",
+        "buildability_verdict": "feasible",
+        "toolkit_buildability_score": 6,
+        "quality_gate_status": "passed"
+      },
+      "evidence_links": [
+        {
+          "url": "https://notion.com/docs",
+          "title": "Docs | Notion",
+          "source_type": "official_documentation",
+          "accessed_date": "2026-11-23T12:46:14.985575+00:00"
+        },
+        {
+          "url": "https://api.notion.com/",
+          "title": "The AI workspace that works for you. | Notion",
+          "source_type": "api_reference",
+          "accessed_date": "2026-11-23T12:46:15.267603+00:00"
+        },
+        {
+          "url": "https://developers.notion.com/reference/intro",
+          "title": "Introduction - Notion Docs",
+          "source_type": "api_reference",
+          "accessed_date": "2026-11-23T11:38:23.916190+00:00"
+        },
+        {
+          "url": "https://developers.notion.com/",
+          "title": "Notion API quickstart",
+          "source_type": "developer_portal",
+          "accessed_date": "2026-11-23T11:56:30.197642+00:00"
+        }
+      ],
+      "claim_evidence": [
+        {
+          "claim_field": "auth_methods",
+          "claim_value": "OAuth2",
+          "source_url": "https://developers.notion.com/",
+          "source_title": "Notion API quickstart",
+          "supporting_excerpt": "a personal access token A personal access token (PAT) lets you authenticate API requests as yourself without setting up a connection or completing an OAuth flow. 1 Open Personal access tokens in the Developer portal. 2 Select New token . 3 Enter a name, select the Notion API capability, and then sel",
+          "retrieved_at": "2026-11-23T11:56:30.197642+00:00",
+          "confidence": "medium",
+          "verification_status": "unverified"
+        },
+        {
+          "claim_field": "auth_methods",
+          "claim_value": "Bearer Token",
+          "source_url": "https://developers.notion.com/reference/intro",
+          "source_title": "Introduction - Notion Docs",
+          "supporting_excerpt": "on.com . To make your first request, follow the API quickstart . Conventions For requests to pages, databases, and other workspace resources, send an Authorization: Bearer header with your token and a Notion-Version header . The authentication reference lists the supported token types. Most endpoint",
+          "retrieved_at": "2026-11-23T11:38:23.916190+00:00",
+          "confidence": "medium",
+          "verification_status": "unverified"
+        },
+        {
+          "claim_field": "auth_methods",
+          "claim_value": "Bearer Token",
+          "source_url": "https://developers.notion.com/",
+          "source_title": "Notion API quickstart",
+          "supporting_excerpt": "API creates a private page in your workspace, using the # heading as the page title automatically. curl -X POST https://api.notion.com/v1/pages \\ -H \"Authorization: Bearer $NOTION_API_KEY \" \\ -H \"Notion-Version: 2026-03-11\" \\ -H \"Content-Type: application/json\" \\ -d '{ \"icon\": { \"emoji\": \"\ud83d\ude80\" }, \"mar",
+          "retrieved_at": "2026-11-23T11:56:30.197642+00:00",
+          "confidence": "medium",
+          "verification_status": "unverified"
+        },
+        {
+          "claim_field": "auth_methods",
+          "claim_value": "Personal Access Token",
+          "source_url": "https://developers.notion.com/",
+          "source_title": "Notion API quickstart",
+          "supporting_excerpt": "share feedback in Notion. This guide walks you through creating your first page with the API. You need a Notion account and a terminal. Step 1: Get a personal access token A personal access token (PAT) lets you authenticate API requests as yourself without setting up a connection or completing an OA",
+          "retrieved_at": "2026-11-23T11:56:30.197642+00:00",
+          "confidence": "medium",
+          "verification_status": "unverified"
+        }
+      ],
+      "research_notes": ""
+    },
+    {
+      "app_id": 75,
+      "app_name": "Asana",
+      "category_name": "Productivity and Project Management",
+      "first_pass_findings": {
+        "auth_methods": [],
+        "credential_accessibility": "unknown",
+        "api_type": [
+          "REST"
+        ],
+        "api_breadth": "narrow",
+        "mcp_status": "unknown",
+        "buildability_verdict": "feasible",
+        "toolkit_buildability_score": 6,
+        "quality_gate_status": "passed"
+      },
+      "latest_findings": {
+        "auth_methods": [],
+        "credential_accessibility": "unknown",
+        "api_type": [
+          "REST"
+        ],
+        "api_breadth": "narrow",
+        "mcp_status": "unknown",
+        "buildability_verdict": "feasible",
+        "toolkit_buildability_score": 6,
+        "quality_gate_status": "passed"
+      },
+      "evidence_links": [
+        {
+          "url": "https://developers.asana.com/reference/rest-api-reference",
+          "title": "Overview",
+          "source_type": "api_reference",
+          "accessed_date": "2026-11-23T12:46:23.193436+00:00"
+        }
+      ],
+      "claim_evidence": [
+        {
+          "claim_field": "api_type",
+          "claim_value": "REST",
+          "source_url": "https://developers.asana.com/reference/rest-api-reference",
+          "source_title": "Overview",
+          "supporting_excerpt": "egarding API usage, visit our guides . To view the API reference for app components , click here . \ud83d\udcd8 Quick start To begin making requests against the REST API, see the quick start guide. Usage The Asana API is a REST ful interface with predictable resource-oriented URLs, accepts JSON or form-encoded",
+          "retrieved_at": "2026-11-23T12:46:23.193436+00:00",
+          "confidence": "medium",
+          "verification_status": "unverified"
+        }
+      ],
+      "research_notes": ""
+    },
+    {
+      "app_id": 82,
+      "app_name": "Plaid",
+      "category_name": "Finance and Fintech",
+      "first_pass_findings": {
+        "auth_methods": [],
+        "credential_accessibility": "unknown",
+        "api_type": [],
+        "api_breadth": "moderate",
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "toolkit_buildability_score": 4,
+        "quality_gate_status": "partial"
+      },
+      "latest_findings": {
+        "auth_methods": [],
+        "credential_accessibility": "unknown",
+        "api_type": [],
+        "api_breadth": "moderate",
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "toolkit_buildability_score": 4,
+        "quality_gate_status": "partial"
+      },
+      "evidence_links": [
+        {
+          "url": "https://plaid.com/docs/api/",
+          "title": "API - Overview | Plaid Docs",
+          "source_type": "api_reference",
+          "accessed_date": "2026-11-23T12:47:21.268180+00:00"
+        }
+      ],
+      "claim_evidence": [],
+      "research_notes": ""
+    },
+    {
+      "app_id": 87,
+      "app_name": "Xero",
+      "category_name": "Finance and Fintech",
+      "first_pass_findings": {
+        "auth_methods": [],
+        "credential_accessibility": "unknown",
+        "api_type": [],
+        "api_breadth": "unknown",
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "toolkit_buildability_score": 4,
+        "quality_gate_status": "needs_review"
+      },
+      "latest_findings": {
+        "auth_methods": [],
+        "credential_accessibility": "unknown",
+        "api_type": [],
+        "api_breadth": "unknown",
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "toolkit_buildability_score": 4,
+        "quality_gate_status": "needs_review"
+      },
+      "evidence_links": [],
+      "claim_evidence": [],
+      "research_notes": "No documentation content could be fetched."
+    },
+    {
+      "app_id": 98,
+      "app_name": "Mermaid CLI",
+      "category_name": "AI, Research and Media-Native",
+      "first_pass_findings": {
+        "auth_methods": [],
+        "credential_accessibility": "unknown",
+        "api_type": [],
+        "api_breadth": "unknown",
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "toolkit_buildability_score": 4,
+        "quality_gate_status": "needs_review"
+      },
+      "latest_findings": {
+        "auth_methods": [],
+        "credential_accessibility": "unknown",
+        "api_type": [],
+        "api_breadth": "unknown",
+        "mcp_status": "unknown",
+        "buildability_verdict": "needs_investigation",
+        "toolkit_buildability_score": 4,
+        "quality_gate_status": "needs_review"
+      },
+      "evidence_links": [],
+      "claim_evidence": [],
+      "research_notes": "No documentation content could be fetched."
+    },
+    {
+      "app_id": 100,
+      "app_name": "Grain",
+      "category_name": "AI, Research and Media-Native",
+      "first_pass_findings": {
+        "auth_methods": [],
+        "credential_accessibility": "free_self_serve",
+        "api_type": [],
+        "api_breadth": "unknown",
+        "mcp_status": "unknown",
+        "buildability_verdict": "feasible",
+        "toolkit_buildability_score": 6,
+        "quality_gate_status": "partial"
+      },
+      "latest_findings": {
+        "auth_methods": [],
+        "credential_accessibility": "free_self_serve",
+        "api_type": [],
+        "api_breadth": "unknown",
+        "mcp_status": "unknown",
+        "buildability_verdict": "feasible",
+        "toolkit_buildability_score": 6,
+        "quality_gate_status": "partial"
+      },
+      "evidence_links": [
+        {
+          "url": "https://grain.com/",
+          "title": "Grain | The AI Notetaker Built for Growing Teams",
+          "source_type": "official_documentation",
+          "accessed_date": "2026-11-23T12:49:03.718569+00:00"
+        }
+      ],
+      "claim_evidence": [
+        {
+          "claim_field": "credential_accessibility",
+          "claim_value": "free_self_serve",
+          "source_url": "https://grain.com/",
+          "source_title": "Grain | The AI Notetaker Built for Growing Teams",
+          "supporting_excerpt": "Claude, ChatGPT, or any AI tool so your agents can do the work. Start recording in minutes. Get started free Book my demo Free forever Bots optional No credit card required Works with: Want help onboarding your team? Top teams use Grain to power their AI SOC 2 audited GDPR compliant Everything your ",
+          "retrieved_at": "2026-11-23T12:49:03.718569+00:00",
+          "confidence": "medium",
+          "verification_status": "unverified"
+        }
+      ],
+      "research_notes": ""
+    }
+  ]
+}
