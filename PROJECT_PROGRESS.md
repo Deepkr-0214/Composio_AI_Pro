@@ -4,10 +4,10 @@
 
 | Field | Value |
 |-------|-------|
-| **Current Prompt** | 14 / 16 |
-| **Phase** | Final Project Audit and GitHub Readiness |
+| **Current Prompt** | 15 / 16 |
+| **Phase** | Publication, Deployment and Production Verification |
 | **Status** | ✅ Complete |
-| **Last Updated** | 2026-11-23T21:25 IST |
+| **Last Updated** | 2026-11-23T21:36 IST |
 
 ---
 
@@ -897,6 +897,43 @@ tests/test_agent.py ............................................................
 
 ---
 
+## Prompt 15 — Publication, Deployment and Production Verification
+
+### Objectives Completed
+
+- [x] **Production Build Verification** (`web/dist/`):
+  - Executed `npm run build` in `web/`: built in 34.18s with 0 errors and 0 warnings.
+  - Verified bundle assets: `dist/index.html` (2.03 kB), `dist/assets/index-rSDaIsYE.css` (31.43 kB), `dist/assets/index-I_bc-jkX.js` (354.70 kB).
+  - Verified static endpoints: all 7 JSON files present in `dist/data/` and 6 download archives in `dist/downloads/`.
+- [x] **Comprehensive Automated Quality Gates**:
+  - `python scripts/validate_dataset.py`: 9/9 checks PASSED.
+  - `python scripts/validate_research.py`: 12/12 checks PASSED.
+  - `python scripts/validate_dashboard_data.py`: 10/10 checks PASSED.
+  - `node web/scripts/test_frontend.js`: 5/5 client tests PASSED.
+  - `pytest tests/ -v`: **110/110 automated tests PASSED** in 0.93s.
+  - Total automated quality checks: **146 Total Checks PASSED (100.0%)**.
+- [x] **Security & Privacy Audit**:
+  - Full codebase and dataset scan: 0 exposed secrets, API keys, or private tokens.
+  - Git history scan: commit `b2f6a16` verified free of any sensitive credentials.
+- [x] **Cloud Hosting Staging**:
+  - Verified `web/vercel.json` (SPA routing, cache headers, download headers).
+  - Verified `web/netlify.toml` (SPA redirects, cache rules).
+- [x] **Deployment Documentation & User Instructions** (`docs/deployment_report.md`):
+  - Documented local Git repository state (commit `b2f6a16`, branch `master`).
+  - Documented exact commands for the user to push to public GitHub and deploy to Vercel/Netlify.
+  - Maintained complete honesty guarantee: no fabricated URLs or synthetic deployment claims.
+
+---
+
+## Files Created / Modified in Prompt 15
+
+| File | Status | Description |
+|------|--------|-------------|
+| `docs/deployment_report.md` | Created | Comprehensive deployment audit & public launch instructions |
+| `PROJECT_PROGRESS.md` | Modified | Updated progress through Prompt 15 completion |
+
+---
+
 ## Recommended Next Action
-Prompt 14 is complete. The project has undergone a complete quality audit, security scan, and Git staging with 110 passing automated tests.
-Proceed to **Prompt 15/16** for live public GitHub publishing and cloud deployment (Vercel / Netlify).
+Prompt 15 is complete. All 146 validation checks pass, the production bundle is verified in `web/dist/`, and deployment instructions are prepared.
+Proceed to **Prompt 16 / 16** (Final Submission and Presentation) upon user prompt.
